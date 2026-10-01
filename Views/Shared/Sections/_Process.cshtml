@@ -1,0 +1,40 @@
+@{
+    var steps = Content.Site.Process;
+}
+<!--================= Process section start =================-->
+<section class="vl-success p-relative z-index-1 pt-100 pb-70">
+    <div class="container">
+        <div class="vl-section-title-wrapper text-center mb-60" data-aos="fade-up" data-aos-duration="900">
+            <h4 class="vl-section-subtitle-8 vl-upper">How we work</h4>
+            <h2 class="vl-section-title vl-section-title-2 pt-16">From First Call to Launch</h2>
+        </div>
+        <div class="row">
+            @for (var i = 0; i < steps.Count; i++)
+            {
+                var step = steps[i];
+                <div class="col-lg-3 col-md-6">
+                    <div class="vl-success-box vl-success-box-3 vl-success-box-iner text-center mb-30" data-aos="fade-up" data-aos-duration="@(900 + i * 100)">
+                        <div class="vl-success-box-icon vl-success-box-icon-3 nb-icon">
+                            <span><i class="fa-regular @(step.Icon ?? "fa-check")"></i></span>
+                            <div class="vl-success-box-icon-3-number">
+                                <cite>@((i + 1).ToString("00"))</cite>
+                            </div>
+                            @if (i < steps.Count - 1)
+                            {
+                                <div class="vl-success-box-3-arow d-none d-md-block">
+                                    <img src="~/img/icons/vl-arow-4.1.svg" alt="">
+                                    <img class="arow-active" src="~/img/icons/vl-work-pro-arow.svg" alt="">
+                                </div>
+                            }
+                        </div>
+                        <div class="vl-success-box-desc">
+                            <h3 class="vl-success-box-title pt-32 pb-16">@step.Title</h3>
+                            <p>@step.Text</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+<!--================= Process section End =================-->

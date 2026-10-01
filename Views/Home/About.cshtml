@@ -1,0 +1,114 @@
+@{
+    var site = Content.Site;
+    var about = site.About;
+    ViewBag.Title = "About us";
+    ViewBag.Description = about.Intro;
+}
+
+<partial name="Sections/_PageBanner" model="new PageBanner(about.Heading, about.Intro)" />
+
+<!--================= Story section start =================-->
+<section class="vl-about-area pt-100 pb-70">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 mb-30">
+                <div class="nb-about-visual br-8 fix" data-aos="fade-right" data-aos-duration="800">
+                    <img class="w-100" src="~/img/nb/about-visual.svg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 mb-30">
+                <div class="vl-about-content iner-about ml-lg-40" data-aos="fade-left" data-aos-duration="800">
+                    <div class="vl-section-title-wrapper">
+                        <h4 class="vl-section-subtitle-7 vl-upper">@about.Eyebrow</h4>
+                        <h2 class="vl-section-title vl-section-title-2 pt-16 pb-20">Our Story</h2>
+                        @foreach (var paragraph in about.Story)
+                        {
+                            <p class="vl-section-description-2 pb-20">@paragraph</p>
+                        }
+                    </div>
+                    @foreach (var highlight in about.Highlights)
+                    {
+                        <div class="vl-about-icon-box vl-about-icon-box-2 mb-20 d-flex">
+                            <div class="vl-about-icon vl-about-icon-2">
+                                <span><i class="fa-regular @(highlight.Icon ?? "fa-check")"></i></span>
+                            </div>
+                            <div class="vl-about-icon-content vl-about-icon-content-2">
+                                <h4 class="vl-about-icon-title pb-8 m-0">@highlight.Title</h4>
+                                <p class="vl-about-icon-desc m-0">@highlight.Text</p>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================= Story section End =================-->
+
+<!--================= Pillars section start =================-->
+<section class="vl-about-choose vl-gray-bg-4 pt-100 pb-70 p-relative">
+    <div class="container">
+        <div class="vl-section-title-wrapper mb-60">
+            <h4 class="vl-section-subtitle-7 vl-upper">What we stand for</h4>
+            <h2 class="vl-section-title vl-section-title-2 pt-16">Mission, Approach & Commitment</h2>
+        </div>
+        <div class="row">
+            @foreach (var pillar in about.Pillars)
+            {
+                <div class="col-lg-4 mb-30">
+                    <div class="vl-about-inner-box-content nb-pillar p-relative br-8">
+                        <h3 class="vl-about-inner-box-title pb-16">@pillar.Title</h3>
+                        <p>@pillar.Text</p>
+                    </div>
+                </div>
+            }
+        </div>
+        <partial name="Sections/_Stats" />
+    </div>
+</section>
+<!--================= Pillars section End =================-->
+
+<!--================= Why us section start =================-->
+<section class="pt-100 pb-70">
+    <div class="container">
+        <div class="vl-section-title-wrapper text-center mb-60">
+            <h4 class="vl-section-subtitle-7 vl-upper">Why work with us</h4>
+            <h2 class="vl-section-title vl-section-title-2 pt-16">What Makes Us Different</h2>
+        </div>
+        <partial name="Sections/_FeatureGrid" model="site.WhyUs" />
+    </div>
+</section>
+<!--================= Why us section End =================-->
+
+<partial name="Sections/_Process" />
+
+@if (Content.Team.Count > 0)
+{
+    <!--================= Team section start =================-->
+    <section class="vl-gray-bg-4 pt-100 pb-70">
+        <div class="container">
+            <div class="row align-items-end mb-60">
+                <div class="col-lg-8">
+                    <div class="vl-section-title-wrapper">
+                        <h4 class="vl-section-subtitle-7 vl-upper">Our team</h4>
+                        <h2 class="vl-section-title vl-section-title-2 pt-16">The People You'll Work With</h2>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                    <a href="/team" class="nb-text-link">Meet the team <i class="fa-regular fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                @foreach (var member in Content.Team.Take(4))
+                {
+                    <div class="col-lg-3 col-md-6">
+                        <partial name="Sections/_TeamCard" model="member" />
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+    <!--================= Team section End =================-->
+}
+
+<partial name="Sections/_Testimonials" />

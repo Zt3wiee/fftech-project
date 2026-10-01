@@ -1,0 +1,75 @@
+[
+  {
+    "slug": "moving-factory-mes-to-cloud",
+    "title": "Moving a Factory MES to the Cloud Without Stopping Production",
+    "date": "2026-08-12",
+    "author": "Kevin Wu",
+    "category": "Manufacturing",
+    "summary": "Production lines run 24/7, so a big-bang migration is never an option. Here is the phased approach we use instead.",
+    "image": "/img/nb/insights/moving-factory-mes-to-cloud.svg",
+    "body": [
+      {
+        "heading": null,
+        "paragraphs": [
+          "Manufacturing execution systems are some of the hardest systems to modernise. They are old, heavily customised, and the production line depends on them every minute of the day.",
+          "The good news is that you rarely need to replace the MES itself. Most of the value comes from moving the reporting and analytics layer around it."
+        ]
+      },
+      {
+        "heading": "Start with reporting, not the core",
+        "paragraphs": [ "We begin by building a cloud reporting layer that reads from the existing MES without changing it. The production line never notices." ],
+        "bullets": [ "Map every report and its data source", "Replicate data to the cloud in near real time", "Rebuild reports and verify them side by side" ]
+      },
+      {
+        "heading": "Run old and new in parallel",
+        "paragraphs": [ "Nothing is switched off until the client's own engineers have verified the new reports against the old ones. This takes weeks, not days, and it is worth it." ],
+        "quote": "The safest migration is the one where you can always go back."
+      }
+    ],
+    "tags": [ "MES", "Cloud", "Manufacturing" ],
+    "isPlaceholder": true
+  },
+  {
+    "slug": "hkma-cloud-guidelines-fintech",
+    "title": "What Hong Kong Fintechs Should Know About Cloud and Technology Risk",
+    "date": "2026-06-03",
+    "author": "Grace Chan",
+    "category": "Fintech",
+    "summary": "A practical overview of what regulators expect when you run financial services in the cloud.",
+    "image": "/img/nb/insights/hkma-cloud-guidelines-fintech.svg",
+    "body": [
+      {
+        "heading": null,
+        "paragraphs": [ "Running financial services in the cloud is now normal in Hong Kong, but it comes with clear expectations around risk management, outsourcing and resilience." ]
+      },
+      {
+        "heading": "Questions to answer early",
+        "bullets": [ "Where is customer data stored and processed?", "Who can access production systems, and how is it logged?", "How quickly can you recover from a cloud region outage?", "How do you manage your technology vendors?" ],
+        "paragraphs": [ "Answering these at the design stage costs far less than retrofitting them before an audit." ]
+      }
+    ],
+    "tags": [ "Fintech", "Compliance", "Hong Kong" ],
+    "isPlaceholder": true
+  },
+  {
+    "slug": "building-bilingual-b2b-products",
+    "title": "Building Bilingual (EN / 繁中) B2B Products: Lessons Learned",
+    "date": "2026-03-20",
+    "author": "Mei Huang",
+    "category": "Product",
+    "summary": "Translation is the easy part. Layout, search and data entry are where bilingual products really get hard.",
+    "image": "/img/nb/insights/building-bilingual-b2b-products.svg",
+    "body": [
+      {
+        "heading": null,
+        "paragraphs": [ "Many B2B products in Taiwan and Hong Kong need to work equally well in English and Traditional Chinese. Here is what we have learned building them." ]
+      },
+      {
+        "heading": "Plan for it from day one",
+        "bullets": [ "Keep all text out of the code from the first sprint", "Test layouts with both languages, since text lengths differ a lot", "Make search work across both scripts", "Decide which fields customers can enter in either language" ]
+      }
+    ],
+    "tags": [ "Localisation", "Product", "UX" ],
+    "isPlaceholder": true
+  }
+]

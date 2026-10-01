@@ -1,0 +1,32 @@
+@model IEnumerable<ContentBlock>
+@* Renders a list of heading / paragraphs / bullets / quote blocks from the JSON content. *@
+@foreach (var block in Model)
+{
+    <div class="vl-block-content mb-30">
+        @if (!string.IsNullOrEmpty(block.Heading))
+        {
+            <h3 class="vl-fs-32 vl-lineheight-32 vl-text-cmn-blck pb-16 m-0">@block.Heading</h3>
+        }
+        @foreach (var p in block.Paragraphs ?? [])
+        {
+            <p class="vl-text-para vl-fs-18 vl-lineheight-28 pb-16 m-0">@p</p>
+        }
+        @if (block.Bullets is { Count: > 0 })
+        {
+            <div class="vl-service-details-content-check pb-16">
+                <ul>
+                    @foreach (var b in block.Bullets)
+                    {
+                        <li><span><i class="fa-regular fa-check"></i></span> @b</li>
+                    }
+                </ul>
+            </div>
+        }
+        @if (!string.IsNullOrEmpty(block.Quote))
+        {
+            <div class="vl-block-quote vl-gray-bg-4 br-8 mt-16 p-relative z-index-1 fix">
+                <p class="vl-text-para vl-fs-18 vl-lineheight-28 m-0">@block.Quote</p>
+            </div>
+        }
+    </div>
+}

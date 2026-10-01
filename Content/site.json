@@ -1,0 +1,83 @@
+{
+  // Company-wide content: name, contact details, homepage hero, About page, process.
+  // "isPlaceholder": true means this is dummy content that must be replaced before launch.
+  "isPlaceholder": true,
+  "name": "NovaBridge Technology",
+  "shortName": "NovaBridge",
+  "tagline": "Engineering partner for Asia's high-tech companies",
+  "metaDescription": "NovaBridge Technology builds, modernises and scales software for technology companies in Taiwan and Hong Kong: custom development, cloud, data & AI and dedicated engineering teams.",
+  "footerBlurb": "Software engineering for technology companies in Taiwan and Hong Kong. Bilingual teams, GMT+8 hours, NDA-first.",
+  "foundedYear": 2019,
+  "email": "hello@novabridge.example",
+  "hours": "Mon–Fri, 09:00–18:00 (GMT+8)",
+  "offices": [
+    {
+      "city": "Taipei",
+      "label": "Taipei office",
+      "address": "Neihu Technology Park, Neihu District, Taipei 114, Taiwan",
+      "phone": "+886 2 0000 0000",
+      "mapEmbedUrl": "https://www.google.com/maps?q=Neihu+Technology+Park,+Taipei&output=embed"
+    },
+    {
+      "city": "Hong Kong",
+      "label": "Hong Kong office",
+      "address": "Kwun Tong, Kowloon, Hong Kong",
+      "phone": "+852 0000 0000",
+      "mapEmbedUrl": "https://www.google.com/maps?q=Kwun+Tong,+Hong+Kong&output=embed"
+    }
+  ],
+  "social": [
+    { "network": "LinkedIn", "icon": "fa-linkedin-in", "url": "#" },
+    { "network": "GitHub", "icon": "fa-github", "url": "#" },
+    { "network": "Facebook", "icon": "fa-facebook-f", "url": "#" }
+  ],
+  "hero": {
+    "eyebrow": "Software engineering · Taiwan & Hong Kong",
+    "heading": "Engineering Partner for Asia's High-Tech Companies",
+    "text": "We help technology companies in Taiwan and Hong Kong build, modernise and scale their software, working in English, Mandarin and Cantonese, in your time zone.",
+    "primaryCta": { "label": "Book a free consultation", "url": "/contact" },
+    "secondaryCta": { "label": "See our work", "url": "/work" },
+    "trustPoints": [ "NDA before the first call", "Bilingual EN / 中文 team", "GMT+8 working hours" ]
+  },
+  "about": {
+    "eyebrow": "About NovaBridge",
+    "heading": "A Small Senior Team Built for Technical Clients",
+    "intro": "NovaBridge was founded in 2019 by engineers who had spent years inside semiconductor, hardware and fintech companies. We work the way your own team does: in your language, in your hours, with your code standards.",
+    "highlights": [
+      { "title": "Engineers first", "text": "Every project is led by a senior engineer, not an account manager.", "icon": "fa-code" },
+      { "title": "Built for regulated, technical work", "text": "We are used to factory floors, audits, NDAs and long hardware cycles.", "icon": "fa-shield-halved" }
+    ],
+    "story": [
+      "We started NovaBridge after seeing the same problem from the inside: high-tech companies in Taiwan and Hong Kong have world-class hardware and finance expertise, but struggle to find software partners who understand both their domain and their working culture.",
+      "Today we are a team of engineers across Taipei and Hong Kong. We take on a small number of projects at a time so that every client gets senior attention, and we stay with our clients long after launch."
+    ],
+    "pillars": [
+      { "title": "Our mission", "text": "Give Asia's technology companies a software partner that understands their domain as well as their code." },
+      { "title": "Our approach", "text": "Small senior teams, short feedback cycles, and honest timelines. We would rather say no than over-promise." },
+      { "title": "Our commitment", "text": "Your code, your IP, your data. Everything we build is documented and handed over in full." }
+    ]
+  },
+  "whyUs": [
+    { "title": "Bilingual team", "text": "English, Mandarin and Cantonese, so nothing gets lost between your business and technical teams.", "icon": "fa-language" },
+    { "title": "Your time zone", "text": "We work GMT+8 hours. Meetings happen in your day, not at midnight.", "icon": "fa-clock" },
+    { "title": "High-tech experience", "text": "Semiconductor, hardware, IoT and fintech projects are our everyday work.", "icon": "fa-microchip" },
+    { "title": "NDA-first", "text": "We sign your NDA before the first technical conversation. Your IP stays yours.", "icon": "fa-file-contract" }
+  ],
+  "process": [
+    { "title": "Discovery", "text": "We learn your systems, goals and constraints, usually in one or two workshops.", "icon": "fa-magnifying-glass" },
+    { "title": "Proposal", "text": "A clear scope with a fixed price, or a dedicated team plan, with honest timelines.", "icon": "fa-file-contract" },
+    { "title": "Build", "text": "Two-week sprints with a working demo at the end of each one.", "icon": "fa-code" },
+    { "title": "Launch & support", "text": "We deploy, monitor and keep improving, and hand over full documentation.", "icon": "fa-rocket" }
+  ],
+  "engagementModels": [
+    { "title": "Fixed-scope project", "text": "A defined deliverable, a fixed price and a fixed timeline. Best for clear, well-understood projects.", "icon": "fa-file-contract" },
+    { "title": "Dedicated team", "text": "Engineers who join your team long-term and work inside your tools and process.", "icon": "fa-users-gear" },
+    { "title": "Technical consulting", "text": "Architecture reviews, cloud cost audits and technical due diligence, by the day.", "icon": "fa-handshake" }
+  ],
+  "cta": {
+    "heading": "Have a Project in Mind? Let's Talk.",
+    "text": "Tell us what you are building. We reply within one working day, and we are happy to sign your NDA first.",
+    "primaryCta": { "label": "Start a project", "url": "/contact" },
+    "secondaryCta": { "label": "hello@novabridge.example", "url": "mailto:hello@novabridge.example" }
+  }
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "slug": "custom-software-development",
+    "title": "Custom Software Development",
+    "icon": "fa-code",
+    "summary": "Web platforms, internal tools and APIs, built to scale with your business.",
+    "image": "/img/nb/services/custom-software-development.svg",
+    "intro": [
+      "We design and build software that fits the way your company actually works: customer portals, internal tools, back-office systems and the APIs that connect them.",
+      "Every project is led by a senior engineer and delivered in two-week sprints, so you see working software early and often."
+    ],
+    "benefits": [ "Senior engineer on every project", "Working demo every two weeks", "Full source code and documentation", "Bilingual EN / 中文 interfaces" ],
+    "sections": [
+      {
+        "heading": "What we build",
+        "paragraphs": [ "Most of our projects are business-critical systems that off-the-shelf software cannot handle well." ],
+        "bullets": [ "B2B customer and partner portals", "Internal tools and admin dashboards", "REST and GraphQL APIs", "Integrations with ERP, CRM and legacy systems" ]
+      },
+      {
+        "heading": "How we work",
+        "paragraphs": [ "We start with a short discovery phase, agree on a scope and a release plan, and then build in sprints. You have direct access to the engineers doing the work." ]
+      }
+    ],
+    "technologies": [ ".NET", "Node.js", "React", "Vue", "PostgreSQL", "SQL Server" ],
+    "isPlaceholder": true
+  },
+  {
+    "slug": "cloud-migration-devops",
+    "title": "Cloud Migration & DevOps",
+    "icon": "fa-cloud-arrow-up",
+    "summary": "Move legacy systems to AWS, Azure or GCP, with CI/CD and infrastructure as code.",
+    "image": "/img/nb/services/cloud-migration-devops.svg",
+    "intro": [
+      "We move on-premise and legacy systems to the cloud without stopping your business, then set up the pipelines and monitoring that keep them healthy.",
+      "For manufacturing clients we often design hybrid setups, where factory systems stay on-site and reporting and analytics move to the cloud."
+    ],
+    "benefits": [ "Zero-downtime migration plans", "Infrastructure as code (Terraform)", "Automated testing and deployment", "Cloud cost reviews" ],
+    "sections": [
+      {
+        "heading": "Our migration approach",
+        "paragraphs": [ "We map every system and dependency first, then migrate in small, reversible steps. Nothing is switched off until the new setup has run in parallel and been verified." ],
+        "bullets": [ "Assessment and migration plan", "Pilot migration of one system", "Phased cut-over with rollback plans", "Monitoring, alerting and handover" ]
+      }
+    ],
+    "technologies": [ "AWS", "Azure", "GCP", "Terraform", "Docker", "Kubernetes", "GitHub Actions" ],
+    "isPlaceholder": true
+  },
+  {
+    "slug": "manufacturing-industrial-software",
+    "title": "Manufacturing & Industrial Software",
+    "icon": "fa-industry",
+    "summary": "MES, factory dashboards and integration with equipment and ERP systems.",
+    "image": "/img/nb/services/manufacturing-industrial-software.svg",
+    "intro": [
+      "We build software for the factory floor: manufacturing execution systems, equipment data collection, yield and quality dashboards, and the integrations between them and your ERP.",
+      "Our engineers understand production constraints. We plan releases around maintenance windows and never put a running line at risk."
+    ],
+    "benefits": [ "Experience with semiconductor and electronics fabs", "Equipment integration (SECS/GEM, OPC UA)", "Real-time production dashboards", "Releases planned around maintenance windows" ],
+    "sections": [
+      {
+        "heading": "Typical projects",
+        "bullets": [ "MES modernisation and cloud reporting", "Equipment and sensor data pipelines", "Yield, quality and OEE dashboards", "Traceability and audit systems" ]
+      }
+    ],
+    "technologies": [ "SECS/GEM", "OPC UA", "MQTT", "Time-series databases", ".NET", "Python" ],
+    "isPlaceholder": true
+  },
+  {
+    "slug": "data-ai-solutions",
+    "title": "Data & AI Solutions",
+    "icon": "fa-brain",
+    "summary": "Data pipelines, analytics dashboards, and AI features that work in real products.",
+    "image": "/img/nb/services/data-ai-solutions.svg",
+    "intro": [
+      "We turn the data you already have into decisions: clean pipelines, reliable dashboards, and practical AI features such as forecasting, anomaly detection and document processing.",
+      "We focus on AI that earns its place in a product, with clear measurements of whether it works."
+    ],
+    "benefits": [ "Data pipelines you can trust", "Dashboards your team will actually use", "Practical, measurable AI features", "Data stays in your region" ],
+    "sections": [
+      {
+        "heading": "Where we help",
+        "bullets": [ "Data warehouse and pipeline design", "BI dashboards and reporting", "Forecasting and anomaly detection", "Document and email processing with LLMs" ]
+      }
+    ],
+    "technologies": [ "Python", "dbt", "Snowflake", "BigQuery", "Power BI", "PyTorch" ],
+    "isPlaceholder": true
+  },
+  {
+    "slug": "fintech-compliance-systems",
+    "title": "Fintech & Compliance Systems",
+    "icon": "fa-building-columns",
+    "summary": "Secure platforms built for HKMA and FSC requirements.",
+    "image": "/img/nb/services/fintech-compliance-systems.svg",
+    "intro": [
+      "We build onboarding, payments and reporting systems for fintech companies and financial institutions, with security and compliance designed in from the start.",
+      "Our team is familiar with HKMA and Taiwan FSC expectations for technology risk, outsourcing and cloud use."
+    ],
+    "benefits": [ "Security designed in from day one", "Audit trails and access controls", "Experience with HKMA and FSC requirements", "Penetration-test-ready delivery" ],
+    "sections": [
+      {
+        "heading": "Typical projects",
+        "bullets": [ "Digital onboarding and KYC flows", "Payment and settlement integrations", "Regulatory reporting automation", "Internal risk and compliance dashboards" ]
+      }
+    ],
+    "technologies": [ ".NET", "Java", "PostgreSQL", "AWS", "Azure", "OAuth 2.0 / OIDC" ],
+    "isPlaceholder": true
+  },
+  {
+    "slug": "dedicated-engineering-teams",
+    "title": "Dedicated Engineering Teams",
+    "icon": "fa-users-gear",
+    "summary": "Extra engineers who work as part of your own team.",
+    "image": "/img/nb/services/dedicated-engineering-teams.svg",
+    "intro": [
+      "When you need more engineering capacity, we provide developers, QA and DevOps engineers who join your team, use your tools and follow your process.",
+      "You get the flexibility of an external team with the continuity of an internal one: the same people, month after month."
+    ],
+    "benefits": [ "Start within 2–4 weeks", "Same engineers long-term", "Works inside your tools and process", "Scale up or down monthly" ],
+    "sections": [
+      {
+        "heading": "Roles we provide",
+        "bullets": [ "Full-stack and backend developers", "Mobile developers", "QA and test automation engineers", "DevOps and cloud engineers" ]
+      }
+    ],
+    "technologies": [ "Your stack" ],
+    "isPlaceholder": true
+  }
+]

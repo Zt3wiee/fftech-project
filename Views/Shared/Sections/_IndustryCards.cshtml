@@ -1,0 +1,16 @@
+@model IEnumerable<Industry>
+<div class="row justify-content-center">
+    @foreach (var (industry, i) in Model.Select((x, i) => (x, i)))
+    {
+        <div class="col-lg-4 col-md-6 mb-30" data-aos="fade-up" data-aos-duration="@(900 + i * 100)">
+            <a href="/industries/@industry.Slug" class="nb-industry-card br-8">
+                <span class="nb-industry-card-icon"><i class="fa-regular @industry.Icon"></i></span>
+                <span class="nb-industry-card-body">
+                    <span class="nb-industry-card-title">@industry.Title</span>
+                    <span class="nb-industry-card-text">@industry.Summary</span>
+                </span>
+                <span class="nb-industry-card-arrow"><i class="fa-regular fa-arrow-right"></i></span>
+            </a>
+        </div>
+    }
+</div>

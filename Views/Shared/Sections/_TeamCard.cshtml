@@ -1,0 +1,22 @@
+@model TeamMember
+<div class="nb-team-card br-8 mb-30">
+    <div class="nb-team-card-photo">
+        @if (!string.IsNullOrEmpty(Model.Image))
+        {
+            <img class="w-100" src="@Model.Image" alt="@Model.Name">
+        }
+        else
+        {
+            <span class="nb-team-card-initials">@Model.Initials</span>
+        }
+    </div>
+    <div class="nb-team-card-body">
+        <h4 class="nb-team-card-name">@Model.Name</h4>
+        <p class="nb-team-card-role">@Model.Role · @Model.Location</p>
+        <p class="nb-team-card-bio">@Model.Bio</p>
+        @if (!string.IsNullOrEmpty(Model.LinkedIn))
+        {
+            <a class="nb-team-card-link" href="@Model.LinkedIn" aria-label="@Model.Name on LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        }
+    </div>
+</div>

@@ -1,0 +1,27 @@
+@{
+    ViewBag.Title = "Services";
+    ViewBag.Description = "Custom software, cloud migration, manufacturing software, data & AI, fintech systems and dedicated engineering teams for technology companies in Taiwan and Hong Kong.";
+}
+
+<partial name="Sections/_PageBanner" model="@(new PageBanner("Our Services", "End-to-end software engineering for technology companies, from a single project to a long-term dedicated team."))" />
+
+<section class="vl-service-area pt-100 pb-70">
+    <div class="container">
+        <partial name="Sections/_ServiceCards" model="Content.Services" />
+    </div>
+</section>
+
+<!--================= Engagement models start =================-->
+<section class="vl-gray-bg-4 pt-100 pb-70">
+    <div class="container">
+        <div class="vl-section-title-wrapper text-center mb-60">
+            <h4 class="vl-section-subtitle-7 vl-upper">How we engage</h4>
+            <h2 class="vl-section-title vl-section-title-2 pt-16">Three Ways to Work With Us</h2>
+        </div>
+        <partial name="Sections/_FeatureGrid" model="Content.Site.EngagementModels" />
+        <p class="vl-text-para vl-fs-18 text-center pt-10">Not sure which fits? <a class="nb-text-link" href="/contact">Tell us about your project <i class="fa-regular fa-arrow-right"></i></a></p>
+    </div>
+</section>
+<!--================= Engagement models end =================-->
+
+<partial name="Sections/_Process" />

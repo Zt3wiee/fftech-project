@@ -1,0 +1,28 @@
+[
+  // Dummy testimonials. Replace with real quotes (with the client's permission) before launch,
+  // or delete them: the testimonial sections disappear automatically when this list is empty.
+  {
+    "quote": "They understood both our engineering constraints and our business goals. The migration went smoothly and production never stopped.",
+    "name": null,
+    "role": "CTO",
+    "company": "Semiconductor equipment company",
+    "region": "Taiwan",
+    "isPlaceholder": true
+  },
+  {
+    "quote": "Having one team that works in English and Cantonese saved us months. Our compliance team finally had a partner who spoke their language.",
+    "name": null,
+    "role": "Head of Product",
+    "company": "Fintech startup",
+    "region": "Hong Kong",
+    "isPlaceholder": true
+  },
+  {
+    "quote": "Clear communication, honest timelines, solid code. They told us what would not work before we spent money on it.",
+    "name": null,
+    "role": "Engineering Manager",
+    "company": "IoT hardware company",
+    "region": "Taiwan",
+    "isPlaceholder": true
+  }
+]

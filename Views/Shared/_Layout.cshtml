@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <partial name="Partials/_PageMeta" />
+    @RenderSection("styles", false)
+    <partial name="Partials/_HeadCSS" />
+</head>
+
+<body class="@ViewBag.BodyClass">
+
+    <partial name="Partials/_Loader" />
+    <partial name="Partials/_Navbar" />
+
+    <main>
+        @RenderBody()
+
+        @if (ViewBag.HideCta != true)
+        {
+            <partial name="Sections/_Cta" />
+        }
+    </main>
+
+    <partial name="Partials/_Footer" />
+    <partial name="Partials/_BackToTop" />
+    <partial name="Partials/_FooterScripts" />
+    @RenderSection("scripts", required: false)
+
+</body>
+
+</html>

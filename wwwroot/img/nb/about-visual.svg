@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 520" width="600" height="520">
+<defs>
+  <linearGradient id="branda" x1="0" y1="1" x2="1" y2="0">
+    <stop offset="0" stop-color="#C13CFF"/><stop offset=".5" stop-color="#1A3BFF"/><stop offset="1" stop-color="#2FD4FF"/>
+  </linearGradient>
+  <radialGradient id="glowCa"><stop offset="0" stop-color="#2FD4FF" stop-opacity=".55"/><stop offset="1" stop-color="#2FD4FF" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glowMa"><stop offset="0" stop-color="#C13CFF" stop-opacity=".45"/><stop offset="1" stop-color="#C13CFF" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glowBa"><stop offset="0" stop-color="#1A3BFF" stop-opacity=".6"/><stop offset="1" stop-color="#1A3BFF" stop-opacity="0"/></radialGradient>
+  <pattern id="grida" width="48" height="48" patternUnits="userSpaceOnUse">
+    <path d="M48 0H0V48" fill="none" stroke="#FFFFFF" stroke-opacity=".05" stroke-width="1"/>
+  </pattern></defs>
+<rect width="600" height="520" fill="#050B2E"/><ellipse cx="470" cy="120" rx="260" ry="208" fill="url(#glowCa)"/><ellipse cx="120" cy="430" rx="240" ry="192" fill="url(#glowMa)"/><ellipse cx="300" cy="260" rx="320" ry="256" fill="url(#glowBa)"/><rect width="600" height="520" fill="url(#grida)"/>
+<path d="M170 380 Q300 120 430 170" fill="none" stroke="url(#branda)" stroke-width="4" stroke-dasharray="8 9"/>
+<circle cx="430" cy="170" r="14" fill="#2FD4FF"/><circle cx="430" cy="170" r="34" fill="#2FD4FF" opacity=".18"/><circle cx="430" cy="170" r="60" fill="none" stroke="#2FD4FF" stroke-opacity=".25"/>
+<circle cx="170" cy="380" r="14" fill="#C13CFF"/><circle cx="170" cy="380" r="34" fill="#C13CFF" opacity=".18"/><circle cx="170" cy="380" r="60" fill="none" stroke="#C13CFF" stroke-opacity=".25"/>
+<text x="430" y="262" font-family="Figtree, Arial, sans-serif" font-size="26" font-weight="700" fill="#FFFFFF" text-anchor="middle">Taipei</text>
+<text x="430" y="290" font-family="Figtree, Arial, sans-serif" font-size="16" fill="#FFFFFF" fill-opacity=".6" text-anchor="middle">台北</text>
+<text x="170" y="472" font-family="Figtree, Arial, sans-serif" font-size="26" font-weight="700" fill="#FFFFFF" text-anchor="middle">Hong Kong</text>
+<text x="170" y="500" font-family="Figtree, Arial, sans-serif" font-size="16" fill="#FFFFFF" fill-opacity=".6" text-anchor="middle">香港</text>
+<path d="M40 80 L70 30 H120 L90 80Z" fill="url(#branda)" opacity=".85"/>
+<path d="M100 80 L130 30 H150 L120 80Z" fill="url(#branda)" opacity=".5"/>
+</svg>

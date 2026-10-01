@@ -1,0 +1,76 @@
+@model Industry
+@{
+    ViewBag.Title = Model.Title;
+    ViewBag.Description = Model.Summary;
+    var services = Model.RelatedServices.Select(Content.GetService).OfType<Service>().ToList();
+    var work = Content.Work.Where(w => w.Industry == Model.Slug).ToList();
+}
+
+<partial name="Sections/_PageBanner" model="@(new PageBanner(Model.Title, Model.Summary, new Link("Industries", "/industries")))" />
+
+<section class="vl-service-deatil pt-100 pb-40">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="vl-service-details-larg-img fix br-8 mb-30">
+                    <img class="w-100" src="@Model.Image" alt="">
+                </div>
+                @foreach (var paragraph in Model.Intro)
+                {
+                    <p class="vl-text-para vl-fs-18 vl-lineheight-28 pb-30 m-0">@paragraph</p>
+                }
+                <div class="row">
+                    <div class="col-md-6 mb-30">
+                        <div class="nb-sidebar-box br-8 h-100">
+                            <h3 class="nb-sidebar-title">Challenges we hear</h3>
+                            <ul class="nb-plain-list">
+                                @foreach (var challenge in Model.Challenges)
+                                {
+                                    <li><i class="fa-regular fa-circle-exclamation"></i> @challenge</li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-30">
+                        <div class="nb-sidebar-box nb-sidebar-box-accent br-8 h-100">
+                            <h3 class="nb-sidebar-title">How we help</h3>
+                            <ul class="nb-plain-list">
+                                @foreach (var help in Model.HowWeHelp)
+                                {
+                                    <li><i class="fa-regular fa-circle-check"></i> @help</li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@if (work.Count > 0)
+{
+    <section class="vl-gallery vl-gray-bg-4 pt-100 pb-70">
+        <div class="container">
+            <h2 class="vl-text-cmn-blck text-center vl-fs-44 vl-lineheight-44 mb-60">Our Work in @Model.Title</h2>
+            <div class="row justify-content-center">
+                @foreach (var item in work)
+                {
+                    <div class="col-lg-4 col-md-6">
+                        <partial name="Sections/_WorkCard" model="item" />
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+}
+
+@if (services.Count > 0)
+{
+    <section class="vl-service-area pt-100 pb-70">
+        <div class="container">
+            <h2 class="vl-text-cmn-blck text-center vl-fs-44 vl-lineheight-44 mb-60">Relevant Services</h2>
+            <partial name="Sections/_ServiceCards" model="services" />
+        </div>
+    </section>
+}

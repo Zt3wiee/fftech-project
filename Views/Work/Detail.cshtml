@@ -1,0 +1,116 @@
+@model WorkItem
+@{
+    ViewBag.Title = Model.Title;
+    ViewBag.Description = Model.Summary;
+    var industry = Content.GetIndustry(Model.Industry);
+    var services = Model.Services.Select(Content.GetService).OfType<Service>().ToList();
+    var more = Content.Work.Where(w => w.Slug != Model.Slug).Take(3).ToList();
+}
+
+<partial name="Sections/_PageBanner" model="@(new PageBanner(Model.Title, Model.Summary, new Link("Work", "/work")))" />
+
+<section class="vl-service-deatil pt-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="vl-service-details">
+                    <div class="vl-service-details-cat pt-24 pb-24 mb-30">
+                        <div class="vl-service-details-cat-single">
+                            <h3 class="vl-fs-20 vl-lineheight-20 vl-text-cmn-blck pb-16 m-0">Client</h3>
+                            <p class="vl-text-para vl-fs-18 vl-lineheight-18 m-0">@Model.Client</p>
+                        </div>
+                        <div class="vl-service-details-cat-single">
+                            <h3 class="vl-fs-20 vl-lineheight-20 vl-text-cmn-blck pb-16 m-0">Industry</h3>
+                            <p class="vl-text-para vl-fs-18 vl-lineheight-18 m-0">@(industry?.Title ?? Model.Industry)</p>
+                        </div>
+                        <div class="vl-service-details-cat-single">
+                            <h3 class="vl-fs-20 vl-lineheight-20 vl-text-cmn-blck pb-16 m-0">Region</h3>
+                            <p class="vl-text-para vl-fs-18 vl-lineheight-18 m-0">@Model.Region</p>
+                        </div>
+                        <div class="vl-service-details-cat-single">
+                            <h3 class="vl-fs-20 vl-lineheight-20 vl-text-cmn-blck pb-16 m-0">Year</h3>
+                            <p class="vl-text-para vl-fs-18 vl-lineheight-18 m-0">@Model.Year</p>
+                        </div>
+                    </div>
+
+                    <div class="vl-service-details-larg-img fix br-8 mb-30 p-relative">
+                        <img class="w-100" src="@Model.Image" alt="">
+                        <span class="nb-proof-badge nb-proof-@Model.ProofType">@Model.ProofLabel</span>
+                    </div>
+
+                    @if (Model.Results.Count > 0)
+                    {
+                        <div class="nb-results mb-40">
+                            @foreach (var result in Model.Results)
+                            {
+                                <div class="nb-result br-8">
+                                    <span class="nb-result-value">@result.Value</span>
+                                    <span class="nb-result-label">@result.Label</span>
+                                </div>
+                            }
+                        </div>
+                    }
+
+                    <div class="vl-block-content mb-30">
+                        <h3 class="vl-fs-32 vl-lineheight-32 vl-text-cmn-blck pb-16 m-0">The challenge</h3>
+                        @foreach (var paragraph in Model.Challenge)
+                        {
+                            <p class="vl-text-para vl-fs-18 vl-lineheight-28 pb-16 m-0">@paragraph</p>
+                        }
+                    </div>
+                    <div class="vl-block-content mb-30">
+                        <h3 class="vl-fs-32 vl-lineheight-32 vl-text-cmn-blck pb-16 m-0">What we did</h3>
+                        @foreach (var paragraph in Model.Solution)
+                        {
+                            <p class="vl-text-para vl-fs-18 vl-lineheight-28 pb-16 m-0">@paragraph</p>
+                        }
+                    </div>
+
+                    <div class="row">
+                        @if (services.Count > 0)
+                        {
+                            <div class="col-md-6 mb-30">
+                                <h3 class="nb-sidebar-title">Services</h3>
+                                <ul class="nb-tags">
+                                    @foreach (var service in services)
+                                    {
+                                        <li><a href="/services/@service.Slug">@service.Title</a></li>
+                                    }
+                                </ul>
+                            </div>
+                        }
+                        @if (Model.Technologies.Count > 0)
+                        {
+                            <div class="col-md-6 mb-30">
+                                <h3 class="nb-sidebar-title">Technologies</h3>
+                                <ul class="nb-tags">
+                                    @foreach (var tech in Model.Technologies)
+                                    {
+                                        <li>@tech</li>
+                                    }
+                                </ul>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@if (more.Count > 0)
+{
+    <section class="vl-gallery pt-70 pb-70">
+        <div class="container">
+            <h2 class="vl-text-cmn-blck text-center vl-fs-44 vl-lineheight-44 mb-60">More Work</h2>
+            <div class="row justify-content-center">
+                @foreach (var item in more)
+                {
+                    <div class="col-lg-4 col-md-6">
+                        <partial name="Sections/_WorkCard" model="item" />
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+}

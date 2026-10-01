@@ -1,0 +1,50 @@
+[
+  {
+    "category": "Working with us",
+    "question": "What kinds of companies do you work with?",
+    "answer": "Mostly technology companies in Taiwan and Hong Kong: semiconductor and electronics manufacturers, hardware and IoT companies, SaaS businesses and fintechs. Our clients range from funded startups to large listed manufacturers.",
+    "isPlaceholder": true
+  },
+  {
+    "category": "Working with us",
+    "question": "Can you sign an NDA before we talk?",
+    "answer": "Yes. We are happy to sign your NDA before the first technical conversation. Most of our clients ask us to.",
+    "isPlaceholder": true
+  },
+  {
+    "category": "Working with us",
+    "question": "Do you work with teams outside Taiwan and Hong Kong?",
+    "answer": "Yes. We work with companies in Singapore, Japan, Europe and the US, especially those with operations or customers in Asia. Our working hours are GMT+8, with overlap for European mornings and US evenings.",
+    "isPlaceholder": true
+  },
+  {
+    "category": "Pricing & contracts",
+    "question": "How do you price projects?",
+    "answer": "Clearly defined projects get a fixed price. Ongoing work and dedicated teams are billed monthly per engineer. Consulting is billed by the day. We always give you a written estimate before any work starts.",
+    "isPlaceholder": true
+  },
+  {
+    "category": "Pricing & contracts",
+    "question": "Who owns the code and IP?",
+    "answer": "You do. All code, documentation and intellectual property we create for you is transferred to you in full, as written in our contract.",
+    "isPlaceholder": true
+  },
+  {
+    "category": "Delivery",
+    "question": "How quickly can a team start?",
+    "answer": "A discovery workshop can usually happen within a week. A dedicated team typically starts within two to four weeks, depending on the skills you need.",
+    "isPlaceholder": true
+  },
+  {
+    "category": "Delivery",
+    "question": "Do you provide support after launch?",
+    "answer": "Yes. Every project includes a support period after launch, and most clients continue with a monthly support and improvement plan.",
+    "isPlaceholder": true
+  },
+  {
+    "category": "Delivery",
+    "question": "Which technologies do you use?",
+    "answer": "Our core stack is .NET, Node.js, Python, React and Vue, on AWS, Azure or GCP. For dedicated teams, we work in whatever stack you already use.",
+    "isPlaceholder": true
+  }
+]

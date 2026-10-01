@@ -1,0 +1,40 @@
+[
+  // Dummy team. "image" can point to a photo in wwwroot (e.g. "/img/team/daniel.jpg");
+  // when it is null, a coloured card with the person's initials is shown instead.
+  {
+    "name": "Daniel Lin",
+    "role": "Founder & CEO",
+    "location": "Taipei",
+    "bio": "Former software lead at a Hsinchu semiconductor equipment maker.",
+    "image": null,
+    "linkedIn": "#",
+    "isPlaceholder": true
+  },
+  {
+    "name": "Grace Chan",
+    "role": "Head of Delivery",
+    "location": "Hong Kong",
+    "bio": "Ten years delivering banking and fintech platforms in Hong Kong.",
+    "image": null,
+    "linkedIn": "#",
+    "isPlaceholder": true
+  },
+  {
+    "name": "Kevin Wu",
+    "role": "Lead Cloud Architect",
+    "location": "Taipei",
+    "bio": "Designs hybrid cloud setups for manufacturing clients.",
+    "image": null,
+    "linkedIn": "#",
+    "isPlaceholder": true
+  },
+  {
+    "name": "Mei Huang",
+    "role": "Senior Full-Stack Engineer",
+    "location": "Taipei",
+    "bio": "Builds bilingual web platforms in .NET and Vue.",
+    "image": null,
+    "linkedIn": "#",
+    "isPlaceholder": true
+  }
+]

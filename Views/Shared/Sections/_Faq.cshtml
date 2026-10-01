@@ -1,0 +1,35 @@
+@model IEnumerable<FaqItem>
+@{
+    var items = Model.ToList();
+    var id = "faq" + Guid.NewGuid().ToString("N")[..6];
+    var half = (items.Count + 1) / 2;
+    var columns = new[] { items.Take(half).ToList(), items.Skip(half).ToList() };
+}
+<div class="row">
+    @for (var c = 0; c < columns.Length; c++)
+    {
+        <div class="col-lg-6">
+            <div class="accordion" id="@id-@c">
+                @for (var i = 0; i < columns[c].Count; i++)
+                {
+                    var item = columns[c][i];
+                    var key = $"{id}-{c}-{i}";
+                    var open = c == 0 && i == 0;
+                    <div class="vl-accordion-item vl-accordion-item-2 mb-20">
+                        <h2 class="accordion-header" id="h-@key">
+                            <button class="accordion-button @(open ? "" : "collapsed")" type="button" data-bs-toggle="collapse" data-bs-target="#b-@key" aria-expanded="@(open ? "true" : "false")" aria-controls="b-@key">
+                                @item.Question
+                                <span><i class="fa-regular fa-angle-down"></i></span>
+                            </button>
+                        </h2>
+                        <div id="b-@key" class="accordion-collapse collapse @(open ? "show" : "")" aria-labelledby="h-@key" data-bs-parent="#@id-@c">
+                            <div class="accordion-body">
+                                <p>@item.Answer</p>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    }
+</div>

@@ -1,0 +1,34 @@
+@model Insight
+<div class="vl-single-blog-item vl-single-blog-item-3 nb-insight-card mb-30">
+    <div class="vl-single-blog-img vl-single-blog-img-4 br-8 fix p-relative">
+        <a href="/insights/@Model.Slug"><img class="w-100" src="@Model.Image" alt=""></a>
+    </div>
+    <div class="vl-single-blog-4 p-relative z-index-1">
+        <div class="vl-single-blog-right-arow">
+            <a href="/insights/@Model.Slug" aria-label="Read article"><i class="fa-light fa-arrow-right"></i></a>
+        </div>
+        <div class="vl-single-blog-meta">
+            <div class="vl-single-blog-meta-box mr-16">
+                <div class="vl-single-blog-meta-box-icon mr-4">
+                    <span><i class="fa-regular fa-calendar"></i></span>
+                </div>
+                <div class="vl-single-blog-meta-box-content">
+                    <span>@Model.Date.ToString("d MMMM yyyy")</span>
+                </div>
+            </div>
+            <div class="vl-single-blog-meta-box mr-16">
+                <div class="vl-single-blog-meta-box-icon mr-4">
+                    <span><i class="fa-regular fa-tag"></i></span>
+                </div>
+                <div class="vl-single-blog-meta-box-content">
+                    <span>@Model.Category</span>
+                </div>
+            </div>
+        </div>
+        <div class="vl-single-blog-content vl-single-blog-content-4 p-relative z-index-1">
+            <h3 class="vl-single-blog-title vl-single-blog-title-4 pt-18 pb-12"><a href="/insights/@Model.Slug">@Model.Title</a></h3>
+            <p class="pb-24">@Model.Summary</p>
+            <a href="/insights/@Model.Slug" class="vl-readmore redmore">Read more <span><i class="fa-regular fa-arrow-right"></i></span></a>
+        </div>
+    </div>
+</div>

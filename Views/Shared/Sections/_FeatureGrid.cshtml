@@ -1,0 +1,14 @@
+@model IEnumerable<TitledText>
+@* Icon + title + text cards, used for "Why us" and "Engagement models". *@
+<div class="row">
+    @foreach (var (item, i) in Model.Select((x, i) => (x, i)))
+    {
+        <div class="col-lg-@(Model.Count() % 3 == 0 ? 4 : 3) col-md-6 mb-30" data-aos="fade-up" data-aos-duration="@(900 + i * 100)">
+            <div class="nb-feature br-8">
+                <span class="nb-feature-icon"><i class="fa-regular @(item.Icon ?? "fa-check")"></i></span>
+                <h3 class="nb-feature-title">@item.Title</h3>
+                <p>@item.Text</p>
+            </div>
+        </div>
+    }
+</div>

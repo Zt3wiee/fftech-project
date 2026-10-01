@@ -1,0 +1,33 @@
+@{
+    var cta = Content.Site.Cta;
+}
+<!--================= Cta section start =================-->
+<section class="vl-cta">
+    <div class="container">
+        <div class="vl-cta-bg-1 vl-cta-bg-4 nb-cta p-relative fix br-8 pt-80 pb-50">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <div class="vl-cta-wrapper mb-30">
+                        <h2 class="vl-cta-wrapper-title vl-white pb-16">@cta.Heading</h2>
+                        <p class="nb-cta-text pb-32">@cta.Text</p>
+                        <div class="nb-btn-row">
+                            <div class="vl-herobtn vl-upper">
+                                <a href="@cta.PrimaryCta.Url" class="theme-btn">@cta.PrimaryCta.Label <span><i class="fa-regular fa-arrow-right"></i></span></a>
+                            </div>
+                            @if (cta.SecondaryCta is not null)
+                            {
+                                <a href="@cta.SecondaryCta.Url" class="nb-text-link"><i class="fa-regular fa-envelope"></i> @cta.SecondaryCta.Label</a>
+                            }
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 d-none d-lg-block">
+                    <div class="nb-cta-visual">
+                        <img src="~/img/nb/cta-visual.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================= Cta section End =================-->

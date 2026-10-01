@@ -1,0 +1,15 @@
+@{
+    var stats = Content.Stats;
+}
+@if (stats.Count > 0)
+{
+    <div class="vl-hero-counter vl-about-choose-counter nb-stats">
+        @foreach (var stat in stats)
+        {
+            <div class="vl-hero-counter-box vl-about-choose-counter-box mb-30">
+                <span class="counter">@stat.Value</span><span>@stat.Suffix</span>
+                <h4 class="vl-hero-counter-box-title title-2 pt-12">@stat.Label</h4>
+            </div>
+        }
+    </div>
+}

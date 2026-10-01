@@ -1,0 +1,20 @@
+@model Testimonial
+@{
+    // Anonymous quotes (no name) get a neutral icon instead of initials.
+    var initials = Model.Name is null ? null : string.Concat(Model.Name.Split(' ', StringSplitOptions.RemoveEmptyEntries).Take(2).Select(p => char.ToUpperInvariant(p[0])));
+}
+<div class="vl-testimonial-box vl-testimonial-box-4 nb-testimonial p-relative br-8">
+    <div class="nb-quote-mark"><i class="fa-solid fa-quote-left"></i></div>
+    <div class="vl-testimonial-box-content pt-20 pb-30">
+        <p>“@Model.Quote”</p>
+    </div>
+    <div class="vl-testimonial-box-auth p-relative">
+        <div class="vl-testimonial-box-auth-img">
+            <span class="nb-avatar">@if (initials is null) { <i class="fa-regular fa-user-tie"></i> } else { @initials }</span>
+        </div>
+        <div class="vl-testimonial-box-auth-content">
+            <h4 class="vl-testimonial-box-auth-title pb-10">@(Model.Name is null ? Model.Role : $"{Model.Name}, {Model.Role}")</h4>
+            <span>@Model.Company · @Model.Region</span>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,101 @@
+[
+  // proofType: "named" (client agreed to be named), "anonymized" (real project under NDA),
+  // or "demo" (sample project built to show capability).
+  {
+    "slug": "semiconductor-mes-cloud-migration",
+    "title": "Legacy MES Moved to the Cloud for a Semiconductor Equipment Maker",
+    "proofType": "anonymized",
+    "client": "Semiconductor equipment manufacturer",
+    "industry": "semiconductor-electronics",
+    "region": "Hsinchu, Taiwan",
+    "year": "2025",
+    "summary": "A phased migration of a 15-year-old MES reporting layer to Azure, with no production downtime.",
+    "image": "/img/nb/work/semiconductor-mes-cloud-migration.svg",
+    "services": [ "cloud-migration-devops", "manufacturing-industrial-software" ],
+    "challenge": [
+      "The client's production reports ran on a 15-year-old on-premise MES. Reports took hours to generate, and only two people in the company knew how the system worked.",
+      "Any change had to be made without stopping the production lines, which run 24/7."
+    ],
+    "solution": [
+      "We mapped every report and data source, then built a new reporting layer on Azure that reads from the existing MES without changing it.",
+      "The old and new systems ran side by side for six weeks while the client's engineers verified every report. Only then was the old reporting server switched off."
+    ],
+    "results": [
+      { "value": "40%", "label": "faster production reports" },
+      { "value": "0", "label": "hours of production downtime" },
+      { "value": "6 weeks", "label": "parallel verification" }
+    ],
+    "technologies": [ "Azure", ".NET", "SQL Server", "Power BI", "Terraform" ],
+    "featured": true,
+    "isPlaceholder": true
+  },
+  {
+    "slug": "fintech-kyc-onboarding-platform",
+    "title": "KYC Onboarding Platform for a Digital-Asset Fintech",
+    "proofType": "anonymized",
+    "client": "Digital-asset fintech",
+    "industry": "fintech-banking",
+    "region": "Hong Kong",
+    "year": "2024",
+    "summary": "A digital onboarding flow that cut customer verification from days to hours.",
+    "image": "/img/nb/work/fintech-kyc-onboarding-platform.svg",
+    "services": [ "fintech-compliance-systems", "custom-software-development" ],
+    "challenge": [
+      "New customers waited up to three days for manual identity checks, and many gave up before finishing.",
+      "Every step had to leave a complete audit trail for the regulator."
+    ],
+    "solution": [
+      "We built a bilingual onboarding flow with automated document checks, a review queue for the compliance team, and a full audit log of every decision.",
+      "Only unclear cases go to a human reviewer, who now sees everything they need on one screen."
+    ],
+    "results": [
+      { "value": "3 days → 4 hrs", "label": "average onboarding time" },
+      { "value": "100%", "label": "of decisions audit-logged" }
+    ],
+    "technologies": [ "AWS", "Node.js", "React", "PostgreSQL" ],
+    "featured": true,
+    "isPlaceholder": true
+  },
+  {
+    "slug": "iot-device-fleet-dashboard",
+    "title": "IoT Device-Fleet Dashboard",
+    "proofType": "demo",
+    "client": "NovaBridge sample project",
+    "industry": "hardware-iot",
+    "region": "—",
+    "year": "2025",
+    "summary": "A reference platform for monitoring and updating 10,000 connected devices in real time.",
+    "image": "/img/nb/work/iot-device-fleet-dashboard.svg",
+    "services": [ "custom-software-development", "cloud-migration-devops" ],
+    "challenge": [ "We built this sample project to show how we approach device-fleet platforms: real-time status, alerts and safe over-the-air updates at scale." ],
+    "solution": [ "Devices report over MQTT into a time-series store. The dashboard shows fleet health live, and OTA updates roll out in stages with automatic rollback." ],
+    "results": [
+      { "value": "10,000", "label": "simulated devices" },
+      { "value": "< 2 s", "label": "status latency" }
+    ],
+    "technologies": [ "MQTT", "TimescaleDB", "Go", "React", "Kubernetes" ],
+    "featured": true,
+    "isPlaceholder": true
+  },
+  {
+    "slug": "bilingual-b2b-customer-portal",
+    "title": "Bilingual B2B Customer Portal for an Electronics Distributor",
+    "proofType": "anonymized",
+    "client": "Electronics component distributor",
+    "industry": "saas-software",
+    "region": "Taipei, Taiwan",
+    "year": "2024",
+    "summary": "A self-service portal in English and Traditional Chinese for orders, stock and documents.",
+    "image": "/img/nb/work/bilingual-b2b-customer-portal.svg",
+    "services": [ "custom-software-development" ],
+    "challenge": [ "The client's sales team answered hundreds of emails a week about stock levels, order status and datasheets." ],
+    "solution": [ "We built a customer portal connected to the client's ERP, in English and Traditional Chinese, where customers check stock, track orders and download documents themselves." ],
+    "results": [
+      { "value": "60%", "label": "fewer support emails" },
+      { "value": "2", "label": "languages, one codebase" }
+    ],
+    "technologies": [ ".NET", "Vue", "SQL Server", "Azure" ],
+    "featured": false,
+    "isPlaceholder": true
+  }
+]

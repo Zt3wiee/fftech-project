@@ -1,0 +1,18 @@
+@model IEnumerable<Service>
+<div class="row">
+    @foreach (var (service, i) in Model.Select((s, i) => (s, i)))
+    {
+        <div class="col-lg-4 col-md-6 mb-30" data-aos="fade-up" data-aos-duration="@(900 + i * 100)">
+            <div class="vl-service-icon-box-4 nb-card p-relative z-index-1 fix br-8">
+                <div class="vl-service-icon-box-4-icon4 nb-icon">
+                    <span><i class="fa-regular @service.Icon"></i></span>
+                </div>
+                <div class="vl-service-icon-box-4-content4">
+                    <h3 class="vl-service-icon-box-4-title pt-32 pb-16"><a href="/services/@service.Slug">@service.Title</a></h3>
+                    <p class="vl-fs-18 vl-lineheight-28 pb-24">@service.Summary</p>
+                    <a href="/services/@service.Slug" class="readmore">Learn more <span><i class="fa-regular fa-arrow-right"></i></span></a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

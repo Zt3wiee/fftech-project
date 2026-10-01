@@ -1,0 +1,19 @@
+@{
+    ViewBag.Title = "Insights";
+    ViewBag.Description = "Practical notes from our engineers on manufacturing software, fintech, cloud and building products for Taiwan and Hong Kong.";
+}
+
+<partial name="Sections/_PageBanner" model="@(new PageBanner("Insights", "Practical notes from our engineers."))" />
+
+<section class="vl-blog-sec pt-100 pb-70">
+    <div class="container">
+        <div class="row">
+            @foreach (var insight in Content.Insights)
+            {
+                <div class="col-lg-6">
+                    <partial name="Sections/_InsightCard" model="insight" />
+                </div>
+            }
+        </div>
+    </div>
+</section>

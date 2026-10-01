@@ -1,110 +1,73 @@
-﻿    <!--================= Footer section start =================-->
+@{
+    var site = Content.Site;
+}
+<!--================= Footer section start =================-->
 <footer>
     <section class="vl-footer vl-gray-bg-4 pt-240">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6 mb-30">
                     <div class="vl-footer-widget-1">
-                        <div class="vl-footer-logo">
-                            <a href=@Url.Action("Index1", "Landing")><img src="~/img/logo/logo.png" alt="Company logo"></a>
+                        <div class="vl-footer-logo nb-logo nb-logo-dark">
+                            <a href="/"><img src="~/img/logo/logo.png" alt="@site.Name"><span>@site.ShortName</span></a>
                         </div>
                         <div class="vl-footer-content vl-footer-content-4">
-                            <p class="pt-16 pb-32">We foster a culture of teamwork & <br> creative problem-solving to deliver <br> exceptional results for our clients.</p>
+                            <p class="pt-16 pb-32">@site.FooterBlurb</p>
                         </div>
                         <div class="vl-footer-social vl-footer-social-4">
                             <ul>
-                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                @foreach (var social in site.Social)
+                                {
+                                    <li><a href="@social.Url" aria-label="@social.Network"><i class="fa-brands @social.Icon"></i></a></li>
+                                }
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-6 mb-30">
                     <div class="vl-footer-widget-2">
-                        <h3 class="vl-footer-widget-title vl-fs-20 mb-20">Quick Links</h3>
+                        <h3 class="vl-footer-widget-title vl-fs-20 mb-20">Company</h3>
                         <div class="vl-footer-menu vl-footer-menu-4">
                             <ul>
-                                <li><a href=@Url.Action("About", "Pages")>About Us</a></li>
-                                <li><a href=@Url.Action("Index", "Service")>Our Service</a></li>
-                                <li><a href=@Url.Action("Index", "CaseStudies")>Case Study</a></li>
-                                <li><a href=@Url.Action("Testimonial", "Pages")>Testimonial</a></li>
+                                <li><a href="/about">About us</a></li>
+                                @if (Content.Work.Count > 0)
+                                {
+                                    <li><a href="/work">Our work</a></li>
+                                }
+                                @if (Content.Insights.Count > 0)
+                                {
+                                    <li><a href="/insights">Insights</a></li>
+                                }
+                                <li><a href="/faq">FAQ</a></li>
+                                <li><a href="/contact">Contact</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-6 mb-30">
-                    <div class="vl-footer-widget-3 ml-40">
-                        <h3 class="vl-footer-widget-title vl-fs-20 mb-20">Our Service</h3>
+                <div class="col-lg-3 col-md-6 mb-30">
+                    <div class="vl-footer-widget-3">
+                        <h3 class="vl-footer-widget-title vl-fs-20 mb-20">Services</h3>
                         <div class="vl-footer-menu vl-footer-menu-4">
                             <ul>
-                                <li><a href="#">Cyber Security</a></li>
-                                <li><a href="#">Network Analysis</a></li>
-                                <li><a href="#">Data Recovery</a></li>
-                                <li><a href="#">It Service</a></li>
+                                @foreach (var service in Content.Services)
+                                {
+                                    <li><a href="/services/@service.Slug">@service.Title</a></li>
+                                }
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-30">
+                <div class="col-lg-3 col-md-6 mb-30">
                     <div class="vl-footer-widget-4">
-                        <h3 class="vl-footer-widget-title vl-fs-20 mb-20">Instagram Post</h3>
-                        <div class="row gx-2">
-                            <div class="col-lg-4 col-md-4 col-4">
-                                <div class="vl-footer-instapost p-relative z-index-1 fix mb-8">
-                                    <img class="w-100" src="~/img/footer/vl-ft-post-3.1.png" alt="">
-                                    <div class="vl-footer-instapost-icon">
-                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-4 col-4">
-                                <div class="vl-footer-instapost p-relative z-index-1 fix mb-8">
-                                    <img class="w-100" src="~/img/footer/vl-ft-post-3.2.png" alt="">
-                                    <div class="vl-footer-instapost-icon">
-                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-4 col-4">
-                                <div class="vl-footer-instapost p-relative z-index-1 fix mb-8">
-                                    <img class="w-100" src="~/img/footer/vl-ft-post-3.3.png" alt="">
-                                    <div class="vl-footer-instapost-icon">
-                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-4 col-4">
-                                <div class="vl-footer-instapost p-relative z-index-1 fix mb-8">
-                                    <img class="w-100" src="~/img/footer/vl-ft-post-3.4.png" alt="">
-                                    <div class="vl-footer-instapost-icon">
-                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-4 col-4">
-                                <div class="vl-footer-instapost p-relative z-index-1 fix mb-8">
-                                    <img class="w-100" src="~/img/footer/vl-ft-post-3.5.png" alt="">
-                                    <div class="vl-footer-instapost-icon">
-                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-4 col-4">
-                                <div class="vl-footer-instapost p-relative z-index-1 fix mb-8">
-                                    <img class="w-100" src="~/img/footer/vl-ft-post-3.6.png" alt="">
-                                    <div class="vl-footer-instapost-icon">
-                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <h3 class="vl-footer-widget-title vl-fs-20 mb-20">Get in touch</h3>
+                        <ul class="nb-footer-contact">
+                            <li><i class="fa-regular fa-envelope"></i><a href="mailto:@site.Email">@site.Email</a></li>
+                            @foreach (var office in site.Offices)
+                            {
+                                <li><i class="fa-regular fa-location-dot"></i><span><strong>@office.City</strong><br><a href="tel:@office.Phone.Replace(" ", "")">@office.Phone</a></span></li>
+                            }
+                            <li><i class="fa-regular fa-clock"></i><span>@site.Hours</span></li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -114,14 +77,13 @@
                 <div class="row align-items-center">
                     <div class="col-md-6">
                         <div class="vl-footer-copyright-text vl-footer-copyright-text-4">
-                            <p>Copyright &copy;2024 O-Tech. All Rights Reserved</p>
+                            <p>Copyright &copy;@DateTime.Now.Year @site.Name. All rights reserved.</p>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="vl-footer-copyright-menu">
                             <ul>
-                                <li> <a href="#">Terms & Conditions</a></li>
-                                <li> <a href="#">Privacy Policy</a></li>
+                                <li><span>@site.Tagline</span></li>
                             </ul>
                         </div>
                     </div>

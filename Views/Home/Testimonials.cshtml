@@ -1,0 +1,18 @@
+@{
+    ViewBag.Title = "Testimonials";
+}
+
+<partial name="Sections/_PageBanner" model="@(new PageBanner("What Our Clients Say", "Feedback from engineering and product leaders we work with.", new Link("About", "/about")))" />
+
+<section class="nb-dark-section vl-testimonial-bg-2 pt-100 pb-70">
+    <div class="container">
+        <div class="row">
+            @foreach (var testimonial in Content.Testimonials)
+            {
+                <div class="col-lg-4 col-md-6 mb-30">
+                    <partial name="Sections/_TestimonialCard" model="testimonial" />
+                </div>
+            }
+        </div>
+    </div>
+</section>

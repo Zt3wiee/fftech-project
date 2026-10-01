@@ -1,11 +1,25 @@
-﻿<meta charset="UTF-8">
+@{
+    var site = Content.Site;
+    string? pageTitle = ViewBag.Title;
+    var title = string.IsNullOrEmpty(pageTitle) ? $"{site.Name} | {site.Tagline}" : $"{pageTitle} | {site.Name}";
+    string description = ViewBag.Description ?? site.MetaDescription;
+    var url = $"{Context.Request.Scheme}://{Context.Request.Host}{Context.Request.Path}";
+}
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-@{
-    var title = ViewBag.Title != null
-    ? ViewBag.Title : "O-Tech";
-}
 <title>@title</title>
+<meta name="description" content="@description">
+<link rel="canonical" href="@url">
+
+<!-- link previews (LinkedIn, Facebook, LINE, WhatsApp) -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="@site.Name">
+<meta property="og:title" content="@title">
+<meta property="og:description" content="@description">
+<meta property="og:url" content="@url">
+<meta property="og:image" content="@($"{Context.Request.Scheme}://{Context.Request.Host}/img/logo/logo.png")">
+<meta name="theme-color" content="#050B2E">
 
 <!-- fav icon -->
 <link rel="icon" href="~/img/icons/favicon.ico" sizes="any">

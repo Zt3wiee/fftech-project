@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" preserveAspectRatio="xMidYMid slice">
+<defs>
+  <linearGradient id="brandesfintechsvg" x1="0" y1="1" x2="1" y2="0">
+    <stop offset="0" stop-color="#C13CFF"/><stop offset=".5" stop-color="#1A3BFF"/><stop offset="1" stop-color="#2FD4FF"/>
+  </linearGradient>
+  <radialGradient id="glowCesfintechsvg"><stop offset="0" stop-color="#2FD4FF" stop-opacity=".55"/><stop offset="1" stop-color="#2FD4FF" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glowMesfintechsvg"><stop offset="0" stop-color="#C13CFF" stop-opacity=".45"/><stop offset="1" stop-color="#C13CFF" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glowBesfintechsvg"><stop offset="0" stop-color="#1A3BFF" stop-opacity=".6"/><stop offset="1" stop-color="#1A3BFF" stop-opacity="0"/></radialGradient>
+  <pattern id="gridesfintechsvg" width="48" height="48" patternUnits="userSpaceOnUse">
+    <path d="M48 0H0V48" fill="none" stroke="#FFFFFF" stroke-opacity=".05" stroke-width="1"/>
+  </pattern></defs>
+<rect width="1200" height="700" fill="#050B2E"/><ellipse cx="737" cy="200" rx="520" ry="416" fill="url(#glowCesfintechsvg)"/><ellipse cx="304" cy="639" rx="460" ry="368" fill="url(#glowMesfintechsvg)"/><ellipse cx="600" cy="350" rx="600" ry="480" fill="url(#glowBesfintechsvg)"/><rect width="1200" height="700" fill="url(#gridesfintechsvg)"/>
+<path d="M0 140 C300 88 500 192 800 140 S1100 88 1200 140" fill="none" stroke="#2FD4FF" stroke-opacity="0.15" stroke-width="3"/><path d="M0 190 C300 116 500 264 800 190 S1100 116 1200 190" fill="none" stroke="#8EA2FF" stroke-opacity="0.21" stroke-width="3"/><path d="M0 240 C300 176 500 304 800 240 S1100 176 1200 240" fill="none" stroke="#C13CFF" stroke-opacity="0.27" stroke-width="3"/><path d="M0 290 C300 221 500 359 800 290 S1100 221 1200 290" fill="none" stroke="#2FD4FF" stroke-opacity="0.33" stroke-width="3"/><path d="M0 340 C300 287 500 393 800 340 S1100 287 1200 340" fill="none" stroke="#8EA2FF" stroke-opacity="0.15" stroke-width="3"/><path d="M0 390 C300 341 500 439 800 390 S1100 341 1200 390" fill="none" stroke="#C13CFF" stroke-opacity="0.21" stroke-width="3"/><path d="M0 440 C300 363 500 517 800 440 S1100 363 1200 440" fill="none" stroke="#2FD4FF" stroke-opacity="0.27" stroke-width="3"/><path d="M0 490 C300 415 500 565 800 490 S1100 415 1200 490" fill="none" stroke="#8EA2FF" stroke-opacity="0.33" stroke-width="3"/><path d="M0 540 C300 467 500 613 800 540 S1100 467 1200 540" fill="none" stroke="#C13CFF" stroke-opacity="0.15" stroke-width="3"/>
+<path d="M867 700 L1027 420 H1167 L1007 700Z" fill="url(#brandesfintechsvg)" opacity=".85"/>
+<path d="M1027 700 L1107 560 H1197 L1117 700Z" fill="url(#brandesfintechsvg)" opacity=".55"/>
+</svg>

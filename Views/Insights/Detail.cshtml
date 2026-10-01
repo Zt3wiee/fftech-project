@@ -1,0 +1,64 @@
+@model Insight
+@{
+    ViewBag.Title = Model.Title;
+    ViewBag.Description = Model.Summary;
+    var more = Content.Insights.Where(i => i.Slug != Model.Slug).Take(2).ToList();
+}
+
+<partial name="Sections/_PageBanner" model="@(new PageBanner(Model.Title, null, new Link("Insights", "/insights")))" />
+
+<section class="vl-service-deatil pt-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <article class="vl-service-details">
+                    <div class="vl-service-details-cat pt-24 pb-24 mb-30">
+                        <div class="vl-service-details-cat-single vl-service-details-cat-single-2 d-flex align-items-center">
+                            <span class="icon"><i class="fa-regular fa-user"></i></span>
+                            <p class="vl-text-para vl-fs-16 vl-lineheight-16 m-0">@Model.Author</p>
+                        </div>
+                        <div class="vl-service-details-cat-single vl-service-details-cat-single-2 d-flex align-items-center">
+                            <span class="icon"><i class="fa-regular fa-calendar"></i></span>
+                            <p class="vl-text-para vl-fs-16 vl-lineheight-16 m-0">@Model.Date.ToString("d MMMM yyyy")</p>
+                        </div>
+                        <div class="vl-service-details-cat-single vl-service-details-cat-single-2 d-flex align-items-center">
+                            <span class="icon"><i class="fa-regular fa-tag"></i></span>
+                            <p class="vl-text-para vl-fs-16 vl-lineheight-16 m-0">@Model.Category</p>
+                        </div>
+                    </div>
+                    <div class="vl-service-details-larg-img fix br-8 mb-30">
+                        <img class="w-100" src="@Model.Image" alt="">
+                    </div>
+                    <p class="nb-lead pb-30 m-0">@Model.Summary</p>
+                    <partial name="Sections/_ContentBlocks" model="Model.Body" />
+                    @if (Model.Tags.Count > 0)
+                    {
+                        <ul class="nb-tags mb-30">
+                            @foreach (var tag in Model.Tags)
+                            {
+                                <li>#@tag</li>
+                            }
+                        </ul>
+                    }
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+
+@if (more.Count > 0)
+{
+    <section class="vl-blog pt-70 pb-70">
+        <div class="container">
+            <h2 class="vl-text-cmn-blck text-center vl-fs-44 vl-lineheight-44 mb-60">More Insights</h2>
+            <div class="row">
+                @foreach (var insight in more)
+                {
+                    <div class="col-lg-6">
+                        <partial name="Sections/_InsightCard" model="insight" />
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+}

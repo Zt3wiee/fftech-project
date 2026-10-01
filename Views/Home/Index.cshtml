@@ -1,0 +1,178 @@
+@{
+    var site = Content.Site;
+    var hero = site.Hero;
+    var featuredWork = Content.Work.Where(w => w.Featured).Take(3).ToList();
+    var heroStats = Content.Stats.Take(3).ToList();
+}
+
+<!--================= Hero section start =================-->
+<section class="vl-hero-area vl-hero-area-4 vl-hero-bg nb-hero p-relative z-index-1 fix pt-190 pb-70" style="background-image: url(/img/nb/hero-bg.svg);">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-xl-6 mb-30">
+                <div class="vl-hero-content p-relative z-index-1">
+                    <div class="vl-section-title-wrapper">
+                        <h4 class="vl-section-subtitle-5 vl-white vl-upper">@hero.Eyebrow</h4>
+                        <h1 class="vl-section-heading vl-section-heading-2 vl-white pt-16">@hero.Heading</h1>
+                        <p class="vl-section-description pt-16 pb-28">@hero.Text</p>
+                    </div>
+                    <div class="vl-btns nb-btn-row mb-40">
+                        <div class="vl-herobtn vl-upper">
+                            <a href="@hero.PrimaryCta.Url" class="theme-btn">@hero.PrimaryCta.Label<span><i class="fa-regular fa-arrow-right"></i></span></a>
+                        </div>
+                        @if (hero.SecondaryCta is not null)
+                        {
+                            <a href="@hero.SecondaryCta.Url" class="nb-text-link nb-text-link-light">@hero.SecondaryCta.Label <i class="fa-regular fa-arrow-right"></i></a>
+                        }
+                    </div>
+                    <ul class="nb-trust-points">
+                        @foreach (var point in hero.TrustPoints)
+                        {
+                            <li><i class="fa-solid fa-circle-check"></i> @point</li>
+                        }
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-6 mb-30">
+                <div class="nb-hero-visual p-relative">
+                    <img class="w-100" src="~/img/nb/hero-visual.svg" alt="">
+                    @if (heroStats.Count > 0)
+                    {
+                        <div class="nb-hero-stats">
+                            @foreach (var stat in heroStats)
+                            {
+                                <div class="nb-hero-stat">
+                                    <span class="nb-hero-stat-value"><span class="counter">@stat.Value</span>@stat.Suffix</span>
+                                    <span class="nb-hero-stat-label">@stat.Label</span>
+                                </div>
+                            }
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================= Hero section End =================-->
+
+<!--================= Why us section start =================-->
+<section class="vl-about-area pt-100 pb-70">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-5 mb-30">
+                <div class="vl-about-content-4" data-aos="fade-right" data-aos-duration="800">
+                    <div class="vl-section-title-wrapper">
+                        <div class="vl-section-subheading">
+                            <h4 class="vl-section-subtitle-6 vl-upper">Why @site.ShortName</h4>
+                        </div>
+                        <h2 class="vl-section-title vl-section-title-2 pt-16 pb-20">Built for Asia's High-Tech Companies</h2>
+                        <p class="vl-section-description-2 pb-32">@site.About.Intro</p>
+                    </div>
+                    <div class="vl-herobtn vl-aboutbtn vl-upper">
+                        <a href="/about" class="theme-btn theme-btn2">About us<span><i class="fa-regular fa-arrow-right"></i></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="nb-why-grid" data-aos="fade-left" data-aos-duration="800">
+                    @foreach (var item in site.WhyUs)
+                    {
+                        <div class="nb-feature br-8 mb-30">
+                            <span class="nb-feature-icon"><i class="fa-regular @(item.Icon ?? "fa-check")"></i></span>
+                            <h3 class="nb-feature-title">@item.Title</h3>
+                            <p>@item.Text</p>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================= Why us section End =================-->
+
+<!--================= Services section start =================-->
+<section class="vl-service-area vl-gray-bg-4 pt-100 pb-70">
+    <div class="container">
+        <div class="vl-section-title-wrapper text-center mb-60" data-aos="fade-up" data-aos-duration="900">
+            <div class="vl-section-subheading">
+                <h4 class="vl-section-subtitle-6 vl-upper">What we do</h4>
+            </div>
+            <h2 class="vl-section-title vl-section-title-2 pt-16">Software Engineering for <br class="d-none d-md-block">Technology Companies</h2>
+        </div>
+        <partial name="Sections/_ServiceCards" model="Content.Services" />
+    </div>
+</section>
+<!--================= Services section End =================-->
+
+<!--================= Industries section start =================-->
+<section class="nb-industries pt-100 pb-70">
+    <div class="container">
+        <div class="vl-section-title-wrapper text-center mb-60" data-aos="fade-up" data-aos-duration="900">
+            <div class="vl-section-subheading">
+                <h4 class="vl-section-subtitle-6 vl-upper">Industries</h4>
+            </div>
+            <h2 class="vl-section-title vl-section-title-2 pt-16">We Speak Your Industry</h2>
+        </div>
+        <partial name="Sections/_IndustryCards" model="Content.Industries" />
+    </div>
+</section>
+<!--================= Industries section End =================-->
+
+@if (featuredWork.Count > 0)
+{
+    <!--================= Work section start =================-->
+    <section class="vl-gallery nb-work vl-gray-bg-4 p-relative z-index-1 pt-100 pb-70">
+        <div class="container">
+            <div class="row align-items-end mb-60">
+                <div class="col-lg-8">
+                    <div class="vl-section-title-wrapper" data-aos="fade-up" data-aos-duration="900">
+                        <div class="vl-section-subheading">
+                            <h4 class="vl-section-subtitle-6 vl-upper">Selected work</h4>
+                        </div>
+                        <h2 class="vl-section-title vl-section-title-2 pt-16">Real Problems, Measurable Results</h2>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                    <a href="/work" class="nb-text-link">See all work <i class="fa-regular fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                @foreach (var work in featuredWork)
+                {
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="900">
+                        <partial name="Sections/_WorkCard" model="work" />
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+    <!--================= Work section End =================-->
+}
+
+<partial name="Sections/_Process" />
+
+<partial name="Sections/_Testimonials" />
+
+@if (Content.Insights.Count > 0)
+{
+    <!--================= Insights section start =================-->
+    <section class="vl-blog pt-100 pb-70">
+        <div class="container">
+            <div class="vl-section-title-wrapper text-center mb-60" data-aos="fade-up" data-aos-duration="900">
+                <div class="vl-section-subheading">
+                    <h4 class="vl-section-subtitle-6 vl-upper">Insights</h4>
+                </div>
+                <h2 class="vl-section-title vl-section-title-2 pt-16">Notes From Our Engineers</h2>
+            </div>
+            <div class="row">
+                @foreach (var insight in Content.Insights.Take(2))
+                {
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-duration="900">
+                        <partial name="Sections/_InsightCard" model="insight" />
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+    <!--================= Insights section End =================-->
+}
