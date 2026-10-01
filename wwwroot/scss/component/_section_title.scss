@@ -1,0 +1,248 @@
+@use '../utils' as *;
+
+.vl-section{
+    &-subtitle{
+        &-2{
+            color: #9EDD05;
+            font-size: 16px;
+            line-height: 16px;
+            margin: 0;
+            position: relative;
+            z-index: 1;
+            &::after{
+                position: absolute;
+                content: "";
+                left: 0;
+                bottom: -6px;
+                width: 24px;
+                height: 2px;
+                background:var(--vl-theme-color-2);
+            }
+            .fw-500{
+                font-weight: 500;
+            }
+            
+        }
+        &-black-border{
+            color: var(--vl-black-theme-2);
+            font-size: 16px;
+            line-height: 16px;
+            margin: 0;
+            position: relative;
+            z-index: 1;
+            display: inline-block;
+            &::after{
+                position: absolute;
+                content: "";
+                left: 0;
+                bottom: -6px;
+                width: 24px;
+                height: 2px;
+                background:var(--vl-black-theme-2);
+            }
+        }
+        &-white-border{
+            color: #fff;
+            font-size: 16px;
+            line-height: 16px;
+            margin: 0;
+            position: relative;
+            z-index: 1;
+            display: inline-block;
+            &::after{
+                position: absolute;
+                content: "";
+                left: 0;
+                bottom: -6px;
+                width: 24px;
+                height: 2px;
+                background:#fff;
+            }
+        }
+        font-size: 18px;
+        margin: 0;
+        line-height: 18px;
+        display: inline-block;
+        position: relative;
+        padding-left: 40px;
+        padding-right: 40px;
+        @media #{$xs}{
+            font-size: 15px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        &::before{
+            position: absolute;
+            content: "";
+            left: 0;
+            top: 50%;
+            width: 24px;
+            height: 2px;
+            background: #fff;
+        }
+        &::after{
+            position: absolute;
+            content: "";
+            right:0;
+            top: 50%;
+            width: 24px;
+            height: 2px;
+            background: #fff;
+        }
+        &-3{
+            display: inline-block;
+            padding: 10px 14px;
+            line-height: 16px;
+            @media #{$xs}{
+                font-size: 15px !important;
+                line-height: 15px;
+            }
+        }
+        &-4{
+            border-radius: 50px;
+            background: rgba(35, 52, 222, 0.05);
+            display: inline-block;
+            padding: 10px 14px;
+            line-height: 16px;
+            &.review-bg {
+                border-radius: 50px;
+                background: rgba(255, 255, 255, 0.10);
+            }
+        }
+        &-5{
+            margin: 0;
+            font-size: 16px;
+            line-height: 16px;
+            border-radius: 50px;
+            background: rgba(255, 255, 255, 0.10);
+            display: inline-block;
+            padding: 10px 14px;
+            @media #{$xs}{
+                font-size: 14px;
+                line-height: 14px;
+                padding: 10px 10px;
+            }
+        }
+        &-6{
+            margin: 0;
+            border-radius: 50px;
+            font-size: 16px;
+            line-height: 16px;
+            background: linear-gradient(90deg, #2E0797 0%, #726EFC 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        &-7{
+            margin: 0;
+            font-size: 16px;
+            line-height: 16px;
+            border-radius: 50px;
+            background: #EBE9F4;
+            display: inline-block;
+            padding: 10px 14px;
+            color: #5038C9;
+        }
+        &-8{
+            margin: 0;
+            font-size: 16px;
+            line-height: 16px;
+            border-radius: 50px;
+            background: #F5F3FB;
+            display: inline-block;
+            padding: 10px 14px;
+            color: #5038C9;
+            &.subtitle-9 {
+                background: rgba(55, 12, 171, 0.05);
+            }
+        }
+    }
+    &-heading {
+        margin: 0;
+        font-size: 56px;
+        line-height: 66px;
+        @media #{$xs}{
+            font-size: 40px;
+            line-height: 50px;
+        }
+        &-2{
+            font-size: 64px;
+            line-height: 76px;
+            @media #{$xs}{
+                font-size: 40px;
+                line-height: 50px;
+            }
+        }
+    }
+    &-title{
+        font-size: 44px;
+        line-height: 52px;
+        margin: 0;
+        @media #{$xs}{
+            font-size: 27px;
+            line-height: 37px;
+        }
+        &-wrapper{
+            & p{
+                & br{
+                    @media #{$xs}{
+                        display: none;
+                    }
+                }
+            }
+            &-description{
+                color: rgba(255, 255, 255, 0.90);
+                font-size: 18px;
+                line-height: 28px;
+                margin: 0;
+            }
+        }
+        &-2{
+            color: var(--vl-text-2);
+        }
+    }
+    &-description{
+        color: rgba(255, 255, 255, 0.90);
+        font-size: 18px;
+        line-height: 28px;
+        margin: 0;
+        &.desc-3 {
+            color: rgba(255, 255, 255, 0.8);
+        }
+        &-2 {
+            font-size: 18px;
+            line-height: 28px;
+            margin: 0;
+            color:var(--vl-text-4);
+        }
+        &-3{
+            color:var(--vl-text-5);
+            opacity: 1;
+        }
+        &-4{
+            color: #5F6168;
+        }
+        .section-description3 {
+            color: rgba(255, 255, 255, 0.8);
+        }
+    }
+    &-3{
+        display: inline-block;
+    }
+    &-subheading{
+        display: inline-block;
+        padding: 10px 14px;
+        border-radius: 50px;
+        background: rgba(46, 7, 151, 0.05);
+    }
+}
+
+
+
+
+.vl-brand{
+    &-title{
+        font-size: 20px;
+        line-height: 28px;
+    }
+}

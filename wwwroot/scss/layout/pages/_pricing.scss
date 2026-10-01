@@ -1,0 +1,170 @@
+@use '../../utils' as *;
+
+.vl-pricing{
+    &-box{
+        &-list-box {
+            @include flexbox();
+            align-items: center;
+        }
+        margin-top: 70px;
+        padding: 32px;
+        border-radius: 8px;
+        border: 1px solid rgba(17, 17, 18, 0.10);
+        padding-top: 95px;
+        @media #{$md,$xs}{
+            
+        }
+       & .vl{
+            &-icon{
+                span {
+                    background: var(--vl-gradient-2);
+                    height: 20px;
+                    width: 20px;
+                    display: inline-block;
+                    line-height: 22px;
+                    text-align: center;
+                    border-radius: 50px;
+                    color: var(--vl-white);
+                    margin-right: 8px;
+                    font-size: 10px;
+                }
+                &-content p {
+                    margin: 0;
+                    color: var(--vl-text-2);
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 16px;
+                }
+                &-2{
+                    span{
+                        background: var(--vl-theme-color-4);
+                    }
+                }
+            }
+       }
+        &-price{
+            background: var(--vl-gradient-2);
+            padding: 24px 32px;
+            border-radius: 8px;
+            position: absolute;
+            left: 70px;
+            right: 70px;
+            top: -70px;
+            @media #{$md}{
+               left: 30px;
+                right: 30px;
+             }
+            @media #{$xs}{
+                left: 40px;
+                right: 40px;
+            }
+            & .price{
+                &-title{
+                    font-size: 20px;
+                    line-height: 20px;
+                    margin: 0;
+                    color: var(--vl-white);
+                }
+                &-number{
+                    font-size: 42px;
+                    line-height: 42px;
+                    font-weight: 700;
+                    color: var(--vl-white);
+                    margin: 0;
+                    letter-spacing: -1px;
+                    display: inline-block;
+                    & span{
+                        font-size: 18px;
+                        line-height: 18px;
+                        letter-spacing: -1px;
+                    }
+                }
+            }
+            &-iner{
+                background: var(--vl-theme-color-4);
+            }
+        }
+        &-content{
+            padding-bottom: 32px;
+            border-bottom: 1px solid #1111121A;
+            margin-bottom: 32px;
+            & p{
+                color: var(--vl-text-1);
+                font-size: 16px;
+                line-height: 26px;
+                font-weight: 500;
+                margin: 0;
+                @media #{$md,$xs}{
+                   br{
+                    display: none;
+                   }
+                }
+            }
+        }
+        &-btn{
+            display: inline-block;
+        }
+        &.active{
+            background: var(--vl-gradient-2);
+            border: none;
+            & .vl-btn-sec-5{
+                background: var(--vl-white);
+            }
+            & .vl-btn-wrap-2 {
+                color: #3F21B0;
+            }
+            & .vl-pricing{
+                &-box{
+                    &-content p{
+                        color: var(--vl-white);
+                        opacity: .8;
+                    }
+                }
+            }
+            & .vl-icon{
+                & span{
+                    background:var(--vl-white);
+                    color: #3F21B0;
+                }
+                &-content{
+                    & p{
+                     color: var(--vl-white);
+                    }                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+                 }
+            }
+            &-2{
+                background: var(--vl-theme-color-4);
+            }
+        }
+    }
+}
+
+
+
+
+.vl-brand{
+    &-single{
+        &-iner {
+            padding: 32px 24px;
+            border-radius: 8px;
+            border: 1px solid rgba(13, 4, 0, 0.10);
+            background: var(--vl-white);
+            display: inline-block;
+            margin-right: 16px;
+            height: 112px !important;
+            &:hover{
+                border-radius: 8px;
+                border: 1px solid rgba(13, 4, 0, 0.10);
+                background: var(--vl-white);
+                box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.08);
+            }
+        }
+    }
+    &-inner-active .slick-list {
+        overflow: inherit;
+    }
+}
+
+.vl-pricing-box-content.active-border {
+    border-bottom: 1px solid rgba(255, 255 ,255 ,.2);
+}

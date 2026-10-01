@@ -1,0 +1,70 @@
+@use '../../utils' as *;
+
+.vl-offcanvas-menu ul {
+    list-style: none;
+    & li{
+        position: relative;
+        
+        & a{
+            padding: 8px 0;
+            display: block;
+            font-size: 16px;
+            font-weight: 500;
+            & span{
+                display: none;
+            }
+        }
+        & > a{
+            
+        }
+        &.active{
+            & > a{
+                background: linear-gradient(90deg, #2E0797 0%, #726EFC 100%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            & > .vl-menu-close{
+                color: #111112;
+                border-radius: 5px;
+                & i{
+                    transform: rotate(90deg);
+                    // @include transform(rotate(90deg));
+                }
+            }
+        }
+
+        & .sub-menu{
+            display: none;
+            padding-left: 20px;
+        }
+    }
+}
+.vl-offcanvas-menu{
+    &.vl-offcanvas-menu-2 ul li.active > a {
+        color: #9EDD05;
+        -webkit-text-fill-color: inherit;
+    }
+    &.vl-offcanvas-menu-3 ul li.active > a {
+        color: #2334DE;
+        -webkit-text-fill-color: inherit;
+    }
+}
+
+
+
+.vl-menu-close{
+    position: absolute;
+    right: 0;
+    top: 7px;
+    border: 1px solid rgba(1, 15, 28, 0.12);
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 30px;
+    border-radius: 5px;
+    & i{
+        @include transition(.3s);
+    }
+}

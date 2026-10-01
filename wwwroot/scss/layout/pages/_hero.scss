@@ -1,0 +1,400 @@
+@use '../../utils' as *;
+
+
+.vl-hero{
+    &.pt-190 {
+        @media #{$xs}{
+           padding-top: 150px;
+        }
+    }
+    &-fan{
+       & img{
+        animation: vlspin 12s linear infinite;
+       }
+    }
+    &-img{
+        &-1{
+            & img {
+                width: 370px;
+                height: 450px;
+                border-top-left-radius: 222px;
+                border-top-right-radius: 222px;
+                border: 9px solid var(--vl-theme-color);
+                object-fit: cover;
+                border-bottom-left-radius: 8px;
+                border-bottom-right-radius: 8px;
+                @media #{$xs}{
+                    width: 100%;
+                }
+            }
+        }
+        &-2 {
+            text-align: right;
+            margin-top: -332px;
+            @media #{$xs}{
+                margin-top: 30px;
+            }
+        }
+        &--2{
+            text-align: right;
+            & img{
+                height: 470px;
+                width: 470px;
+                border-radius: 50%;
+                @media #{$xs}{
+                    width: 100%;
+                    height: 100%;
+                 }
+            }
+        }
+        &-3{
+            & img{
+                position: absolute;
+                left: 0;
+                top: -85px;
+                @media #{$md}{
+                    position: relative;
+                    margin-bottom: -130px;
+                    top: 0;
+                }
+                @media #{$xs}{
+                    position: relative;
+                    margin-bottom:0px;
+                    top: 0;
+                }
+            }
+        }
+        &-4{
+          & img {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                top:-88px;
+                @media #{$md,$xs}{
+                   margin-bottom: -100px;
+                   top: -55px;
+                }
+            }
+            &-content{
+                background: #fff;
+                position: absolute;
+                bottom: 0;
+                border-radius: 8px;
+                padding: 24px;
+                width: 313px;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                @media #{$md}{
+                    bottom: -30px;
+                }
+                @media #{$xs}{
+                    width: 100%;
+                    bottom: -40px;
+                    padding: 15px;
+                }
+            }
+            &-title {
+                margin: 0;
+                font-size: 20px;
+                line-height: 26px;
+                color: #111112;
+            }
+            &-grup{
+                @include flexbox();
+                justify-content: space-between;
+                align-items: center;
+                &-content h4 {
+                    font-size: 18px;
+                    line-height: 22px;
+                    margin: 0;
+                    position: relative;
+                    color: #111112;
+                    &:after {
+                        position: absolute;
+                        content: "";
+                        left: -32px;
+                        height: 1.6px;
+                        width: 32px;
+                        background: #111112;
+                    }
+                }
+            }
+        }
+    }
+    &-counter{
+        font-weight: 600;
+        @include flexbox();
+        justify-content: space-between;
+        @media #{$xs}{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        &-box{
+            padding-right: 45px;
+            border-right: 1px solid rgb(255, 255, 255, .2);
+            margin-right: 45px;
+            text-align: center;
+            @media #{$xs}{
+                text-align: inherit;
+                border: inherit;
+                padding-right: 0;
+                margin-right: 0;
+            }
+            &:last-child{
+                border: none;
+            }
+            & span{
+                font-size: 40px;
+                line-height: 40px;
+                color:#fff;
+                text-align:center;
+            }
+            &-title{
+                font-size: 18px;
+                line-height: 18px;
+                margin: 0;
+                color: rgba(255, 255, 255, 0.80);
+                font-weight: 500;
+            }
+        }
+        &-3{
+            display: block;
+            position: absolute;
+            right: 250px;
+            top: 50%;
+            transform: translateY(-50%);
+            @media #{$xs}{
+                position: relative;
+                right:0;
+                top: 0;
+                transform: translateY(0px);
+            }
+            .vl-hero{
+                &-counter-box{
+                    padding-right: 0;
+                    border-right: 0;
+                    margin-right: -170px;
+                    text-align: center;
+                    border-radius: 8px;
+                    border: 1px solid rgba(255, 255, 255, 0.10);
+                    background: rgba(255, 255, 255, 0.10);
+                    backdrop-filter: blur(5px);
+                    padding: 24px;
+                    @media #{$md}{
+                        margin-right: 25px;
+                    }
+                    @media #{$xs}{
+                        margin-right: 25px;
+                        margin-left: 25px;
+                        margin-top: 30px;
+                    }
+                }
+            }
+            @media #{$md}{
+                bottom:33%;
+                right: -17px;
+            }
+        }
+    }
+    &-shape{
+        & img{
+            position: absolute;
+            top:-50px;
+            left: 0;
+        }
+        &-2{
+            & img{
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &--2{
+           & img {
+                position: absolute;
+                right: 54px;
+                top: 181px;
+                @media #{$xxxl}{
+                    right: 133px;
+                }
+                @media #{$xxl}{
+                    right: 55px;
+                }
+                @media #{$md}{
+                    top: inherit;
+                    right: 19px;
+                    bottom: 28px;
+                }
+            }
+        }
+        &-4{
+            & .vl-shape{
+                &-1{
+                    & img{
+                        position:absolute;
+                        right:0;
+                        top:50%;
+                        animation: vlbounce 5s linear infinite;
+                    }
+                }
+                &-2{
+                    & img{
+                        position:absolute;
+                        right:90px;
+                        top:40px;
+                        animation: vlbounce 5s linear infinite;
+                    }
+                }
+                &-3{
+                    & img{
+                        position:absolute;
+                        top:0;
+                        animation: vlbounce 5s linear infinite;
+                    }
+                }
+            }
+        }
+    }
+    &-circle {
+        background: var(--vl-gradient-1);
+        display: inline-block;
+        border-radius: 50%;
+        padding: 5px;
+        position: relative;
+        &-icon {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            text-align: center;
+            transform: translateY(-50%);
+        }
+        & img.vl-hero-circle-icon-text {
+            animation: vlspin 12s linear infinite;
+        }
+    }
+    &-dot{
+        &-shape{
+            &-1 {
+                position: absolute;
+                left: 0;
+                right: 37px;
+                text-align: center;
+                border-radius: 50px;
+                height: 200px;
+                width: 200px;
+                margin: 0 auto;
+                bottom: 136px;
+            }
+        }
+    }
+    &-banner{
+        &-content{
+            &-2{
+                height: 230px;
+                width: 230px;
+                text-align: center;
+                background: var(--vl-theme-color-2);
+                padding: 60px 24px;
+                border-radius: 548.936px 0px 548.936px 548.936px;
+                position: absolute;
+                top: 50%;
+                @media #{$xs}{
+                   height: 180px;
+                   padding: 40px 24px;
+                }
+                &-text {
+                    font-size: 28px;
+                    line-height: 36px;
+                    margin: 0;
+                    color: var(--vl-black-theme-2);
+                }
+            }
+        }
+    }
+    &-bg{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    &-area{
+        &-4{
+            height: 770px;
+            @media #{$md,$xs}{
+                height: 100%;
+            }
+        }
+        &-3{
+            height: 770px;
+            @media #{$md,$xs}{
+                height: 100%;
+            }
+        }
+    }
+}
+
+
+
+
+
+.vl-hero-circle {
+    position: absolute;
+    right: 170px;
+    @media #{$xs}{
+        position: relative;
+        right: 32%;
+        left: 24%;
+    }
+}
+
+
+.vl{
+    &--shape img {
+        position: absolute;
+        left: 50%;
+        top: 34%;
+        animation: vlbounce 5s linear infinite;
+        @media #{$md}{
+            left: 10%;
+            top: 60%;
+        }
+    }
+}
+
+
+
+
+
+
+
+@keyframes vlspin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+@keyframes vlbounce {
+    0% {
+      transform: translateY(-20%);
+    }
+    50% {
+      transform: translateY(20%);
+    }
+    100% {
+      transform: translateY(-20%);
+    }
+  }
+
+  .vl-hero-half-circle {
+    position: absolute;
+    right: -10px;
+    top: -20px;
+}

@@ -1,0 +1,66 @@
+@use '../../utils' as *;
+
+.vl-breadcrumb-img.faq-breadcrub img {
+    top: -56px;
+    @media #{$xs}{
+        position: relative;
+        top: 0;
+        margin-bottom: -100px;
+    }
+}
+
+.vl-breadcrumb{
+    &.dvir {margin: 0 4px;}
+    &-bg{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        @media #{$xs}{
+            height: 100%;
+        }
+        &.pt-200{
+            @media #{$xs}{
+                padding-top: 130px;
+            }
+        }
+    }
+    &-fan{
+        & img {
+            position: absolute;
+            animation: vlspin 12s linear infinite;
+            height: 300px;
+            top: -90px;
+        }
+    }
+    &-img{
+        & img {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            top:-80px;
+            @media #{$md}{
+                top:-118px;
+            }
+            @media #{$xs}{
+                position: relative;
+                top: 0;
+                margin-bottom: -100px;
+            }
+        }
+    }
+    &-list{
+        & span {
+            color: #fff;
+            font-size: 20px;
+            line-height: 20px;
+            &.active{
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+
+

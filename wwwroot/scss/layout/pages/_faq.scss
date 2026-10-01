@@ -1,0 +1,156 @@
+@use '../../utils' as *;
+
+.vl{
+    &-accordion{
+        &-item{
+            border-radius: 8px;
+            border: 1px solid rgba(35, 52, 222, 0.05);
+            background: #FFF;
+            box-shadow: 0px 4px 30px 0px rgba(151, 149, 150, 0.08);
+            overflow: hidden;
+        }
+    }
+}
+.accordion{
+    &-button:not(.collapsed) {
+        color: inherit;
+        background-color: inherit;
+        box-shadow: inherit;
+    }
+}
+
+.accordion{
+    &-button{
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: 600;
+        color: #14212B;
+        background: inherit;
+        padding: 24px;
+        &:focus {
+            z-index: 3;
+            outline: 0;
+            box-shadow: inherit;
+        }
+    }
+    &-body{
+        padding: 24px;
+        padding-top: 0px;
+        & p {
+            margin: 0;
+            color: #5A5A5F;
+            font-size: 18px;
+            line-height: 26px;
+            font-weight: 500;
+            @media #{$md,$xs}{
+                br{
+                    display:none;
+                }
+            }
+        }
+    }
+}
+
+
+
+.vl-accordion-item-2{
+    & .accordion{
+        &-button:not(.collapsed) {
+            color: inherit;
+            background-color: inherit;
+            box-shadow: inherit;
+            background: #5038C9;
+            color: #fff;
+            & span{
+                color: #fff;
+            }
+        }
+        &-body{
+            &:not(.collapsed) {
+                color: inherit;
+                background-color: inherit;
+                box-shadow: inherit;
+                background: #5038C9;
+            }
+            & p{
+            color: #ffff;
+            }
+        }
+    }
+}
+
+
+
+// test
+
+.vl-faq{
+    &-tab{
+        & .nav-tabs {
+            border-bottom: inherit;
+            display: inline-block;
+            border-radius: 8px;
+            border: 1px solid rgba(6, 29, 25, 0.10);
+            padding: 16px 24px;
+            @media #{$md,$xs}{
+                padding: 15x;
+            }
+            & .nav-item {
+                display: inline-block;
+                margin-right: 16px;
+                @media #{$md}{
+                    margin-right: 8px;
+                }
+                @media #{$xs}{
+                    margin-bottom: 8px;
+                }
+                & .nav-link{
+                    background: #ddd;
+                    padding: 12px 16px;
+                    display: inline-block;
+                    font-size: 18px;
+                    line-height: 18px;
+                    font-weight: 600;
+                    overflow: hidden;
+                    border-radius: 8px;
+                    &.active{
+                        background: #5038C9;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        & .nav-link{
+            border: none;
+            padding: 0;
+            color: #111112;
+            @include transition(.3s);
+            &.active{
+                border: none;
+                background: none;
+            }
+            &:focus{
+                border: inherit;
+            }
+        }
+    }
+}
+
+
+.vl-accordion-item-2{
+    & .accordion-button::after{
+        display: none;
+    }
+    & button span{
+        color:#111112;
+        font-size: 20px;
+        line-height: 20px;
+        position: absolute;
+        right: 20px;
+        display: inline-block;
+        @include transition(.3s);
+    }
+    & .accordion-button:not(.collapsed) span{
+        transform: rotate(180deg);
+        @include transition(.3s);
+    }
+}

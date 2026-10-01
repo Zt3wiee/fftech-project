@@ -1,0 +1,1361 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\css\\all.css",
+      "PackagePath": "staticwebassets\\css\\all.css"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\css\\aos.css",
+      "PackagePath": "staticwebassets\\css\\aos.css"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\css\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\css\\slick-theme.css",
+      "PackagePath": "staticwebassets\\css\\slick-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\css\\slick.css",
+      "PackagePath": "staticwebassets\\css\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\fonts\\fa-duotone-900.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-duotone-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\fonts\\fa-duotone-900.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-duotone-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\fonts\\fa-light-300.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-light-300.ttf"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\fonts\\fa-light-300.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-light-300.woff2"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\fonts\\fa-sharp-light-300.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-sharp-light-300.ttf"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\fonts\\fa-sharp-light-300.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-sharp-light-300.woff2"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\fonts\\fa-sharp-regular-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-sharp-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\fonts\\fa-sharp-regular-400.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-sharp-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\fonts\\fa-sharp-solid-900.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-sharp-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\fonts\\fa-sharp-solid-900.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-sharp-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\fonts\\fa-thin-100.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-thin-100.ttf"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\fonts\\fa-thin-100.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-thin-100.woff2"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\fonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\fonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\fonts\\slick.eot"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\fonts\\slick.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\fonts\\slick.woff"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\about\\vl-about-1.1.png",
+      "PackagePath": "staticwebassets\\img\\about\\vl-about-1.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\about\\vl-about-1.2.png",
+      "PackagePath": "staticwebassets\\img\\about\\vl-about-1.2.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\about\\vl-about-2.1.png",
+      "PackagePath": "staticwebassets\\img\\about\\vl-about-2.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\about\\vl-about-2.2.png",
+      "PackagePath": "staticwebassets\\img\\about\\vl-about-2.2.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\about\\vl-about-3.1.png",
+      "PackagePath": "staticwebassets\\img\\about\\vl-about-3.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\about\\vl-about-4.1.png",
+      "PackagePath": "staticwebassets\\img\\about\\vl-about-4.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\about\\vl-about-auth-3.1.png",
+      "PackagePath": "staticwebassets\\img\\about\\vl-about-auth-3.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\about\\vl-about-choose-1.png",
+      "PackagePath": "staticwebassets\\img\\about\\vl-about-choose-1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\about\\vl-about-choose-2.png",
+      "PackagePath": "staticwebassets\\img\\about\\vl-about-choose-2.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\about\\vl-about-sm-3.2.png",
+      "PackagePath": "staticwebassets\\img\\about\\vl-about-sm-3.2.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\about\\vl-about-top-sm-4.2.png",
+      "PackagePath": "staticwebassets\\img\\about\\vl-about-top-sm-4.2.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\about\\vl-video-img.png",
+      "PackagePath": "staticwebassets\\img\\about\\vl-video-img.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\img\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\banner\\faq-breadcrumb.png",
+      "PackagePath": "staticwebassets\\img\\banner\\faq-breadcrumb.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\banner\\vl-404.png",
+      "PackagePath": "staticwebassets\\img\\banner\\vl-404.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\banner\\vl-bnr-1.1.png",
+      "PackagePath": "staticwebassets\\img\\banner\\vl-bnr-1.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\banner\\vl-bnr-1.2.png",
+      "PackagePath": "staticwebassets\\img\\banner\\vl-bnr-1.2.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\banner\\vl-bnr-2.1.png",
+      "PackagePath": "staticwebassets\\img\\banner\\vl-bnr-2.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\banner\\vl-breadcrumb-1.png",
+      "PackagePath": "staticwebassets\\img\\banner\\vl-breadcrumb-1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\banner\\vl-breadcrumb-b1g.png",
+      "PackagePath": "staticwebassets\\img\\banner\\vl-breadcrumb-b1g.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\banner\\vl-breadcrumb-bg.png",
+      "PackagePath": "staticwebassets\\img\\banner\\vl-breadcrumb-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\banner\\vl-hero-4.1.png",
+      "PackagePath": "staticwebassets\\img\\banner\\vl-hero-4.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\banner\\vl-hero-bg-3.png",
+      "PackagePath": "staticwebassets\\img\\banner\\vl-hero-bg-3.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\banner\\vl-hero-bg-4.1.png",
+      "PackagePath": "staticwebassets\\img\\banner\\vl-hero-bg-4.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\banner\\vl-hero-group.png",
+      "PackagePath": "staticwebassets\\img\\banner\\vl-hero-group.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\banner\\vl-hero-img-3.png",
+      "PackagePath": "staticwebassets\\img\\banner\\vl-hero-img-3.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\banner\\vl-hero-wbg-3.png",
+      "PackagePath": "staticwebassets\\img\\banner\\vl-hero-wbg-3.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\banner\\vl-home-bg-2.png",
+      "PackagePath": "staticwebassets\\img\\banner\\vl-home-bg-2.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\blog\\vl-blog-1.1.png",
+      "PackagePath": "staticwebassets\\img\\blog\\vl-blog-1.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\blog\\vl-blog-1.2.png",
+      "PackagePath": "staticwebassets\\img\\blog\\vl-blog-1.2.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\blog\\vl-blog-3.1.png",
+      "PackagePath": "staticwebassets\\img\\blog\\vl-blog-3.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\blog\\vl-blog-3.2.png",
+      "PackagePath": "staticwebassets\\img\\blog\\vl-blog-3.2.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\blog\\vl-blog-3.3.png",
+      "PackagePath": "staticwebassets\\img\\blog\\vl-blog-3.3.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\blog\\vl-blog-4.1.png",
+      "PackagePath": "staticwebassets\\img\\blog\\vl-blog-4.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\blog\\vl-blog-4.2.png",
+      "PackagePath": "staticwebassets\\img\\blog\\vl-blog-4.2.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\blog\\vl-blog-4.3.png",
+      "PackagePath": "staticwebassets\\img\\blog\\vl-blog-4.3.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\blog\\vl-blog-4.4.png",
+      "PackagePath": "staticwebassets\\img\\blog\\vl-blog-4.4.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\blog\\vl-blog-4.5.png",
+      "PackagePath": "staticwebassets\\img\\blog\\vl-blog-4.5.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\blog\\vl-blog-4.6.png",
+      "PackagePath": "staticwebassets\\img\\blog\\vl-blog-4.6.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\blog\\vl-blog-auth-1.1.png",
+      "PackagePath": "staticwebassets\\img\\blog\\vl-blog-auth-1.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\blog\\vl-blog-auth-1.2.png",
+      "PackagePath": "staticwebassets\\img\\blog\\vl-blog-auth-1.2.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\blog\\vl-blog-auth-1.3.png",
+      "PackagePath": "staticwebassets\\img\\blog\\vl-blog-auth-1.3.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\blog\\vl-blog-auth-1.4.png",
+      "PackagePath": "staticwebassets\\img\\blog\\vl-blog-auth-1.4.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\blog\\vl-blog-auth-1.5.png",
+      "PackagePath": "staticwebassets\\img\\blog\\vl-blog-auth-1.5.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\blog\\vl-blog-auth-1.6.png",
+      "PackagePath": "staticwebassets\\img\\blog\\vl-blog-auth-1.6.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\blog\\vl-blog-auth-1.7.png",
+      "PackagePath": "staticwebassets\\img\\blog\\vl-blog-auth-1.7.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\blog\\vl-blog-auth-1.8.png",
+      "PackagePath": "staticwebassets\\img\\blog\\vl-blog-auth-1.8.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\blog\\vl-blog-cmt-1.1.png",
+      "PackagePath": "staticwebassets\\img\\blog\\vl-blog-cmt-1.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\blog\\vl-blog-cmt-1.2.png",
+      "PackagePath": "staticwebassets\\img\\blog\\vl-blog-cmt-1.2.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\blog\\vl-blog-large-1.1.png",
+      "PackagePath": "staticwebassets\\img\\blog\\vl-blog-large-1.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\blog\\vl-blog-sm-1.1.png",
+      "PackagePath": "staticwebassets\\img\\blog\\vl-blog-sm-1.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\blog\\vl-recent-blog-1.1.png",
+      "PackagePath": "staticwebassets\\img\\blog\\vl-recent-blog-1.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\blog\\vl-recent-blog-1.2.png",
+      "PackagePath": "staticwebassets\\img\\blog\\vl-recent-blog-1.2.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\blog\\vl-recent-blog-1.3.png",
+      "PackagePath": "staticwebassets\\img\\blog\\vl-recent-blog-1.3.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\blog\\vl-recent-blog-1.4.png",
+      "PackagePath": "staticwebassets\\img\\blog\\vl-recent-blog-1.4.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\brand\\vl-brand-1.1.png",
+      "PackagePath": "staticwebassets\\img\\brand\\vl-brand-1.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\brand\\vl-brand-1.2.png",
+      "PackagePath": "staticwebassets\\img\\brand\\vl-brand-1.2.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\brand\\vl-brand-1.3.png",
+      "PackagePath": "staticwebassets\\img\\brand\\vl-brand-1.3.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\brand\\vl-brand-1.4.png",
+      "PackagePath": "staticwebassets\\img\\brand\\vl-brand-1.4.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\brand\\vl-brand-1.5.png",
+      "PackagePath": "staticwebassets\\img\\brand\\vl-brand-1.5.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\brand\\vl-brand-in-1.1.png",
+      "PackagePath": "staticwebassets\\img\\brand\\vl-brand-in-1.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\brand\\vl-brand-in-1.2.png",
+      "PackagePath": "staticwebassets\\img\\brand\\vl-brand-in-1.2.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\brand\\vl-brand-in-1.3.png",
+      "PackagePath": "staticwebassets\\img\\brand\\vl-brand-in-1.3.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\brand\\vl-brand-in-1.4.png",
+      "PackagePath": "staticwebassets\\img\\brand\\vl-brand-in-1.4.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\brand\\vl-brand-iner-1.5.png",
+      "PackagePath": "staticwebassets\\img\\brand\\vl-brand-iner-1.5.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\brand\\vl-testimonial-brand-2.1.png",
+      "PackagePath": "staticwebassets\\img\\brand\\vl-testimonial-brand-2.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\cta\\cta-bg-3.1.jpg",
+      "PackagePath": "staticwebassets\\img\\cta\\cta-bg-3.1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\cta\\vl-cta-1.1.png",
+      "PackagePath": "staticwebassets\\img\\cta\\vl-cta-1.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\cta\\vl-cta-main-4.1.png",
+      "PackagePath": "staticwebassets\\img\\cta\\vl-cta-main-4.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\demo\\vl-demo-1.1.png",
+      "PackagePath": "staticwebassets\\img\\demo\\vl-demo-1.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\demo\\vl-demo-1.2.png",
+      "PackagePath": "staticwebassets\\img\\demo\\vl-demo-1.2.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\demo\\vl-demo-1.3.png",
+      "PackagePath": "staticwebassets\\img\\demo\\vl-demo-1.3.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\demo\\vl-demo-1.4.png",
+      "PackagePath": "staticwebassets\\img\\demo\\vl-demo-1.4.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\footer\\vl-ft-post-3.1.png",
+      "PackagePath": "staticwebassets\\img\\footer\\vl-ft-post-3.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\footer\\vl-ft-post-3.2.png",
+      "PackagePath": "staticwebassets\\img\\footer\\vl-ft-post-3.2.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\footer\\vl-ft-post-3.3.png",
+      "PackagePath": "staticwebassets\\img\\footer\\vl-ft-post-3.3.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\footer\\vl-ft-post-3.4.png",
+      "PackagePath": "staticwebassets\\img\\footer\\vl-ft-post-3.4.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\footer\\vl-ft-post-3.5.png",
+      "PackagePath": "staticwebassets\\img\\footer\\vl-ft-post-3.5.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\footer\\vl-ft-post-3.6.png",
+      "PackagePath": "staticwebassets\\img\\footer\\vl-ft-post-3.6.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\caseRight.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\caseRight.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\offcanvas-lo-2.1.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\offcanvas-lo-2.1.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\offcanvas-mail-2.1.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\offcanvas-mail-2.1.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\offcanvas-ph-2.1.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\offcanvas-ph-2.1.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\qt-iner.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\qt-iner.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\service-shape.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\service-shape.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-about-poliogon.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-about-poliogon.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-arow-4.1.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-arow-4.1.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-arrow-2.1.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-arrow-2.1.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-arrow-up.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-arrow-up.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-calender-3.1.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-calender-3.1.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-call-2.1.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-call-2.1.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-chat.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-chat.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-circle-shape.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-circle-shape.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-contact-iner-location.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-contact-iner-location.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-contact-iner-mail.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-contact-iner-mail.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-contact-iner-phone.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-contact-iner-phone.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-cta-mail-3.2.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-cta-mail-3.2.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-cta-mail-3.3.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-cta-mail-3.3.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-cta-ph-3.1.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-cta-ph-3.1.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-cta-shape-1.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-cta-shape-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-cta-shape-4.1.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-cta-shape-4.1.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-cta-shape.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-cta-shape.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-dt.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-dt.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-emoji-4.1.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-emoji-4.1.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-emoji-4.2.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-emoji-4.2.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-emoji-4.3.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-emoji-4.3.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-envelop-1.3.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-envelop-1.3.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-fan-sm.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-fan-sm.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-fan.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-fan.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-fav-ic-1.1.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-fav-ic-1.1.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-fav-ic-1.2.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-fav-ic-1.2.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-fav-ic-1.3.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-fav-ic-1.3.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-fav-ic-1.4.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-fav-ic-1.4.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-hero-shape-1.1.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-hero-shape-1.1.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-location-1.2.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-location-1.2.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-long-arrow.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-long-arrow.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-mail-2.2.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-mail-2.2.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-map-2.3.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-map-2.3.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-phone-1.1.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-phone-1.1.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-poligon-2.1.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-poligon-2.1.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-replay.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-replay.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-right.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-right.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-ser-ic-4.1.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-ser-ic-4.1.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-ser-ic-4.11.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-ser-ic-4.11.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-ser-ic-4.2.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-ser-ic-4.2.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-ser-ic-4.22.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-ser-ic-4.22.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-ser-ic-4.3.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-ser-ic-4.3.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-ser-ic-4.4.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-ser-ic-4.4.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-ser-ic-4.5.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-ser-ic-4.5.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-ser-ic-4.6.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-ser-ic-4.6.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-service-1.2.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-service-1.2.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-service-ic-2.1.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-service-ic-2.1.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-service-ic-2.2.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-service-ic-2.2.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-service-ic-2.3.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-service-ic-2.3.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-service-ic-2.4.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-service-ic-2.4.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-service-ic-3.1.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-service-ic-3.1.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-service-ic-3.2.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-service-ic-3.2.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-service-ic-3.3.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-service-ic-3.3.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-service-ic-3.4.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-service-ic-3.4.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-service-ic-3.5.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-service-ic-3.5.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-service-icon-1.1.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-service-icon-1.1.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-service-icon-1.2.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-service-icon-1.2.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-shape-circle-1.1.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-shape-circle-1.1.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-success-1.1.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-success-1.1.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-success-1.2.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-success-1.2.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-success-1.3.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-success-1.3.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-tag.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-tag.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-team-right.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-team-right.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-team-shape-4.1.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-team-shape-4.1.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-team-shape-4.2.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-team-shape-4.2.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-tean-shap1.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-tean-shap1.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-testimonial-q2.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-testimonial-q2.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-testimonial-quot-1.1.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-testimonial-quot-1.1.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-url-1.4.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-url-1.4.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-user-3.2.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-user-3.2.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-work-3.1.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-work-3.1.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-work-3.2.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-work-3.2.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-work-3.3.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-work-3.3.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-work-3.4.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-work-3.4.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\icons\\vl-work-pro-arow.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\vl-work-pro-arow.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\logo\\vl-footer-logo-4.2.png",
+      "PackagePath": "staticwebassets\\img\\logo\\vl-footer-logo-4.2.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\logo\\vl-logo-1.1.png",
+      "PackagePath": "staticwebassets\\img\\logo\\vl-logo-1.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\logo\\vl-logo-2.2.png",
+      "PackagePath": "staticwebassets\\img\\logo\\vl-logo-2.2.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\logo\\vl-logo-3.2.png",
+      "PackagePath": "staticwebassets\\img\\logo\\vl-logo-3.2.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\logo\\vl-off-logo-4.1.png",
+      "PackagePath": "staticwebassets\\img\\logo\\vl-off-logo-4.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\preloader\\preloader1.png",
+      "PackagePath": "staticwebassets\\img\\preloader\\preloader1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\service\\vl-service-1.1.png",
+      "PackagePath": "staticwebassets\\img\\service\\vl-service-1.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\service\\vl-service-1.2.png",
+      "PackagePath": "staticwebassets\\img\\service\\vl-service-1.2.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\service\\vl-service-1.3.png",
+      "PackagePath": "staticwebassets\\img\\service\\vl-service-1.3.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\service\\vl-service-left-1.1.png",
+      "PackagePath": "staticwebassets\\img\\service\\vl-service-left-1.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\service\\vl-service-sm-1.2.png",
+      "PackagePath": "staticwebassets\\img\\service\\vl-service-sm-1.2.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\shape\\cl-text-circle.png",
+      "PackagePath": "staticwebassets\\img\\shape\\cl-text-circle.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\shape\\vl-about-shape-4.1.svg",
+      "PackagePath": "staticwebassets\\img\\shape\\vl-about-shape-4.1.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\shape\\vl-blog-shape-4.svg",
+      "PackagePath": "staticwebassets\\img\\shape\\vl-blog-shape-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\shape\\vl-cta-iner-shape.png",
+      "PackagePath": "staticwebassets\\img\\shape\\vl-cta-iner-shape.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\shape\\vl-cta-shape-2.1.svg",
+      "PackagePath": "staticwebassets\\img\\shape\\vl-cta-shape-2.1.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\shape\\vl-half-cicle-2.1.svg",
+      "PackagePath": "staticwebassets\\img\\shape\\vl-half-cicle-2.1.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\shape\\vl-hero-shape-2.svg",
+      "PackagePath": "staticwebassets\\img\\shape\\vl-hero-shape-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\shape\\vl-service-4.1.svg",
+      "PackagePath": "staticwebassets\\img\\shape\\vl-service-4.1.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\shape\\vl-shape-testimonial4.svg",
+      "PackagePath": "staticwebassets\\img\\shape\\vl-shape-testimonial4.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\shape\\vl-shpae-ft4.svg",
+      "PackagePath": "staticwebassets\\img\\shape\\vl-shpae-ft4.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\shape\\vl-team-shape.svg",
+      "PackagePath": "staticwebassets\\img\\shape\\vl-team-shape.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\studies\\vl-case-larg-1.1.png",
+      "PackagePath": "staticwebassets\\img\\studies\\vl-case-larg-1.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\studies\\vl-case-studies-3.4.png",
+      "PackagePath": "staticwebassets\\img\\studies\\vl-case-studies-3.4.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\studies\\vl-case-studies-sm-1.2.png",
+      "PackagePath": "staticwebassets\\img\\studies\\vl-case-studies-sm-1.2.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\studies\\vl-studies-1.1.png",
+      "PackagePath": "staticwebassets\\img\\studies\\vl-studies-1.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\studies\\vl-studies-1.2.png",
+      "PackagePath": "staticwebassets\\img\\studies\\vl-studies-1.2.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\studies\\vl-studies-1.3.png",
+      "PackagePath": "staticwebassets\\img\\studies\\vl-studies-1.3.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\studies\\vl-studies-1.4.png",
+      "PackagePath": "staticwebassets\\img\\studies\\vl-studies-1.4.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\studies\\vl-studies-1.5.png",
+      "PackagePath": "staticwebassets\\img\\studies\\vl-studies-1.5.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\studies\\vl-studies-2.1.png",
+      "PackagePath": "staticwebassets\\img\\studies\\vl-studies-2.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\studies\\vl-studies-2.2.png",
+      "PackagePath": "staticwebassets\\img\\studies\\vl-studies-2.2.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\studies\\vl-studies-2.3.png",
+      "PackagePath": "staticwebassets\\img\\studies\\vl-studies-2.3.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\studies\\vl-studies-2.4.png",
+      "PackagePath": "staticwebassets\\img\\studies\\vl-studies-2.4.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\studies\\vl-studies-2.5.png",
+      "PackagePath": "staticwebassets\\img\\studies\\vl-studies-2.5.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\studies\\vl-studies-2.6.png",
+      "PackagePath": "staticwebassets\\img\\studies\\vl-studies-2.6.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\studies\\vl-studies-2.7.png",
+      "PackagePath": "staticwebassets\\img\\studies\\vl-studies-2.7.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\studies\\vl-studies-2.8.png",
+      "PackagePath": "staticwebassets\\img\\studies\\vl-studies-2.8.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\team\\vl-team-1.1.png",
+      "PackagePath": "staticwebassets\\img\\team\\vl-team-1.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\team\\vl-team-1.2.png",
+      "PackagePath": "staticwebassets\\img\\team\\vl-team-1.2.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\team\\vl-team-1.3.png",
+      "PackagePath": "staticwebassets\\img\\team\\vl-team-1.3.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\team\\vl-team-1.4.png",
+      "PackagePath": "staticwebassets\\img\\team\\vl-team-1.4.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\team\\vl-team-1.5.png",
+      "PackagePath": "staticwebassets\\img\\team\\vl-team-1.5.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\team\\vl-team-1.6.png",
+      "PackagePath": "staticwebassets\\img\\team\\vl-team-1.6.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\team\\vl-team-1.7.png",
+      "PackagePath": "staticwebassets\\img\\team\\vl-team-1.7.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\team\\vl-team-1.8.png",
+      "PackagePath": "staticwebassets\\img\\team\\vl-team-1.8.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\team\\vl-team-2.1.png",
+      "PackagePath": "staticwebassets\\img\\team\\vl-team-2.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\team\\vl-team-2.2.png",
+      "PackagePath": "staticwebassets\\img\\team\\vl-team-2.2.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\team\\vl-team-2.3.png",
+      "PackagePath": "staticwebassets\\img\\team\\vl-team-2.3.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\team\\vl-team-4.1.png",
+      "PackagePath": "staticwebassets\\img\\team\\vl-team-4.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\team\\vl-team-4.2.png",
+      "PackagePath": "staticwebassets\\img\\team\\vl-team-4.2.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\team\\vl-team-4.3.png",
+      "PackagePath": "staticwebassets\\img\\team\\vl-team-4.3.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\team\\vl-team-4.4.png",
+      "PackagePath": "staticwebassets\\img\\team\\vl-team-4.4.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\testimonial\\vl-testimonial-1.1.png",
+      "PackagePath": "staticwebassets\\img\\testimonial\\vl-testimonial-1.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\testimonial\\vl-testimonial-1.2.png",
+      "PackagePath": "staticwebassets\\img\\testimonial\\vl-testimonial-1.2.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\testimonial\\vl-testimonial-1.3.png",
+      "PackagePath": "staticwebassets\\img\\testimonial\\vl-testimonial-1.3.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\testimonial\\vl-testimonial-1.4.png",
+      "PackagePath": "staticwebassets\\img\\testimonial\\vl-testimonial-1.4.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\testimonial\\vl-testimonial-1.5.png",
+      "PackagePath": "staticwebassets\\img\\testimonial\\vl-testimonial-1.5.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\testimonial\\vl-testimonial-1.6.png",
+      "PackagePath": "staticwebassets\\img\\testimonial\\vl-testimonial-1.6.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\testimonial\\vl-testimonial-1.7.png",
+      "PackagePath": "staticwebassets\\img\\testimonial\\vl-testimonial-1.7.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\testimonial\\vl-testimonial-1.8.png",
+      "PackagePath": "staticwebassets\\img\\testimonial\\vl-testimonial-1.8.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\testimonial\\vl-testimonial-1.9.png",
+      "PackagePath": "staticwebassets\\img\\testimonial\\vl-testimonial-1.9.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\testimonial\\vl-testimonial-2.1.png",
+      "PackagePath": "staticwebassets\\img\\testimonial\\vl-testimonial-2.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\testimonial\\vl-testimonial-2.2.png",
+      "PackagePath": "staticwebassets\\img\\testimonial\\vl-testimonial-2.2.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\testimonial\\vl-testimonial-2.22.png",
+      "PackagePath": "staticwebassets\\img\\testimonial\\vl-testimonial-2.22.png"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\img\\testimonial\\vl-testimonial-bg-3.1.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial\\vl-testimonial-bg-3.1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\js\\aos.js",
+      "PackagePath": "staticwebassets\\js\\aos.js"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\js\\fontawesome.min.js",
+      "PackagePath": "staticwebassets\\js\\fontawesome.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\js\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\js\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\js\\jquery-2.1.3.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-2.1.3.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\js\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\js\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\js\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\js\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\component\\_accordion.scss",
+      "PackagePath": "staticwebassets\\scss\\component\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\component\\_back_to_top.scss",
+      "PackagePath": "staticwebassets\\scss\\component\\_back_to_top.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\component\\_btn.scss",
+      "PackagePath": "staticwebassets\\scss\\component\\_btn.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\component\\_custom-animation.scss",
+      "PackagePath": "staticwebassets\\scss\\component\\_custom-animation.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\component\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\component\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\component\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\scss\\component\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\component\\_preloader.scss",
+      "PackagePath": "staticwebassets\\scss\\component\\_preloader.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\component\\_section_title.scss",
+      "PackagePath": "staticwebassets\\scss\\component\\_section_title.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\component\\_tab.scss",
+      "PackagePath": "staticwebassets\\scss\\component\\_tab.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\component\\index.css",
+      "PackagePath": "staticwebassets\\scss\\component\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\component\\index.css.map",
+      "PackagePath": "staticwebassets\\scss\\component\\index.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\component\\index.scss",
+      "PackagePath": "staticwebassets\\scss\\component\\index.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\layout\\blog\\_blog.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\blog\\_blog.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\layout\\blog\\_latest_news.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\blog\\_latest_news.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\layout\\blog\\_sidebar.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\blog\\_sidebar.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\layout\\blog\\index.css",
+      "PackagePath": "staticwebassets\\scss\\layout\\blog\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\layout\\blog\\index.css.map",
+      "PackagePath": "staticwebassets\\scss\\layout\\blog\\index.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\layout\\blog\\index.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\blog\\index.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\layout\\footer\\_footer-1.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\footer\\_footer-1.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\layout\\footer\\_footer-2.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\footer\\_footer-2.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\layout\\footer\\index.css",
+      "PackagePath": "staticwebassets\\scss\\layout\\footer\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\layout\\footer\\index.css.map",
+      "PackagePath": "staticwebassets\\scss\\layout\\footer\\index.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\layout\\footer\\index.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\footer\\index.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\layout\\header\\_header.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\header\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\layout\\header\\_mobile-menu.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\header\\_mobile-menu.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\layout\\index.css",
+      "PackagePath": "staticwebassets\\scss\\layout\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\layout\\index.css.map",
+      "PackagePath": "staticwebassets\\scss\\layout\\index.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\layout\\index.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\index.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\layout\\pages\\_about.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\pages\\_about.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\layout\\pages\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\pages\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\layout\\pages\\_contact.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\pages\\_contact.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\layout\\pages\\_cta.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\pages\\_cta.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\layout\\pages\\_fact.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\pages\\_fact.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\layout\\pages\\_faq.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\pages\\_faq.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\layout\\pages\\_gallery.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\pages\\_gallery.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\layout\\pages\\_hero.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\pages\\_hero.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\layout\\pages\\_portfolio.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\pages\\_portfolio.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\layout\\pages\\_pricing.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\pages\\_pricing.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\layout\\pages\\_services.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\pages\\_services.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\layout\\pages\\_success.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\pages\\_success.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\layout\\pages\\_team.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\pages\\_team.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\layout\\pages\\_testimonial.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\pages\\_testimonial.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\layout\\pages\\index.css",
+      "PackagePath": "staticwebassets\\scss\\layout\\pages\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\layout\\pages\\index.css.map",
+      "PackagePath": "staticwebassets\\scss\\layout\\pages\\index.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\layout\\pages\\index.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\pages\\index.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\main.css",
+      "PackagePath": "staticwebassets\\scss\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\main.css.map",
+      "PackagePath": "staticwebassets\\scss\\main.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\main.scss",
+      "PackagePath": "staticwebassets\\scss\\main.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\theme\\_common.scss",
+      "PackagePath": "staticwebassets\\scss\\theme\\_common.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\theme\\_spacing.scss",
+      "PackagePath": "staticwebassets\\scss\\theme\\_spacing.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\theme\\_theme.scss",
+      "PackagePath": "staticwebassets\\scss\\theme\\_theme.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\theme\\index.css",
+      "PackagePath": "staticwebassets\\scss\\theme\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\theme\\index.css.map",
+      "PackagePath": "staticwebassets\\scss\\theme\\index.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\theme\\index.scss",
+      "PackagePath": "staticwebassets\\scss\\theme\\index.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\utils\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\scss\\utils\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\utils\\_colors.scss",
+      "PackagePath": "staticwebassets\\scss\\utils\\_colors.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\utils\\_extends.scss",
+      "PackagePath": "staticwebassets\\scss\\utils\\_extends.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\utils\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\utils\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\utils\\_typography.scss",
+      "PackagePath": "staticwebassets\\scss\\utils\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\utils\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\utils\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\utils\\index.css",
+      "PackagePath": "staticwebassets\\scss\\utils\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\utils\\index.css.map",
+      "PackagePath": "staticwebassets\\scss\\utils\\index.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MSI-PC\\Downloads\\otech-it-solutions-technology-startup-asp-net-2026-04-04-12-42-41-utc\\Otech-ASP-MVC_v1.0\\Otech\\Otech\\wwwroot\\scss\\utils\\index.scss",
+      "PackagePath": "staticwebassets\\scss\\utils\\index.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Otech.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Otech.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.Otech.props",
+      "PackagePath": "build\\Otech.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Otech.props",
+      "PackagePath": "buildMultiTargeting\\Otech.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.Otech.props",
+      "PackagePath": "buildTransitive\\Otech.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

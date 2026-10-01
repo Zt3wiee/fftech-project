@@ -1,0 +1,272 @@
+@use '../../utils' as *;
+
+
+.vl-contact{
+    &-shape{
+        & img{
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            z-index: -1;
+            transform: translateY(-50%);
+            height: 200px;
+            width:200px;
+        }
+    }
+    &-map{
+        height: 470px;
+        border-radius: 8px;
+        width: 470px;
+        @media #{$lg,$md,$xs}{
+            width: 100%;
+        }
+    }
+    &-btn {
+        display: inline-block;
+    }
+    &-wrap{
+        &-icon{
+            display: inline-block;
+            & span{
+                display: inline-block;
+                height: 19px;
+                width: 19px;
+                line-height: 19px;
+                margin-right: 10px;
+            }
+            &-box {
+                @include flexbox();
+                align-items: center;
+            }
+        }
+        &-text{
+            line-height: 10px;
+            & a{
+                color: #CDCFD8;
+                font-size: 20px;
+                line-height: 20px;
+                margin: 0;
+                display: block;
+            }
+        }
+        &-2{
+            &.ml-80{
+                @media #{$md,$xs}{
+                    margin-left: 0;
+                }
+            }
+            & .vl-contact{
+                &-wrap{
+                    &-icbox {
+                        & .vl-icon{
+                            &-box{
+                                background: var(--vl-white);
+                                padding: 28px 32px;
+                                @include flexbox();
+                                align-items: center;
+                                @include transition(.3s);
+                                @media #{$xs}{
+                                    display: block;
+                                    padding: 15px;
+                                }
+                                &:hover{
+                                    background: var(--vl-theme-color-2);
+                                    @include transition(.3s);
+                                    & .vl-icon{
+                                        &-box{
+                                            &-icon{
+                                                & span img {
+                                                    filter: inherit;
+                                                    @include transition(.3s);
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                &-icon{
+                                    & span{
+                                        background:#F6F8F9;
+                                        display: block;
+                                        height: 70px;
+                                        width: 70px;
+                                        line-height: 70px;
+                                        text-align: center;
+                                        border-radius: 50px;
+                                        @media #{$xs}{
+                                           margin-bottom: 15px;
+                                        }
+                                        & img{
+                                            filter: brightness(0);
+                                            @include transition(.3s);
+                                        }
+                                    }
+                                }
+                                &-title{
+                                    color: var( --vl-text-4);
+                                    font-size: 16px;
+                                    line-height: 16px;
+                                    margin: 0;
+                                }
+                                &-content{
+                                    & a{
+                                        color: var(--vl-text-3);
+                                        font-size: 24px;
+                                        line-height: 24px;
+                                        margin: 0;
+                                        font-weight: 700;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &-box{
+        padding: 32px;
+        padding-bottom: 12px;
+        @media #{$xs}{
+            padding: 15px;
+        }
+        &-content{
+            & span{
+                color: var( --vl-text-4);
+                margin: 0;
+                font-size: 16px;
+                line-height: 26px;
+            }
+            & .off-w{
+                color: var(--vl-text-4);
+            }
+        }
+        &-title{
+            color: var(--vl-text-3);
+            font-size: 24px;
+            line-height: 24px;
+            margin: 0;
+        }
+        &-form{
+            &-2{
+                input[type=text], input[type=email], input[type=tel], input[type=number], input[type=password], input[type=url], textarea {
+                    background-color:#F6F8F9;
+                    height: 56px;
+                    line-height: 48px;
+                    color: #5D5E65;
+                    border-radius: 4px;
+                }
+                textarea{
+                    height:140px;
+                }
+            }
+        }
+    }
+    &-iner{
+        &-box{
+            padding: 31px 32px;
+            @media #{$xs}{
+                padding: 16px;
+            }
+        }
+        &-form input[type=text], input[type=email], input[type=tel], input[type=number], input[type=password], input[type=url]{
+            background: var(--vl-white);
+            color: var(--vl-text-2);
+            border-radius: 4px;
+        }
+        &-form  textarea{
+            background: var(--vl-white);
+            color: var(--vl-text-2);
+            border-radius: 4px;
+            height: 140px;
+        }
+        &-widget{
+           &.ml-50 {
+                @media #{$md,$xs}{
+                    margin-left: 0;
+                }
+            }
+            &-1{
+                padding: 28px 32px;
+                @include flexbox();
+                align-items: center;
+                @include transition(.3s);
+                @media #{$xs}{
+                    display: block;
+                    padding: 15px;
+                }
+                &-icon{
+                    background: var(--vl-white);
+                    height: 70px;
+                    width: 70px;
+                    line-height: 70px;
+                    text-align: center;
+                    border-radius: 50px;
+                    @include transition(.3s);
+                    @media #{$xs}{
+                        margin-bottom: 15px;
+                    }
+                    & span{
+                        & img{
+                            filter: brightness(0);
+                            @include transition(.3s);
+                        }
+                    }
+                }
+                &-content{
+                    &-title{
+                        color: var(--vl-text-1);
+                        font-size: 16px;
+                        line-height: 16px;
+                        font-weight: 400;
+                        @include transition(.3s);
+                    }
+                    a{
+                        color: var(--vl-text-3);
+                        font-weight: 600;
+                        font-size: 24px;
+                        line-height: 24px;
+                        margin: 0;
+                        @include transition(.3s);
+                    }
+                }
+                &:hover{
+                    background: var(--vl-theme-color-4) !important;
+                    @include transition(.3s);
+                    color: var(--vl-white);
+                    .vl-contact-iner-widget-1{
+                        &-icon{
+                            & span{
+                                & img{
+                                    filter: none;
+                                    @include transition(.3s);
+                                }
+                            }
+                        }
+                        &-content{
+                            &-title{
+                                color:var(--vl-white);
+                                @include transition(.3s);
+                            }
+                            a{
+                                color: var(--vl-white);
+                                @include transition(.3s);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &-google-map {
+            height: 440px;
+            width: 100%;
+        }
+    }
+}
+
+
+.vl-contact-box-form-2 ::placeholder {
+    color: #1C1C25;
+    opacity: .7;
+}

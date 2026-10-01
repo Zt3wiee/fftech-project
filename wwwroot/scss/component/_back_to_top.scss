@@ -1,0 +1,111 @@
+@use '../utils' as *;
+
+/*----------------------------------------*/
+/*  Back to Top
+/*----------------------------------------*/
+
+.progress-wrap {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  height: 56px;
+  width: 56px;
+  cursor: pointer;
+  display: block;
+  border-radius: 50px;
+  box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(15px);
+  transition: all 200ms linear;
+
+  &.active-progress {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    z-index: 999;
+  }
+
+  &::after,
+  &::before {
+    position: absolute;
+    font-family: "FontAwesome";
+    content: "\f062";
+    text-align: center;
+    line-height: 56px;
+    font-size: 18px;
+    left: 0;
+    top: 0;
+    height: 56px;
+    width: 56px;
+    cursor: pointer;
+    display: block;
+    z-index: 1;
+    transition: all 200ms linear;
+  }
+
+  &::after {
+    color: #2E0797;
+    z-index: 1;
+  }
+
+  &::before {
+    opacity: 0;
+    z-index: 2;
+  }
+
+  &:hover::before {
+    opacity: 1;
+  }
+
+  svg path {
+    fill: none;
+  }
+
+  svg.progress-circle path {
+    stroke: #2E0797;
+    stroke-width: 4;
+    box-sizing: border-box;
+    transition: all 200ms linear;
+  }
+}
+
+.progress-wrap2 {
+  svg.progress-circle path {
+    stroke: #9EDD05;
+    stroke-width: 4;
+    box-sizing: border-box;
+    transition: all 200ms linear;
+  }
+
+  &::after {
+    color: #9EDD05;
+  }
+}
+
+.progress-wrap3 {
+  svg.progress-circle path {
+    stroke: #2334DE;
+    stroke-width: 4;
+    box-sizing: border-box;
+    transition: all 200ms linear;
+  }
+
+  &::after {
+    color: #2334DE;
+  }
+}
+
+.progress-wrap4 {
+  svg.progress-circle path {
+    stroke: #BB29F2;
+    stroke-width: 4;
+    box-sizing: border-box;
+    transition: all 200ms linear;
+  }
+
+  &::after {
+    color: #BB29F2;
+  }
+}

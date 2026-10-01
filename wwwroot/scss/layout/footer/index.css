@@ -1,0 +1,302 @@
+:root {
+  --vl-theme-color: #0D43FE;
+  --vl-theme-color-2: #9EDD05;
+  --vl-theme-bg-2: #083C2F;
+  --vl-theme-color-3:#2334DE;
+  --vl-theme-color-4:#5038C9;
+  --vl-theme-color-5:#5040E0;
+  --vl-text-1:#5F6168;
+  --vl-text-2:#111112;
+  --vl-text-3:#1C1C25;
+  --vl-text-4:#525057;
+  --vl-text-5:#5A5A5F;
+  --vl-gradient-1:linear-gradient(85deg, #0D43FE -50.83%, #BB29F2 90.34%);
+  --vl-gradient-2: linear-gradient(90deg, #2E0797 0%, #726EFC 100%);
+  --vl-black: #050C36;
+  --vl-black-text-4: #14212B;
+  --vl-cmn-black: #111840;
+  --vl-cmn-black-2: #1D244A;
+  --vl-black-theme-2: #1C1C25;
+  --vl-white: white;
+  --vl-white-3:rgba(255, 255, 255, 0.3);
+  --vl-white-5:rgba(255, 255, 255, 0.05);
+  --vl-white-8: rgba(255, 255, 255, 0.80);
+  --vl-grey-color: #F6F8F9;
+  --vl-grey-color-2: #F7F8FA;
+  --vl-grey-color-3: #f6f6f6;
+  --vl-grey-color-4: #F4F5F8;
+}
+
+:root {
+  --vl-fonts-figtree: "Figtree", sans-serif;
+}
+
+.vlshape-footer img {
+  position: absolute;
+  top: 0;
+}
+
+.vl-footer-content p {
+  color: var(--vl-white);
+  opacity: 0.8;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0;
+}
+.vl-footer-content-2 p {
+  color: #525057;
+}
+.vl-footer-content-3 p {
+  color: var(--vl-text-5);
+  opacity: 1;
+}
+.vl-footer-content-4 p {
+  color: var(--vl-text-1);
+}
+.vl-footer-social ul li {
+  display: inline-block;
+}
+.vl-footer-social ul a {
+  height: 32px;
+  width: 32px;
+  background: #273366;
+  color: #fff;
+  display: block;
+  line-height: 34px;
+  text-align: center;
+  border-radius: 50px;
+  margin-right: 7px;
+  transition: 0.3s;
+  overflow: hidden;
+  font-size: 16px;
+  position: relative;
+  z-index: 1;
+}
+.vl-footer-social ul a:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background: var(--vl-gradient-1);
+  z-index: -1;
+  transition: 0.3s;
+}
+.vl-footer-social ul a:hover:after {
+  width: 100%;
+}
+.vl-footer-social-2 ul li a {
+  background: #fff;
+  color: #1C1C25;
+}
+.vl-footer-social-2 ul li a:after {
+  background: #9EDD05;
+}
+.vl-footer-social-2 ul li a:hover:after {
+  width: 100%;
+}
+.vl-footer-social-3 ul li a {
+  background: #E2E4F7;
+  color: #1C1C25;
+}
+.vl-footer-social-3 ul li a:after {
+  background: var(--vl-theme-color-3);
+}
+.vl-footer-social-3 ul li a:hover {
+  color: #fff;
+}
+.vl-footer-social-3 ul li a:hover::after {
+  width: 100%;
+}
+.vl-footer-social-4 ul li a {
+  background: #E5E5F6;
+  color: #4D36C6;
+}
+.vl-footer-social-4 ul li a:after {
+  background: var(--vl-gradient-2);
+}
+.vl-footer-social-4 ul li a:hover {
+  color: #fff;
+}
+.vl-footer-widget-title {
+  line-height: 28px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 575px) {
+  .vl-footer-widget-3.ml-40 {
+    margin-left: 0px;
+  }
+}
+.vl-footer-widget-4 {
+  margin-left: 120px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 575px) {
+  .vl-footer-widget-4 {
+    margin-left: 0;
+  }
+}
+.vl-footer-widget-4 p {
+  color: #fff;
+  opacity: 0.8;
+  font-size: 18px;
+  line-height: 26px;
+}
+.vl-footer-widget-4 .black {
+  color: #525057;
+}
+.vl-footer-menu ul li a {
+  color: #fff;
+  opacity: 0.8;
+  transition: 0.3s;
+  font-size: 18px;
+  margin-bottom: 20px;
+  display: block;
+}
+.vl-footer-menu ul li a:hover {
+  opacity: 1;
+  transition: 0.3s;
+}
+.vl-footer-menu-2 ul li a {
+  color: var(--vl-text-4);
+}
+.vl-footer-menu-2 ul li a:hover {
+  color: #9EDD05;
+}
+.vl-footer-menu-3 ul li a {
+  color: var(--vl-text-5);
+  opacity: 1;
+}
+.vl-footer-menu-3 ul li a:hover {
+  color: #2334DE;
+}
+.vl-footer-menu-4 ul li a {
+  color: var(--vl-text-1);
+  transition: 0.3s;
+}
+.vl-footer-menu-4 ul li a:hover {
+  background: linear-gradient(90deg, #2E0797 0%, #726EFC 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.3s;
+}
+.vl-footer-newsletter input[type=email] {
+  border-radius: 4px;
+}
+.vl-footer-newsletter-btn .vl-btn-sec {
+  width: 100%;
+  text-align: center;
+}
+.vl-footer-newsletter-2 input[type=email] {
+  background: #fff;
+  color: #525057;
+}
+.vl-footer-copyright-text {
+  color: var(--vl-white-8);
+  padding: 24px 0;
+  margin: 0;
+  border-top: 1px solid #B5B6B9;
+}
+.vl-footer-copyright-text-2 {
+  color: #525057;
+}
+.vl-footer-copyright-text-3 {
+  border-top: 1px solid #B3B8BC;
+  color: #5A5A5F;
+}
+.vl-footer-copyright-text-4 {
+  border-top: inherit;
+  color: #5F6168;
+  padding: 0;
+}
+@media (max-width: 575px) {
+  .vl-footer-copyright-text-4 {
+    text-align: center;
+  }
+}
+.vl-footer-copyright-text-4 p {
+  margin: 0;
+}
+.vl-footer-copyright-menu {
+  text-align: right;
+}
+@media (max-width: 575px) {
+  .vl-footer-copyright-menu {
+    text-align: center;
+  }
+}
+.vl-footer-copyright-menu ul li {
+  display: inline-block;
+  position: relative;
+  margin-left: 17px;
+  padding-left: 17px;
+}
+.vl-footer-copyright-menu ul li:first-child {
+  padding-left: 0;
+  margin-left: 0;
+}
+.vl-footer-copyright-menu ul li::before {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 16px;
+  background: #5F6168;
+  opacity: 0.1;
+  left: 0;
+  top: 6px;
+}
+.vl-footer-copyright-menu ul li:first-child:before {
+  display: none;
+}
+.vl-footer-copyright-menu ul li a {
+  color: #5F6168;
+  position: relative;
+  font-size: 16px;
+  line-height: 26px;
+}
+.vl-footer-instapost {
+  border-radius: 8px;
+}
+.vl-footer-instapost img {
+  transition: 0.3s;
+}
+.vl-footer-instapost-icon a {
+  height: 26px;
+  width: 26px;
+  line-height: 26px;
+  border-radius: 4px;
+  background: linear-gradient(90deg, #2E0797 0%, #726EFC 100%);
+  color: #fff;
+  transition: 0.3s;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  position: absolute;
+  top: 65%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  opacity: 0;
+}
+.vl-footer-instapost:hover img {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.vl-footer-instapost:hover .vl-footer-instapost-icon a {
+  opacity: 1;
+  top: 50%;
+}
+.vl-footer-border-top {
+  border-top: 1px solid #DDDEE1;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.vl-footer-widget-4 input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.vl-footer-widget-4 input::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}/*# sourceMappingURL=index.css.map */

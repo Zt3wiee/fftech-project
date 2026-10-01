@@ -1,0 +1,208 @@
+@use '../../utils' as *;
+
+
+.vl-success{
+    &-box{
+        background: #111840;
+        padding: 32px;
+        border-radius: 8px;
+        position: relative;
+        z-index: 1;
+        margin-left: 20px;
+        @media #{$xs}{
+            padding: 14px;
+        }
+        &-number{
+            height: 50px;
+            width: 50px;
+            line-height: 50px;
+            text-align: center;
+            border-radius: 50px;
+            background: var(--vl-gradient-1);
+            font-size: 20px;
+            color: #fff;
+            position: absolute;
+            left: -20px;
+            top: -20px;
+            &:after {
+                position: absolute;
+                content: "";
+                height: 60px;
+                width: 60px;
+                background: #050C36;
+                z-index: -1;
+                left: -5px;
+                top: -5px;
+                line-height: 60px;
+                border-radius: 50px;
+            }
+        }
+        &-icon{
+            position: relative;
+            z-index: 1;
+            display: inline-block;
+            &::after{
+                position: absolute;
+                content: "";
+                left: -5px;
+                top: -6px;
+                height: 60px;
+                width: 60px;
+                background: transparent;
+                z-index: -1;
+                border-radius: 50px;
+                border: 1px solid #292F53;
+                line-height: 60px;
+            }
+            & span{
+                background: #292F53;
+                height: 50px;
+                width: 50px;
+                border-radius: 50px;
+                line-height: 50px;
+                text-align: center;
+                display: inline-block;
+                transition: .3s;
+            }
+            &-3{
+                & span{
+                    height: 100px;
+                    width: 100px;
+                    line-height: 100px;
+                    background: #F4F5FD;
+                    @include transition(.3s);
+                }
+                &::after{
+                    height: 120px;
+                    width: 120px;
+                    border: 3px solid #F4F5FD;
+                    left: -10px;
+                    top: -10px;
+                    border-radius: 50%;
+                }
+                &-number{
+                    & cite{
+                        background: #14212B;
+                        height: 40px;
+                        width: 40px;
+                        display: block;
+                        line-height: 40px;
+                        font-style: normal;
+                        border-radius: 50%;
+                        color: #fff;
+                        font-size: 18px;
+                        position: absolute;
+                        right: -15px;
+                        top: 0;
+                        font-weight: 600;
+                        @include transition(.3s);
+                    }
+                }
+            }
+        }
+        &-title{
+            font-size: 20px;
+            line-height: 20px;
+            margin: 0;
+            transition: .3s;
+            color: #14212B;
+            &.title4{
+                color: #fff;
+            }
+        }
+        & p{
+            color: #fff;
+            opacity: .8;
+            margin: 0;
+        }
+        &-3{
+            background: inherit;
+            margin-left: 0;
+            padding: 0;
+            position: relative;
+            z-index: 1;
+            & p{
+                color: var(--vl-text-5);
+                opacity: 1;
+            }
+            &-arow{
+                & img{
+                    position: absolute;
+                    right: -120px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+                & .arow-active {
+                    opacity: 0;
+                    @include transition(.3s);
+                }
+            }
+            &:hover{
+                .vl-success{
+                    &-box{
+                        &-icon-3{
+                            &-number{
+                                & cite{
+                                    background: #2334DE;
+                                    @include transition(.3s);
+                                }
+                            }
+                            & span{
+                                transform: rotateY(180deg);
+                                @include transition(.3s);
+                            }
+                        }
+                        &-3-arow{
+                            & .arow-active {
+                                opacity: 1;
+                                @include transition(.3s);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &-iner{
+            & .vl-success-box-desc p {
+                font-size: 18px;
+                line-height: 26px;
+                font-weight: 500;
+                color: var(--vl-text-1);
+            }
+            &:hover{
+                .vl-success-box-icon-3-number cite {
+                    background: #5038c9;
+                }
+                .vl-success-box-title {
+                    color: #5038c3;
+                }
+                .vl-success-box-icon-3{
+                    & span{
+                        background: #5038C9;
+                        @include transition(.3s);
+                        & img{
+                            filter: brightness(0) invert(1);
+                            @include transition(.3s);
+                        }
+                    }
+                }
+            }
+        }
+        &:hover{
+            & .vl-success-box{
+                &-icon span {
+                    transform: rotateY(180deg);
+                    transition: .3s;
+                }
+                &-title{
+                    color: #2334DE;
+                    &.title4{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+

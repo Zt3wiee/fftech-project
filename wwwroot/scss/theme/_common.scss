@@ -1,0 +1,260 @@
+@use '../utils' as *;
+
+
+.pt-100{
+	@media #{$md,$xs}{
+		padding-top: 50px !important;
+	}
+}
+.pb-100{
+	@media #{$md,$xs}{
+		padding-bottom: 50px !important;
+	}
+}
+.pb-70{
+	@media #{$md,$xs}{
+		padding-bottom: 20px !important;
+	}
+}
+.mb-60{
+	@media #{$md,$xs}{
+		margin-bottom: 30px !important;
+	}
+}
+
+.pb--70{
+	padding-bottom: 70px;
+}
+
+p{
+	@media #{$md,$xs}{
+		br{
+			display: none;
+		}
+	}
+}
+
+
+.vl-upper{
+	text-transform: uppercase;
+}
+.fl-right{
+	float: right;
+}
+
+.w-img{
+	& img{
+		width: 100%;
+	}
+}
+.m-img{
+	& img{
+		max-width: 100%;
+	}
+}
+
+.br{
+	&-4{
+		border-radius: 4px;
+	}
+	&-8{
+		border-radius: 8px;
+	}
+	&-16{
+		border-radius: 16px;
+	}
+	&-50{
+		border-radius: 50px;
+	}
+}
+
+.fix {
+    overflow:hidden
+}
+.clear{
+    clear: both;
+}
+
+.z-index-1{
+	z-index: 1;
+}
+
+.z-index-11{
+	z-index: 11;
+}
+
+.overflow-y-visible{
+	overflow-x: hidden;
+	overflow-y: visible;
+}
+.overflow-x-visible{
+	overflow-x: visible;
+	overflow-y: hidden;
+}
+
+.p-relative{
+	position: relative;
+}
+.p-absolute{
+	position: absolute;
+}
+
+.vl-fs{
+	&-15{
+		font-size: 15px;
+	}
+	&-16{
+		font-size: 16px;
+	}
+	&-18{
+		font-size: 18px;
+	}
+	&-20{
+		font-size: 20px;
+	}
+	&-24{
+		font-size: 24px;
+	}
+	&-30{
+		font-size: 30px;
+		@media #{$xs}{
+			font-size: 22px;
+		}
+	}
+	&-32{
+		font-size: 32px;
+		@media #{$xs}{
+			font-size: 22px;
+		}
+	}
+	&-40{
+		font-size: 40px;
+		@media #{$lg}{
+			font-size: 32px;
+		}
+	}
+	&-44{
+		font-size: 44px !important;
+		@media #{$lg}{
+			font-size: 32px;
+		}
+		@media #{$md,$xs}{
+			font-size: 32px !important;
+		}
+	}
+	&-60{
+		font-size: 60px;
+		@media #{$md,$xs}{
+			font-size: 32px;
+		}
+	}
+}
+
+
+.vl-lineheight{
+	&-18{
+		line-height: 18px;
+	}
+	&-20{
+		line-height: 20px;
+	}
+	&-26{
+		line-height: 26px;
+	}
+	&-28{
+		line-height: 28px;
+	}
+	&-32{
+		line-height: 32px;
+	}
+	&-40{
+		line-height: 40px;
+	}
+	&-44{
+		line-height: 44px;
+	}
+}
+
+.mr-0{
+	margin-right: 0 !important;
+}
+
+
+.vl-text-para{
+	color: #5F6168;
+}
+
+.vl-text{
+	&-gary{
+		color: #5F6168;
+	}
+	&-cmn-blck{
+		color: #111112 !important;
+	}
+}
+
+
+.vl-nblue{
+	background-color: var(--vl-theme-color);
+}
+.vl-gradient{
+	background: var(--vl-gradient-1);
+}
+.vl-gradient-2{
+	background: var(--vl-gradient-2);
+}
+
+.vl-black-bg{
+	background-color: var(--vl-black);
+}
+.vl-comn-black{
+	background-color: var(--vl-cmn-black);
+}
+.vl-comn-black-2{
+	background-color: var(--vl-cmn-black-2);
+}
+.vl-theme-bg-2{
+	background: var(--vl-theme-bg-2);
+}
+.vl-theme-c2{
+	color: var(--vl-theme-color-2);
+}
+.vl-black-theme-2{
+	color: var(--vl-black-theme-2); 
+	transition: .3s;
+}
+.vl-theme-color-3{
+	background: var(--vl-theme-color-3);
+}
+.vl-theme-color3{
+	color: var(--vl-theme-color-3);
+}
+
+.vl-blc-text-4{
+	color: var(--vl-black-text-4);
+}
+.vl-gray-bg{
+	background: var(--vl-grey-color);
+}
+.vl-gray-bg-2{
+	background: var(--vl-grey-color-2);
+}
+.vl-gray-bg-4{
+	background: var(--vl-grey-color-4)!important;
+}
+.vl-white-bg{
+	background-color: var(--vl-white);
+}
+.vl-white{
+	color: var(--vl-white);
+}
+
+
+.vl{
+	&-semi{
+		font-weight: 600;
+	}
+	&-medium{
+		font-weight: 500 !important;
+	}
+}
