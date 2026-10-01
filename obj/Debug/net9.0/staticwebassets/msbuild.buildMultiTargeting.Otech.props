@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\Otech.props" />
-</Project>

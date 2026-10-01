@@ -11367,3 +11367,11 @@ span.rot-minus {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* Company logo: one transparent PNG used in the header, footer and mobile menu */
+.vl-logo img,
+.vl-footer-logo img,
+.vl-offcanvas-logo img {
+  height: 48px;
+  width: auto;
+}
