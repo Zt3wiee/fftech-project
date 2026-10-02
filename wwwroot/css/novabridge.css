@@ -38,18 +38,115 @@
 .nb-logo-dark span {
   color: var(--nb-heading);
 }
+/* Navbar logo (icon + "FF TECH"): 44px tall, but shrinks instead of
+   running into the menu when its column is narrower than the logo */
+.vl-logo.nb-logo a {
+  max-width: 100%;
+}
+.vl-logo.nb-logo img {
+  width: 288px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ---------- Loading screen ---------- */
+/* Logo #5 (white) on the logo's navy-to-purple background, with a gradient bar */
+.nb-preloader {
+  background: linear-gradient(135deg, #040F2D 0%, #03050F 55%, #1E0B6E 85%, #6A22B8 100%);
+}
+.nb-preloader-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+.nb-preloader-logo {
+  width: 160px;
+  height: auto;
+  animation: nb-breathe 1.8s ease-in-out infinite;
+}
+.nb-preloader-bar {
+  position: relative;
+  width: 160px;
+  height: 3px;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.12);
+  overflow: hidden;
+}
+.nb-preloader-bar span {
+  position: absolute;
+  top: 0;
+  left: -40%;
+  width: 40%;
+  height: 100%;
+  border-radius: 3px;
+  background: var(--nb-gradient);
+  animation: nb-loading-bar 1.2s ease-in-out infinite;
+}
+@keyframes nb-breathe {
+  0%, 100% { opacity: 0.75; transform: scale(0.97); }
+  50% { opacity: 1; transform: scale(1); }
+}
+@keyframes nb-loading-bar {
+  0% { left: -40%; }
+  100% { left: 100%; }
+}
 
 /* ---------- Header ---------- */
-.header-sticky {
-  background: rgba(5, 11, 46, 0.92);
-  backdrop-filter: blur(10px);
+/* Dropdown menus: grow to fit the longest item (the template's fixed 212px
+   width cut off long service names) and use the brand style */
+.vl-main-menu ul > li .sub-menu {
+  width: max-content;
+  min-width: 240px;
+  padding: 10px;
+  border: 1px solid #E6E9F5;
+  border-radius: 14px;
+  box-shadow: 0 24px 50px -12px rgba(11, 16, 51, 0.3);
+  transform: translateY(10px);
 }
-.vl-header-bg-4 {
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+.vl-main-menu ul > li:hover .sub-menu {
+  transform: translateY(0);
 }
-.vl-main-menu ul li .sub-menu li a {
+/* gradient line across the top of the dropdown */
+.vl-main-menu ul > li .sub-menu::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--nb-gradient);
+}
+.vl-main-menu ul > li .sub-menu li a {
   white-space: nowrap;
+  padding: 10px 24px 10px 16px;
+  border-radius: 8px;
+  font-size: 16px;
+  color: var(--nb-heading);
+  transition: background 0.25s, color 0.25s, padding 0.25s;
+}
+/* hover: light tint, blue text and a gradient bar, instead of the template's
+   gradient text and big indent */
+.vl-main-menu ul > li .sub-menu li:hover > a,
+.vl-main-menu ul > li .sub-menu li a:hover {
+  background: var(--nb-tint);
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-text-fill-color: var(--nb-blue);
+  color: var(--nb-blue);
+  padding: 10px 16px 10px 24px;
+}
+.vl-main-menu ul > li .sub-menu li a::after {
+  top: 50%;
+  left: 8px;
+  height: 18px;
+  width: 4px;
+  margin-top: -9px;
+  border-radius: 4px;
+  background: var(--nb-gradient);
+}
+.vl-main-menu ul > li .sub-menu li a:hover::after {
+  left: 10px;
 }
 
 /* ---------- Shared bits ---------- */
@@ -329,19 +426,84 @@
   height: calc(100% - 30px);
   display: flex;
   flex-direction: column;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+/* Hover: replaces the template's dark overlay with a brand-gradient border,
+   blue glow, image zoom + light sweep, and a gradient line under the image */
+.nb-work-card::after {
+  display: none;
+}
+.nb-work-card:hover {
+  transform: translateY(-8px);
+  border-color: transparent;
+  background: linear-gradient(#fff, #fff) padding-box, var(--nb-gradient) border-box;
+  box-shadow: 0 24px 50px -12px rgba(26, 59, 255, 0.35), 0 0 30px rgba(47, 212, 255, 0.15);
+}
+.nb-work-card:hover .vl-gallery-testimonial-2-image {
+  transform: none;
+}
+.nb-work-card:hover .nb-work-card-title a {
+  color: var(--nb-blue);
 }
 .nb-work-card .vl-gallery-testimonial-2-image {
   position: relative;
+  overflow: hidden;
 }
 .nb-work-card .vl-gallery-testimonial-2-image img {
   aspect-ratio: 12 / 7;
   object-fit: cover;
+  transition: transform 0.6s ease, filter 0.6s ease;
+}
+.nb-work-card:hover .vl-gallery-testimonial-2-image img {
+  transform: scale(1.08);
+  filter: saturate(1.25) brightness(1.08);
+}
+/* diagonal light sweep across the image */
+.nb-work-card .vl-gallery-testimonial-2-image::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(100deg, transparent, rgba(255, 255, 255, 0.35), transparent);
+  transform: skewX(-20deg);
+  pointer-events: none;
+}
+.nb-work-card:hover .vl-gallery-testimonial-2-image::after {
+  left: 130%;
+  transition: left 0.8s ease;
 }
 .nb-work-card-body {
   padding: 24px;
   display: flex;
   flex-direction: column;
   flex: 1;
+  position: relative;
+}
+/* gradient line that grows across the top of the text area */
+.nb-work-card-body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: var(--nb-gradient);
+  transition: width 0.5s ease;
+}
+.nb-work-card:hover .nb-work-card-body::before {
+  width: 100%;
+}
+.nb-work-card .readmore span {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+.nb-work-card:hover .readmore {
+  color: var(--nb-blue);
+}
+.nb-work-card:hover .readmore span {
+  transform: translateX(6px);
 }
 .nb-work-card-meta {
   font-size: 14px;
