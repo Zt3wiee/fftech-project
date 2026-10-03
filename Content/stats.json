@@ -1,5 +1,5 @@
 [
-  // Dummy numbers. Replace with your real figures before launch.
+  //Dummy numbers. Replace with your real figures before launch.
   { "value": 30, "suffix": "+", "label": "Projects delivered", "isPlaceholder": true },
   { "value": 6, "suffix": "", "label": "Years in business", "isPlaceholder": true },
   { "value": 2, "suffix": "", "label": "Offices: Taipei & Hong Kong", "isPlaceholder": true },
