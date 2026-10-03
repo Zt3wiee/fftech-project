@@ -1,12 +1,12 @@
 [
-  // Dummy team. "image" can point to a photo in wwwroot (e.g. "/img/team/daniel.jpg");
+  // Dummy team with stock photos (see PHOTO-CREDITS.md). "image" points to a photo in wwwroot;
   // when it is null, a coloured card with the person's initials is shown instead.
   {
     "name": "Daniel Lin",
     "role": "Founder & CEO",
     "location": "Taipei",
     "bio": "Former software lead at a Hsinchu semiconductor equipment maker.",
-    "image": null,
+    "image": "/img/team/daniel-lin.webp",
     "linkedIn": "#",
     "isPlaceholder": true
   },
@@ -15,7 +15,7 @@
     "role": "Head of Delivery",
     "location": "Hong Kong",
     "bio": "Ten years delivering banking and fintech platforms in Hong Kong.",
-    "image": null,
+    "image": "/img/team/grace-chan.webp",
     "linkedIn": "#",
     "isPlaceholder": true
   },
@@ -24,7 +24,7 @@
     "role": "Lead Cloud Architect",
     "location": "Taipei",
     "bio": "Designs hybrid cloud setups for manufacturing clients.",
-    "image": null,
+    "image": "/img/team/kevin-wu.webp",
     "linkedIn": "#",
     "isPlaceholder": true
   },
@@ -33,7 +33,7 @@
     "role": "Senior Full-Stack Engineer",
     "location": "Taipei",
     "bio": "Builds bilingual web platforms in .NET and Vue.",
-    "image": null,
+    "image": "/img/team/mei-huang.webp",
     "linkedIn": "#",
     "isPlaceholder": true
   }

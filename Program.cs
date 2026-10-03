@@ -41,12 +41,6 @@ app.MapStaticAssets();
 
 app.MapControllers().WithStaticAssets();
 
-// Old template pages (/Landing/..., /Pages/..., etc.) until those files are deleted.
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller}/{action}/{id?}")
-    .WithStaticAssets();
-
 // Warn at startup while dummy content is still on the site.
 var placeholders = app.Services.GetRequiredService<ContentService>().CountPlaceholders()
     .Where(kv => kv.Value > 0)

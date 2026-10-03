@@ -8,7 +8,7 @@
   "metaDescription": "FF Tech builds, modernises and scales software for technology companies in Taiwan and Hong Kong: custom development, cloud, data & AI and dedicated engineering teams.",
   "footerBlurb": "Software engineering for technology companies in Taiwan and Hong Kong. Bilingual teams, GMT+8 hours, NDA-first.",
   "foundedYear": 2019,
-  "email": "hello@fftech.example",
+  "email": "info@fftech-hkg.com",
   "hours": "Mon–Fri, 09:00–18:00 (GMT+8)",
   "offices": [
     {
@@ -78,6 +78,6 @@
     "heading": "Have a Project in Mind? Let's Talk.",
     "text": "Tell us what you are building. We reply within one working day, and we are happy to sign your NDA first.",
     "primaryCta": { "label": "Start a project", "url": "/contact" },
-    "secondaryCta": { "label": "hello@fftech.example", "url": "mailto:hello@fftech.example" }
+    "secondaryCta": { "label": "info@fftech-hkg.com", "url": "mailto:info@fftech-hkg.com" }
   }
 }

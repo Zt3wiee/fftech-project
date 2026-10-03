@@ -15,45 +15,13 @@
                     <div class="vl-main-menu text-center">
                         <nav class="vl-mobile-menu-active">
                             <ul>
-                                <li class="has-dropdown">
-                                    <a href="/services">Services <span><i class="fa-regular fa-angle-down"></i></span></a>
-                                    <ul class="sub-menu">
-                                        <li><a href="/services">All services</a></li>
-                                        @foreach (var service in Content.Services)
-                                        {
-                                            <li><a href="/services/@service.Slug">@service.Title</a></li>
-                                        }
-                                    </ul>
-                                </li>
-                                <li class="has-dropdown">
-                                    <a href="/industries">Industries <span><i class="fa-regular fa-angle-down"></i></span></a>
-                                    <ul class="sub-menu">
-                                        <li><a href="/industries">All industries</a></li>
-                                        @foreach (var industry in Content.Industries)
-                                        {
-                                            <li><a href="/industries/@industry.Slug">@industry.Title</a></li>
-                                        }
-                                    </ul>
-                                </li>
+                                <li><a href="/services">Services</a></li>
+                                <li><a href="/industries">Industries</a></li>
                                 @if (Content.Work.Count > 0)
                                 {
                                     <li><a href="/work">Work</a></li>
                                 }
-                                <li class="has-dropdown">
-                                    <a href="/about">About <span><i class="fa-regular fa-angle-down"></i></span></a>
-                                    <ul class="sub-menu">
-                                        <li><a href="/about">About us</a></li>
-                                        @if (Content.Team.Count > 0)
-                                        {
-                                            <li><a href="/team">Team</a></li>
-                                        }
-                                        @if (Content.Testimonials.Count > 0)
-                                        {
-                                            <li><a href="/testimonials">Testimonials</a></li>
-                                        }
-                                        <li><a href="/faq">FAQ</a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="/about">About</a></li>
                                 @if (Content.Insights.Count > 0)
                                 {
                                     <li><a href="/insights">Insights</a></li>

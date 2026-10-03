@@ -4,7 +4,7 @@
     "title": "Custom Software Development",
     "icon": "fa-code",
     "summary": "Web platforms, internal tools and APIs, built to scale with your business.",
-    "image": "/img/nb/services/custom-software-development.svg",
+    "image": "/img/photos/services/custom-software-development.webp",
     "intro": [
       "We design and build software that fits the way your company actually works: customer portals, internal tools, back-office systems and the APIs that connect them.",
       "Every project is led by a senior engineer and delivered in two-week sprints, so you see working software early and often."
@@ -29,7 +29,7 @@
     "title": "Cloud Migration & DevOps",
     "icon": "fa-cloud-arrow-up",
     "summary": "Move legacy systems to AWS, Azure or GCP, with CI/CD and infrastructure as code.",
-    "image": "/img/nb/services/cloud-migration-devops.svg",
+    "image": "/img/photos/services/cloud-migration-devops.webp",
     "intro": [
       "We move on-premise and legacy systems to the cloud without stopping your business, then set up the pipelines and monitoring that keep them healthy.",
       "For manufacturing clients we often design hybrid setups, where factory systems stay on-site and reporting and analytics move to the cloud."
@@ -50,7 +50,7 @@
     "title": "Manufacturing & Industrial Software",
     "icon": "fa-industry",
     "summary": "MES, factory dashboards and integration with equipment and ERP systems.",
-    "image": "/img/nb/services/manufacturing-industrial-software.svg",
+    "image": "/img/photos/services/manufacturing-industrial-software.webp",
     "intro": [
       "We build software for the factory floor: manufacturing execution systems, equipment data collection, yield and quality dashboards, and the integrations between them and your ERP.",
       "Our engineers understand production constraints. We plan releases around maintenance windows and never put a running line at risk."
@@ -70,7 +70,7 @@
     "title": "Data & AI Solutions",
     "icon": "fa-brain",
     "summary": "Data pipelines, analytics dashboards, and AI features that work in real products.",
-    "image": "/img/nb/services/data-ai-solutions.svg",
+    "image": "/img/photos/services/data-ai-solutions.webp",
     "intro": [
       "We turn the data you already have into decisions: clean pipelines, reliable dashboards, and practical AI features such as forecasting, anomaly detection and document processing.",
       "We focus on AI that earns its place in a product, with clear measurements of whether it works."
@@ -90,7 +90,7 @@
     "title": "Fintech & Compliance Systems",
     "icon": "fa-building-columns",
     "summary": "Secure platforms built for HKMA and FSC requirements.",
-    "image": "/img/nb/services/fintech-compliance-systems.svg",
+    "image": "/img/photos/services/fintech-compliance-systems.webp",
     "intro": [
       "We build onboarding, payments and reporting systems for fintech companies and financial institutions, with security and compliance designed in from the start.",
       "Our team is familiar with HKMA and Taiwan FSC expectations for technology risk, outsourcing and cloud use."
@@ -110,7 +110,7 @@
     "title": "Dedicated Engineering Teams",
     "icon": "fa-users-gear",
     "summary": "Extra engineers who work as part of your own team.",
-    "image": "/img/nb/services/dedicated-engineering-teams.svg",
+    "image": "/img/photos/services/dedicated-engineering-teams.webp",
     "intro": [
       "When you need more engineering capacity, we provide developers, QA and DevOps engineers who join your team, use your tools and follow your process.",
       "You get the flexibility of an external team with the continuity of an internal one: the same people, month after month."

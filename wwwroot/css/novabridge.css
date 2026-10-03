@@ -197,6 +197,22 @@
 .vl-success-box-icon-3.nb-icon span {
   font-size: 36px;
 }
+/* "How we work" steps on hover. The template was made for image icons (turned white
+   with a filter) and flips the circle; with our blue font icons that left a blue icon
+   on a blue circle, so: gradient circle, white icon, a small lift instead of the flip. */
+.vl-success-box-3.vl-success-box-iner:hover .vl-success-box-icon-3.nb-icon span {
+  background: var(--nb-gradient);
+  color: #fff;
+  transform: translateY(-4px);
+  box-shadow: 0 14px 30px rgba(26, 59, 255, 0.35);
+}
+.vl-success-box-3.vl-success-box-iner:hover .vl-success-box-icon-3-number cite {
+  background: var(--nb-navy);
+  box-shadow: 0 0 0 3px #fff;
+}
+.vl-success-box-iner:hover .vl-success-box-title {
+  color: var(--nb-blue);
+}
 .vl-service-icon-box-4:hover .nb-icon span i {
   color: var(--nb-magenta);
 }
@@ -451,6 +467,7 @@
 }
 .nb-work-card .vl-gallery-testimonial-2-image img {
   aspect-ratio: 12 / 7;
+  height: auto; /* the template fixes this at 450px, which ignores the ratio */
   object-fit: cover;
   transition: transform 0.6s ease, filter 0.6s ease;
 }
@@ -832,6 +849,7 @@
   max-width: 420px;
   display: block;
   margin-left: auto;
+  border-radius: 8px;
 }
 
 /* ---------- Contact form ---------- */
@@ -956,4 +974,102 @@
 }
 .nb-testimonial .vl-testimonial-box-auth-content span {
   color: rgba(255, 255, 255, 0.65);
+}
+
+/* ---------- Custom cursor ----------
+   A dot that follows the mouse and a gradient ring that trails behind it.
+   Turned on by js/nb-cursor.js only for mouse users (not touch screens,
+   not "reduce motion"), so everyone else keeps the normal cursor. */
+html.nb-cursor-on,
+html.nb-cursor-on * {
+  cursor: none !important;
+}
+/* keep the normal text cursor where people type */
+html.nb-cursor-on input,
+html.nb-cursor-on textarea,
+html.nb-cursor-on select,
+html.nb-cursor-on [contenteditable] {
+  cursor: auto !important;
+}
+.nb-cursor-dot,
+.nb-cursor-ring {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 100000;
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  will-change: transform;
+}
+html.nb-cursor-on .nb-cursor-dot,
+html.nb-cursor-on .nb-cursor-ring {
+  opacity: 1;
+}
+.nb-cursor-dot {
+  width: 8px;
+  height: 8px;
+  margin: -4px 0 0 -4px;
+}
+/* the visible dot is a layer inside, so it can shrink while the script moves the outside */
+.nb-cursor-dot::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: var(--nb-cyan);
+  box-shadow: 0 0 10px rgba(47, 212, 255, 0.8);
+  transition: transform 0.2s ease;
+}
+.nb-cursor-ring {
+  width: 36px;
+  height: 36px;
+  margin: -18px 0 0 -18px;
+}
+/* gradient outline */
+.nb-cursor-ring::before,
+.nb-cursor-ring::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.nb-cursor-ring::before {
+  padding: 2px;
+  background: var(--nb-gradient);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+/* soft glow fill, shown on hover */
+.nb-cursor-ring::after {
+  background: var(--nb-gradient);
+  opacity: 0;
+  filter: blur(2px);
+}
+
+/* hovering a link, button or card: ring grows and glows, dot shrinks */
+html.nb-cursor-hover .nb-cursor-ring::before {
+  transform: scale(1.8);
+}
+html.nb-cursor-hover .nb-cursor-ring::after {
+  transform: scale(1.8);
+  opacity: 0.18;
+}
+html.nb-cursor-hover .nb-cursor-dot::before {
+  transform: scale(0.5);
+}
+
+/* clicking: ring squeezes in */
+html.nb-cursor-down .nb-cursor-ring::before,
+html.nb-cursor-down .nb-cursor-ring::after {
+  transform: scale(0.75);
+}
+
+/* mouse left the window */
+html.nb-cursor-out .nb-cursor-dot,
+html.nb-cursor-out .nb-cursor-ring {
+  opacity: 0;
 }
