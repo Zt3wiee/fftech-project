@@ -1124,7 +1124,7 @@ html.nb-cursor-out .nb-cursor-ring {
   .nb-lang-short { display: inline; }
 }
 
-/* Dropdown: same card style as the menu dropdowns */
+/* Dropdown: dark glass, matching the navbar and hero stat cards */
 .nb-lang-menu {
   position: absolute;
   top: calc(100% + 10px);
@@ -1134,10 +1134,12 @@ html.nb-cursor-out .nb-cursor-ring {
   margin: 0;
   padding: 10px;
   list-style: none;
-  background: #fff;
-  border: 1px solid #E6E9F5;
+  background: rgba(10, 18, 64, 0.88);
+  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 14px;
-  box-shadow: 0 24px 50px -12px rgba(11, 16, 51, 0.3);
+  box-shadow: 0 24px 50px -12px rgba(0, 0, 0, 0.6);
   overflow: hidden;
   opacity: 0;
   visibility: hidden;
@@ -1162,7 +1164,7 @@ html.nb-cursor-out .nb-cursor-ring {
   display: block;
   padding: 10px 16px;
   border-radius: 8px;
-  color: var(--nb-heading);
+  color: rgba(255, 255, 255, 0.85);
   font-size: 16px;
   font-weight: 500;
   white-space: nowrap;
@@ -1170,12 +1172,12 @@ html.nb-cursor-out .nb-cursor-ring {
 }
 .nb-lang-menu a:hover,
 .nb-lang-menu a:focus-visible {
-  background: var(--nb-tint-2);
-  color: var(--nb-blue);
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
 }
 .nb-lang-menu a.active {
-  background: var(--nb-tint);
-  color: var(--nb-blue);
+  background: rgba(47, 212, 255, 0.12);
+  color: var(--nb-cyan);
   font-weight: 700;
 }
 
