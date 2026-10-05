@@ -1,12 +1,6 @@
 [
   // Traditional Chinese (Taiwan) text for testimonials.json. Matched to the English by position.
   {
-    "quote": "他們同時理解我們的工程限制與商業目標。遷移過程非常順利，生產從未中斷。",
-    "role": "技術長",
-    "company": "半導體設備公司",
-    "region": "台灣"
-  },
-  {
     "quote": "有一個能用英語和粵語溝通的團隊，為我們省下好幾個月。我們的法遵團隊終於有了一個說他們語言的夥伴。",
     "role": "產品主管",
     "company": "金融科技新創",
