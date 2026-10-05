@@ -62,7 +62,8 @@
                         <h3 class="vl-footer-widget-title vl-fs-20 mb-20">@L["Get in touch"]</h3>
                         <ul class="nb-footer-contact">
                             <li><i class="fa-regular fa-envelope"></i><a href="mailto:@site.Email">@site.Email</a></li>
-                            @foreach (var office in site.Offices)
+                            @* Offices whose phone number is still "TBD" are left out of the footer until there is a real number. *@
+                            @foreach (var office in site.Offices.Where(o => o.Phone != "TBD"))
                             {
                                 <li><i class="fa-regular fa-location-dot"></i><span><strong>@office.City</strong><br><a href="tel:@office.Phone.Replace(" ", "")">@office.Phone</a></span></li>
                             }
