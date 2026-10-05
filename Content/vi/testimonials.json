@@ -1,0 +1,21 @@
+[
+  // Vietnamese text for testimonials.json. Matched to the English by position.
+  {
+    "quote": "Họ hiểu cả những ràng buộc kỹ thuật lẫn mục tiêu kinh doanh của chúng tôi. Quá trình chuyển đổi diễn ra suôn sẻ và sản xuất không hề gián đoạn.",
+    "role": "Giám đốc công nghệ (CTO)",
+    "company": "Công ty thiết bị bán dẫn",
+    "region": "Đài Loan"
+  },
+  {
+    "quote": "Có một đội ngũ làm việc được bằng cả tiếng Anh và tiếng Quảng Đông đã giúp chúng tôi tiết kiệm nhiều tháng. Đội tuân thủ của chúng tôi cuối cùng cũng có một đối tác nói cùng ngôn ngữ với họ.",
+    "role": "Trưởng bộ phận sản phẩm",
+    "company": "Startup fintech",
+    "region": "Hồng Kông"
+  },
+  {
+    "quote": "Giao tiếp rõ ràng, tiến độ trung thực, mã nguồn chắc chắn. Họ nói cho chúng tôi biết điều gì sẽ không hiệu quả trước khi chúng tôi bỏ tiền vào đó.",
+    "role": "Quản lý kỹ thuật",
+    "company": "Công ty phần cứng IoT",
+    "region": "Đài Loan"
+  }
+]

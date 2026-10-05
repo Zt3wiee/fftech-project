@@ -1,16 +1,16 @@
 @{
-    ViewBag.Title = "Our work";
-    ViewBag.Description = "Selected projects for semiconductor, fintech, IoT and electronics companies in Taiwan and Hong Kong.";
+    ViewBag.Title = L["Our work"];
+    ViewBag.Description = L["Selected projects for semiconductor, fintech, IoT and electronics companies in Taiwan and Hong Kong."];
 }
 
-<partial name="Sections/_PageBanner" model="@(new PageBanner("Our Work", "Many of our clients work under strict NDAs, so some projects are described without naming the client."))" />
+<partial name="Sections/_PageBanner" model="@(new PageBanner(L["Our Work"], L["Many of our clients work under strict NDAs, so some projects are described without naming the client."]))" />
 
 <section class="vl-gallery p-relative z-index-1 pt-100 pb-70">
     <div class="container">
         <ul class="nb-proof-legend mb-40">
-            <li><span class="nb-proof-badge nb-proof-named">Client project</span> Client named with permission</li>
-            <li><span class="nb-proof-badge nb-proof-anonymized">Client confidential</span> Real project, client kept anonymous</li>
-            <li><span class="nb-proof-badge nb-proof-demo">Sample project</span> Built by us to show our approach</li>
+            <li><span class="nb-proof-badge nb-proof-named">@L["Client project"]</span> @L["Client named with permission"]</li>
+            <li><span class="nb-proof-badge nb-proof-anonymized">@L["Client confidential"]</span> @L["Real project, client kept anonymous"]</li>
+            <li><span class="nb-proof-badge nb-proof-demo">@L["Sample project"]</span> @L["Built by us to show our approach"]</li>
         </ul>
         <div class="row">
             @foreach (var work in Content.Work)

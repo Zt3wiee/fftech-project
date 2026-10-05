@@ -231,6 +231,8 @@
 .nb-hero {
   height: auto;
   min-height: 770px;
+  /* Fill the screen so the next section never peeks in below the fold */
+  min-height: max(770px, 100svh);
   background-color: var(--nb-navy);
 }
 .nb-hero .vl-section-heading {
@@ -1072,4 +1074,190 @@ html.nb-cursor-down .nb-cursor-ring::after {
 html.nb-cursor-out .nb-cursor-dot,
 html.nb-cursor-out .nb-cursor-ring {
   opacity: 0;
+}
+
+/* ---------- Language switcher ---------- */
+/* Header: globe + current language, then the "Get started" button */
+.nb-header-actions {
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+.nb-lang {
+  position: relative;
+}
+.nb-lang-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 4px;
+  border: 0;
+  background: none;
+  color: #fff;
+  font-family: var(--vl-fonts-figtree);
+  font-size: 17px;
+  font-weight: 500;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.nb-lang-toggle .fa-globe {
+  font-size: 18px;
+}
+.nb-lang-caret {
+  font-size: 14px;
+  transition: transform 0.25s;
+}
+.nb-lang.open .nb-lang-caret {
+  transform: rotate(180deg);
+}
+.nb-lang-toggle:focus-visible {
+  outline: 2px solid var(--nb-cyan);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+/* Full name on wide screens, short label ("EN", "ខ្មែរ") where the header is tight */
+.nb-lang-short {
+  display: none;
+}
+@media (max-width: 1399px) {
+  .nb-lang-name { display: none; }
+  .nb-lang-short { display: inline; }
+}
+
+/* Dropdown: same card style as the menu dropdowns */
+.nb-lang-menu {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  z-index: 20;
+  min-width: 220px;
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+  background: #fff;
+  border: 1px solid #E6E9F5;
+  border-radius: 14px;
+  box-shadow: 0 24px 50px -12px rgba(11, 16, 51, 0.3);
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: opacity 0.25s, transform 0.25s, visibility 0.25s;
+}
+.nb-lang-menu::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--nb-gradient);
+}
+.nb-lang.open .nb-lang-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+.nb-lang-menu a {
+  display: block;
+  padding: 10px 16px;
+  border-radius: 8px;
+  color: var(--nb-heading);
+  font-size: 16px;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: background 0.2s, color 0.2s;
+}
+.nb-lang-menu a:hover,
+.nb-lang-menu a:focus-visible {
+  background: var(--nb-tint-2);
+  color: var(--nb-blue);
+}
+.nb-lang-menu a.active {
+  background: var(--nb-tint);
+  color: var(--nb-blue);
+  font-weight: 700;
+}
+
+/* Mobile menu: one button per language */
+.nb-lang-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.nb-lang-chip {
+  padding: 8px 16px;
+  border: 1px solid #E6E9F5;
+  border-radius: 999px;
+  color: var(--nb-heading);
+  font-size: 16px;
+  font-weight: 500;
+  transition: border-color 0.2s, color 0.2s;
+}
+.nb-lang-chip:hover {
+  border-color: var(--nb-blue);
+  color: var(--nb-blue);
+}
+.nb-lang-chip.active {
+  background: var(--nb-tint);
+  border-color: var(--nb-blue);
+  color: var(--nb-blue);
+  font-weight: 700;
+}
+
+/* On smaller desktops the logo and menu tighten up so the menu stays on one line
+   next to the language switcher, in every language (Vietnamese is the longest) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .vl-logo.nb-logo img {
+    width: 240px;
+  }
+  .vl-main-menu ul > li {
+    margin-right: 20px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .vl-logo.nb-logo img {
+    width: 170px;
+  }
+  .vl-main-menu ul > li {
+    margin-right: 14px;
+  }
+  .vl-main-menu ul > li > a {
+    font-size: 16px;
+  }
+  .nb-header-actions {
+    gap: 12px;
+  }
+}
+
+/* ---------- Fonts per language ---------- */
+/* Figtree has no Vietnamese, Khmer or Chinese letters, so those pages use a font that does
+   (loaded in _HeadCSS only on that language's pages). Latin text keeps Figtree where it can. */
+:root:lang(vi) {
+  --vl-fonts-figtree: "Be Vietnam Pro", sans-serif;
+}
+:root:lang(km) {
+  --vl-fonts-figtree: "Figtree", "Kantumruy Pro", sans-serif;
+}
+:root:lang(zh) {
+  --vl-fonts-figtree: "Figtree", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+}
+/* The language names in the switcher are shown in their own script on every page */
+.nb-lang [lang="km"], .nb-lang-list [lang="km"] {
+  font-family: "Kantumruy Pro", "Khmer OS", "Leelawadee UI", sans-serif;
+}
+.nb-lang [lang="vi"], .nb-lang-list [lang="vi"] {
+  font-family: "Be Vietnam Pro", var(--vl-fonts-figtree);
+}
+
+/* Khmer stacks vowels and subscripts above and below the line, so it needs more room */
+html:lang(km) h1, html:lang(km) h2, html:lang(km) h3, html:lang(km) h4, html:lang(km) h5 {
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+html:lang(km) p, html:lang(km) li {
+  line-height: 1.8;
+}
+html:lang(km) .vl-upper, html:lang(zh) .vl-upper {
+  letter-spacing: normal;
 }

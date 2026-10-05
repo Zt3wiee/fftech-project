@@ -16,7 +16,7 @@
         <p class="nb-team-card-bio">@Model.Bio</p>
         @if (!string.IsNullOrEmpty(Model.LinkedIn))
         {
-            <a class="nb-team-card-link" href="@Model.LinkedIn" aria-label="@Model.Name on LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a class="nb-team-card-link" href="@Model.LinkedIn" aria-label="@L["{0} on LinkedIn", Model.Name]"><i class="fa-brands fa-linkedin-in"></i></a>
         }
     </div>
 </div>

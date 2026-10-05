@@ -1,0 +1,67 @@
+[
+  // Vietnamese text for work.json, matched to the English by "slug".
+  {
+    "slug": "semiconductor-mes-cloud-migration",
+    "title": "Chuyển hệ thống MES cũ lên đám mây cho một nhà sản xuất thiết bị bán dẫn",
+    "client": "Nhà sản xuất thiết bị bán dẫn",
+    "region": "Tân Trúc, Đài Loan",
+    "summary": "Chuyển đổi theo từng giai đoạn lớp báo cáo của một hệ thống MES 15 năm tuổi lên Azure, không gián đoạn sản xuất.",
+    "challenge": [
+      "Báo cáo sản xuất của khách hàng chạy trên một hệ thống MES tại chỗ đã 15 năm tuổi. Mỗi báo cáo mất hàng giờ để tạo, và chỉ hai người trong công ty hiểu cách hệ thống vận hành.",
+      "Mọi thay đổi đều phải thực hiện mà không dừng các dây chuyền sản xuất chạy 24/7."
+    ],
+    "solution": [
+      "Chúng tôi lập bản đồ mọi báo cáo và nguồn dữ liệu, sau đó xây dựng lớp báo cáo mới trên Azure, đọc dữ liệu từ MES hiện có mà không thay đổi nó.",
+      "Hệ thống cũ và mới chạy song song trong sáu tuần trong khi kỹ sư của khách hàng kiểm chứng từng báo cáo. Chỉ sau đó máy chủ báo cáo cũ mới được tắt."
+    ],
+    "results": [
+      { "label": "báo cáo sản xuất nhanh hơn" },
+      { "label": "giờ dừng sản xuất" },
+      { "value": "6 tuần", "label": "kiểm chứng song song" }
+    ]
+  },
+  {
+    "slug": "fintech-kyc-onboarding-platform",
+    "title": "Nền tảng mở tài khoản KYC cho một công ty fintech tài sản số",
+    "client": "Công ty fintech tài sản số",
+    "region": "Hồng Kông",
+    "summary": "Quy trình mở tài khoản số rút ngắn thời gian xác minh khách hàng từ vài ngày xuống vài giờ.",
+    "challenge": [
+      "Khách hàng mới phải chờ đến ba ngày để kiểm tra danh tính thủ công, và nhiều người đã bỏ cuộc trước khi hoàn tất.",
+      "Mỗi bước đều phải để lại nhật ký kiểm toán đầy đủ cho cơ quan quản lý."
+    ],
+    "solution": [
+      "Chúng tôi xây dựng quy trình mở tài khoản song ngữ với kiểm tra giấy tờ tự động, hàng đợi xét duyệt cho đội tuân thủ và nhật ký kiểm toán đầy đủ cho mọi quyết định.",
+      "Chỉ những trường hợp chưa rõ ràng mới chuyển cho người xét duyệt, và họ giờ đây thấy mọi thông tin cần thiết trên một màn hình."
+    ],
+    "results": [
+      { "value": "3 ngày → 4 giờ", "label": "thời gian mở tài khoản trung bình" },
+      { "label": "quyết định được ghi nhật ký kiểm toán" }
+    ]
+  },
+  {
+    "slug": "iot-device-fleet-dashboard",
+    "title": "Bảng điều khiển đội thiết bị IoT",
+    "client": "Dự án mẫu của FF Tech",
+    "summary": "Nền tảng tham chiếu để giám sát và cập nhật 10.000 thiết bị kết nối theo thời gian thực.",
+    "challenge": [ "Chúng tôi xây dựng dự án mẫu này để minh họa cách tiếp cận nền tảng quản lý đội thiết bị: trạng thái thời gian thực, cảnh báo và cập nhật từ xa an toàn ở quy mô lớn." ],
+    "solution": [ "Thiết bị gửi dữ liệu qua MQTT vào cơ sở dữ liệu chuỗi thời gian. Bảng điều khiển hiển thị tình trạng đội thiết bị trực tiếp, còn bản cập nhật OTA được triển khai theo từng giai đoạn với cơ chế tự động hoàn tác." ],
+    "results": [
+      { "value": "10.000", "label": "thiết bị mô phỏng" },
+      { "label": "độ trễ trạng thái" }
+    ]
+  },
+  {
+    "slug": "bilingual-b2b-customer-portal",
+    "title": "Cổng thông tin khách hàng B2B song ngữ cho một nhà phân phối linh kiện điện tử",
+    "client": "Nhà phân phối linh kiện điện tử",
+    "region": "Đài Bắc, Đài Loan",
+    "summary": "Cổng tự phục vụ bằng tiếng Anh và tiếng Trung phồn thể cho đơn hàng, tồn kho và tài liệu.",
+    "challenge": [ "Đội kinh doanh của khách hàng phải trả lời hàng trăm email mỗi tuần về tồn kho, tình trạng đơn hàng và datasheet." ],
+    "solution": [ "Chúng tôi xây dựng cổng thông tin khách hàng kết nối với ERP, bằng tiếng Anh và tiếng Trung phồn thể, nơi khách hàng tự kiểm tra tồn kho, theo dõi đơn hàng và tải tài liệu." ],
+    "results": [
+      { "label": "email hỗ trợ ít hơn" },
+      { "label": "ngôn ngữ, một mã nguồn" }
+    ]
+  }
+]

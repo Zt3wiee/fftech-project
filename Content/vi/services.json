@@ -1,0 +1,107 @@
+[
+  // Vietnamese text for services.json, matched to the English by "slug".
+  {
+    "slug": "custom-software-development",
+    "title": "Phát triển phần mềm theo yêu cầu",
+    "summary": "Nền tảng web, công cụ nội bộ và API, được xây dựng để mở rộng cùng doanh nghiệp của bạn.",
+    "intro": [
+      "Chúng tôi thiết kế và xây dựng phần mềm phù hợp với cách công ty bạn thực sự vận hành: cổng thông tin khách hàng, công cụ nội bộ, hệ thống back-office và các API kết nối chúng.",
+      "Mỗi dự án đều do một kỹ sư cấp cao dẫn dắt và được bàn giao theo các sprint hai tuần, để bạn sớm và thường xuyên thấy phần mềm chạy được."
+    ],
+    "benefits": [ "Kỹ sư cấp cao trong mọi dự án", "Demo chạy được mỗi hai tuần", "Toàn bộ mã nguồn và tài liệu", "Giao diện song ngữ Anh / Trung" ],
+    "sections": [
+      {
+        "heading": "Chúng tôi xây dựng gì",
+        "paragraphs": [ "Phần lớn dự án của chúng tôi là các hệ thống trọng yếu mà phần mềm đóng gói sẵn khó đáp ứng tốt." ],
+        "bullets": [ "Cổng thông tin B2B cho khách hàng và đối tác", "Công cụ nội bộ và bảng quản trị", "API REST và GraphQL", "Tích hợp với ERP, CRM và hệ thống cũ" ]
+      },
+      {
+        "heading": "Cách chúng tôi làm việc",
+        "paragraphs": [ "Chúng tôi bắt đầu bằng giai đoạn khám phá ngắn, thống nhất phạm vi và kế hoạch phát hành, sau đó xây dựng theo từng sprint. Bạn được trao đổi trực tiếp với các kỹ sư thực hiện." ]
+      }
+    ]
+  },
+  {
+    "slug": "cloud-migration-devops",
+    "title": "Chuyển đổi đám mây & DevOps",
+    "summary": "Chuyển hệ thống cũ lên AWS, Azure hoặc GCP, với CI/CD và hạ tầng dưới dạng mã.",
+    "intro": [
+      "Chúng tôi chuyển các hệ thống tại chỗ và hệ thống cũ lên đám mây mà không làm gián đoạn hoạt động kinh doanh, sau đó thiết lập quy trình triển khai và giám sát để hệ thống luôn ổn định.",
+      "Với khách hàng sản xuất, chúng tôi thường thiết kế mô hình lai: hệ thống nhà máy vẫn đặt tại chỗ, còn báo cáo và phân tích được chuyển lên đám mây."
+    ],
+    "benefits": [ "Kế hoạch chuyển đổi không gián đoạn", "Hạ tầng dưới dạng mã (Terraform)", "Kiểm thử và triển khai tự động", "Rà soát chi phí đám mây" ],
+    "sections": [
+      {
+        "heading": "Phương pháp chuyển đổi của chúng tôi",
+        "paragraphs": [ "Trước tiên, chúng tôi lập bản đồ mọi hệ thống và phụ thuộc, sau đó chuyển đổi theo từng bước nhỏ có thể hoàn tác. Không hệ thống nào bị tắt cho đến khi hệ thống mới đã chạy song song và được kiểm chứng." ],
+        "bullets": [ "Đánh giá và lập kế hoạch chuyển đổi", "Chuyển đổi thí điểm một hệ thống", "Chuyển giao theo từng giai đoạn kèm kế hoạch hoàn tác", "Giám sát, cảnh báo và bàn giao" ]
+      }
+    ]
+  },
+  {
+    "slug": "manufacturing-industrial-software",
+    "title": "Phần mềm sản xuất & công nghiệp",
+    "summary": "MES, bảng điều khiển nhà máy và tích hợp với thiết bị cùng hệ thống ERP.",
+    "intro": [
+      "Chúng tôi xây dựng phần mềm cho xưởng sản xuất: hệ thống điều hành sản xuất, thu thập dữ liệu thiết bị, bảng điều khiển hiệu suất và chất lượng, cùng các tích hợp giữa chúng với ERP của bạn.",
+      "Các kỹ sư của chúng tôi hiểu những ràng buộc của sản xuất. Chúng tôi lên lịch phát hành theo khung giờ bảo trì và không bao giờ đặt dây chuyền đang chạy vào rủi ro."
+    ],
+    "benefits": [ "Kinh nghiệm với nhà máy bán dẫn và điện tử", "Tích hợp thiết bị (SECS/GEM, OPC UA)", "Bảng điều khiển sản xuất theo thời gian thực", "Phát hành theo khung giờ bảo trì" ],
+    "sections": [
+      {
+        "heading": "Dự án tiêu biểu",
+        "bullets": [ "Hiện đại hóa MES và báo cáo trên đám mây", "Luồng dữ liệu thiết bị và cảm biến", "Bảng điều khiển hiệu suất, chất lượng và OEE", "Hệ thống truy xuất nguồn gốc và kiểm toán" ]
+      }
+    ],
+    "technologies": [ "SECS/GEM", "OPC UA", "MQTT", "Cơ sở dữ liệu chuỗi thời gian", ".NET", "Python" ]
+  },
+  {
+    "slug": "data-ai-solutions",
+    "title": "Giải pháp dữ liệu & AI",
+    "summary": "Luồng dữ liệu, bảng phân tích và các tính năng AI hoạt động trong sản phẩm thực tế.",
+    "intro": [
+      "Chúng tôi biến dữ liệu bạn đang có thành quyết định: luồng dữ liệu sạch, bảng điều khiển đáng tin cậy và các tính năng AI thiết thực như dự báo, phát hiện bất thường và xử lý tài liệu.",
+      "Chúng tôi tập trung vào AI thực sự tạo ra giá trị cho sản phẩm, với cách đo lường rõ ràng để biết nó có hiệu quả hay không."
+    ],
+    "benefits": [ "Luồng dữ liệu đáng tin cậy", "Bảng điều khiển mà đội ngũ thực sự dùng", "Tính năng AI thiết thực, đo lường được", "Dữ liệu được lưu trong khu vực của bạn" ],
+    "sections": [
+      {
+        "heading": "Chúng tôi hỗ trợ ở đâu",
+        "bullets": [ "Thiết kế kho dữ liệu và luồng dữ liệu", "Bảng điều khiển BI và báo cáo", "Dự báo và phát hiện bất thường", "Xử lý tài liệu và email bằng LLM" ]
+      }
+    ]
+  },
+  {
+    "slug": "fintech-compliance-systems",
+    "title": "Hệ thống fintech & tuân thủ",
+    "summary": "Nền tảng bảo mật, đáp ứng yêu cầu của HKMA và FSC.",
+    "intro": [
+      "Chúng tôi xây dựng hệ thống mở tài khoản, thanh toán và báo cáo cho các công ty fintech và tổ chức tài chính, với bảo mật và tuân thủ được thiết kế ngay từ đầu.",
+      "Đội ngũ của chúng tôi nắm rõ yêu cầu của HKMA (Hồng Kông) và FSC (Đài Loan) về rủi ro công nghệ, thuê ngoài và sử dụng đám mây."
+    ],
+    "benefits": [ "Bảo mật được thiết kế từ ngày đầu", "Nhật ký kiểm toán và kiểm soát truy cập", "Kinh nghiệm với yêu cầu của HKMA và FSC", "Sẵn sàng cho kiểm thử xâm nhập khi bàn giao" ],
+    "sections": [
+      {
+        "heading": "Dự án tiêu biểu",
+        "bullets": [ "Quy trình mở tài khoản số và KYC", "Tích hợp thanh toán và quyết toán", "Tự động hóa báo cáo quản lý", "Bảng điều khiển rủi ro và tuân thủ nội bộ" ]
+      }
+    ]
+  },
+  {
+    "slug": "dedicated-engineering-teams",
+    "title": "Đội ngũ kỹ sư chuyên trách",
+    "summary": "Bổ sung kỹ sư làm việc như một phần trong đội ngũ của bạn.",
+    "intro": [
+      "Khi bạn cần thêm năng lực kỹ thuật, chúng tôi cung cấp lập trình viên, kỹ sư QA và DevOps gia nhập đội ngũ của bạn, sử dụng công cụ và tuân theo quy trình của bạn.",
+      "Bạn có được sự linh hoạt của đội ngũ bên ngoài cùng sự ổn định của đội ngũ nội bộ: vẫn là những con người ấy, tháng này qua tháng khác."
+    ],
+    "benefits": [ "Bắt đầu trong 2–4 tuần", "Cùng một nhóm kỹ sư lâu dài", "Làm việc với công cụ và quy trình của bạn", "Tăng hoặc giảm quy mô hằng tháng" ],
+    "sections": [
+      {
+        "heading": "Các vị trí chúng tôi cung cấp",
+        "bullets": [ "Lập trình viên full-stack và backend", "Lập trình viên di động", "Kỹ sư QA và kiểm thử tự động", "Kỹ sư DevOps và đám mây" ]
+      }
+    ],
+    "technologies": [ "Công nghệ bạn đang dùng" ]
+  }
+]

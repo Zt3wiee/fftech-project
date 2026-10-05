@@ -18,11 +18,11 @@
                     </div>
                     <div class="vl-btns nb-btn-row mb-40">
                         <div class="vl-herobtn vl-upper">
-                            <a href="@hero.PrimaryCta.Url" class="theme-btn">@hero.PrimaryCta.Label<span><i class="fa-regular fa-arrow-right"></i></span></a>
+                            <a href="@L.Url(hero.PrimaryCta.Url)" class="theme-btn">@hero.PrimaryCta.Label<span><i class="fa-regular fa-arrow-right"></i></span></a>
                         </div>
                         @if (hero.SecondaryCta is not null)
                         {
-                            <a href="@hero.SecondaryCta.Url" class="nb-text-link nb-text-link-light">@hero.SecondaryCta.Label <i class="fa-regular fa-arrow-right"></i></a>
+                            <a href="@L.Url(hero.SecondaryCta.Url)" class="nb-text-link nb-text-link-light">@hero.SecondaryCta.Label <i class="fa-regular fa-arrow-right"></i></a>
                         }
                     </div>
                     <ul class="nb-trust-points">
@@ -63,13 +63,13 @@
                 <div class="vl-about-content-4" data-aos="fade-right" data-aos-duration="800">
                     <div class="vl-section-title-wrapper">
                         <div class="vl-section-subheading">
-                            <h4 class="vl-section-subtitle-6 vl-upper">Why @site.ShortName</h4>
+                            <h4 class="vl-section-subtitle-6 vl-upper">@L["Why {0}", site.ShortName]</h4>
                         </div>
-                        <h2 class="vl-section-title vl-section-title-2 pt-16 pb-20">Built for Asia's High-Tech Companies</h2>
+                        <h2 class="vl-section-title vl-section-title-2 pt-16 pb-20">@L["Built for Asia's High-Tech Companies"]</h2>
                         <p class="vl-section-description-2 pb-32">@site.About.Intro</p>
                     </div>
                     <div class="vl-herobtn vl-aboutbtn vl-upper">
-                        <a href="/about" class="theme-btn theme-btn2">About us<span><i class="fa-regular fa-arrow-right"></i></span></a>
+                        <a href="@L.Url("/about")" class="theme-btn theme-btn2">@L["About us"]<span><i class="fa-regular fa-arrow-right"></i></span></a>
                     </div>
                 </div>
             </div>
@@ -95,9 +95,18 @@
     <div class="container">
         <div class="vl-section-title-wrapper text-center mb-60" data-aos="fade-up" data-aos-duration="900">
             <div class="vl-section-subheading">
-                <h4 class="vl-section-subtitle-6 vl-upper">What we do</h4>
+                <h4 class="vl-section-subtitle-6 vl-upper">@L["What we do"]</h4>
             </div>
-            <h2 class="vl-section-title vl-section-title-2 pt-16">Software Engineering for <br class="d-none d-md-block">Technology Companies</h2>
+            <h2 class="vl-section-title vl-section-title-2 pt-16">
+                @if (L.Language.IsDefault)
+                {
+                    <text>Software Engineering for <br class="d-none d-md-block">Technology Companies</text>
+                }
+                else
+                {
+                    @L["Software Engineering for Technology Companies"]
+                }
+            </h2>
         </div>
         <partial name="Sections/_ServiceCards" model="Content.Services" />
     </div>
@@ -109,9 +118,9 @@
     <div class="container">
         <div class="vl-section-title-wrapper text-center mb-60" data-aos="fade-up" data-aos-duration="900">
             <div class="vl-section-subheading">
-                <h4 class="vl-section-subtitle-6 vl-upper">Industries</h4>
+                <h4 class="vl-section-subtitle-6 vl-upper">@L["Industries"]</h4>
             </div>
-            <h2 class="vl-section-title vl-section-title-2 pt-16">We Speak Your Industry</h2>
+            <h2 class="vl-section-title vl-section-title-2 pt-16">@L["We Speak Your Industry"]</h2>
         </div>
         <partial name="Sections/_IndustryCards" model="Content.Industries" />
     </div>
@@ -127,13 +136,13 @@
                 <div class="col-lg-8">
                     <div class="vl-section-title-wrapper" data-aos="fade-up" data-aos-duration="900">
                         <div class="vl-section-subheading">
-                            <h4 class="vl-section-subtitle-6 vl-upper">Selected work</h4>
+                            <h4 class="vl-section-subtitle-6 vl-upper">@L["Selected work"]</h4>
                         </div>
-                        <h2 class="vl-section-title vl-section-title-2 pt-16">Real Problems, Measurable Results</h2>
+                        <h2 class="vl-section-title vl-section-title-2 pt-16">@L["Real Problems, Measurable Results"]</h2>
                     </div>
                 </div>
                 <div class="col-lg-4 text-lg-end">
-                    <a href="/work" class="nb-text-link">See all work <i class="fa-regular fa-arrow-right"></i></a>
+                    <a href="@L.Url("/work")" class="nb-text-link">@L["See all work"] <i class="fa-regular fa-arrow-right"></i></a>
                 </div>
             </div>
             <div class="row">
@@ -160,9 +169,9 @@
         <div class="container">
             <div class="vl-section-title-wrapper text-center mb-60" data-aos="fade-up" data-aos-duration="900">
                 <div class="vl-section-subheading">
-                    <h4 class="vl-section-subtitle-6 vl-upper">Insights</h4>
+                    <h4 class="vl-section-subtitle-6 vl-upper">@L["Insights"]</h4>
                 </div>
-                <h2 class="vl-section-title vl-section-title-2 pt-16">Notes From Our Engineers</h2>
+                <h2 class="vl-section-title vl-section-title-2 pt-16">@L["Notes From Our Engineers"]</h2>
             </div>
             <div class="row">
                 @foreach (var insight in Content.Insights.Take(2))

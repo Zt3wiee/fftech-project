@@ -1,0 +1,8 @@
+[
+  // Vietnamese text for team.json. Matched to the English by position.
+  // Names stay as they are in the English file.
+  { "role": "Nhà sáng lập & CEO", "location": "Đài Bắc", "bio": "Từng là trưởng nhóm phần mềm tại một nhà sản xuất thiết bị bán dẫn ở Tân Trúc." },
+  { "role": "Trưởng bộ phận triển khai", "location": "Hồng Kông", "bio": "Mười năm triển khai các nền tảng ngân hàng và fintech tại Hồng Kông." },
+  { "role": "Kiến trúc sư đám mây trưởng", "location": "Đài Bắc", "bio": "Thiết kế hạ tầng đám mây lai cho khách hàng sản xuất." },
+  { "role": "Kỹ sư full-stack cấp cao", "location": "Đài Bắc", "bio": "Xây dựng nền tảng web song ngữ với .NET và Vue." }
+]

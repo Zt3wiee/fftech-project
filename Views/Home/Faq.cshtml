@@ -1,9 +1,9 @@
 @{
-    ViewBag.Title = "FAQ";
+    ViewBag.Title = L["FAQ"];
     var groups = Content.Faq.GroupBy(f => f.Category).ToList();
 }
 
-<partial name="Sections/_PageBanner" model="@(new PageBanner("Frequently Asked Questions", "How we work, how we price, and what to expect."))" />
+<partial name="Sections/_PageBanner" model="@(new PageBanner(L["Frequently Asked Questions"], L["How we work, how we price, and what to expect."]))" />
 
 <section class="vl-faq-iner pt-100 pb-70">
     <div class="container">
@@ -14,6 +14,6 @@
                 <partial name="Sections/_Faq" model="group" />
             </div>
         }
-        <p class="vl-text-para vl-fs-18 text-center">Still have a question? <a class="nb-text-link" href="/contact">Ask us directly <i class="fa-regular fa-arrow-right"></i></a></p>
+        <p class="vl-text-para vl-fs-18 text-center">@L["Still have a question?"] <a class="nb-text-link" href="@L.Url("/contact")">@L["Ask us directly"] <i class="fa-regular fa-arrow-right"></i></a></p>
     </div>
 </section>

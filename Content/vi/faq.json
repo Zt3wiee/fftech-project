@@ -1,0 +1,44 @@
+[
+  // Vietnamese text for faq.json. Items are matched to the English by position,
+  // so keep them in the same order as the English file.
+  {
+    "category": "Hợp tác với chúng tôi",
+    "question": "Các bạn làm việc với những loại công ty nào?",
+    "answer": "Chủ yếu là các công ty công nghệ tại Đài Loan và Hồng Kông: nhà sản xuất bán dẫn và điện tử, công ty phần cứng và IoT, doanh nghiệp SaaS và fintech. Khách hàng của chúng tôi từ các startup đã gọi vốn đến những nhà sản xuất lớn đã niêm yết."
+  },
+  {
+    "category": "Hợp tác với chúng tôi",
+    "question": "Các bạn có thể ký NDA trước khi trao đổi không?",
+    "answer": "Có. Chúng tôi sẵn sàng ký NDA của bạn trước buổi trao đổi kỹ thuật đầu tiên. Phần lớn khách hàng đều yêu cầu như vậy."
+  },
+  {
+    "category": "Hợp tác với chúng tôi",
+    "question": "Các bạn có làm việc với đội ngũ ngoài Đài Loan và Hồng Kông không?",
+    "answer": "Có. Chúng tôi làm việc với các công ty tại Singapore, Nhật Bản, châu Âu và Mỹ, đặc biệt là những công ty có hoạt động hoặc khách hàng tại châu Á. Giờ làm việc của chúng tôi theo GMT+8, trùng với buổi sáng ở châu Âu và buổi tối ở Mỹ."
+  },
+  {
+    "category": "Giá & hợp đồng",
+    "question": "Các bạn báo giá dự án như thế nào?",
+    "answer": "Dự án có phạm vi rõ ràng được báo giá cố định. Công việc liên tục và đội ngũ chuyên trách được tính phí hằng tháng theo từng kỹ sư. Tư vấn được tính phí theo ngày. Chúng tôi luôn gửi báo giá bằng văn bản trước khi bắt đầu bất kỳ công việc nào."
+  },
+  {
+    "category": "Giá & hợp đồng",
+    "question": "Ai sở hữu mã nguồn và sở hữu trí tuệ?",
+    "answer": "Là bạn. Toàn bộ mã nguồn, tài liệu và sở hữu trí tuệ chúng tôi tạo ra cho bạn đều được chuyển giao hoàn toàn cho bạn, như được ghi trong hợp đồng."
+  },
+  {
+    "category": "Triển khai",
+    "question": "Đội ngũ có thể bắt đầu nhanh đến mức nào?",
+    "answer": "Buổi workshop khám phá thường có thể diễn ra trong vòng một tuần. Đội ngũ chuyên trách thường bắt đầu trong hai đến bốn tuần, tùy thuộc vào kỹ năng bạn cần."
+  },
+  {
+    "category": "Triển khai",
+    "question": "Các bạn có hỗ trợ sau khi ra mắt không?",
+    "answer": "Có. Mỗi dự án đều bao gồm một giai đoạn hỗ trợ sau khi ra mắt, và phần lớn khách hàng tiếp tục với gói hỗ trợ và cải tiến hằng tháng."
+  },
+  {
+    "category": "Triển khai",
+    "question": "Các bạn sử dụng những công nghệ nào?",
+    "answer": "Bộ công nghệ chính của chúng tôi là .NET, Node.js, Python, React và Vue, trên AWS, Azure hoặc GCP. Với đội ngũ chuyên trách, chúng tôi làm việc với bất kỳ công nghệ nào bạn đang sử dụng."
+  }
+]

@@ -1,0 +1,68 @@
+{
+  // Vietnamese text for site.json. Only text lives here: anything left out
+  // (email, phone numbers, links, icons) comes from the English file.
+  "tagline": "Đối tác kỹ thuật của các doanh nghiệp công nghệ cao châu Á",
+  "metaDescription": "FF Tech xây dựng, hiện đại hóa và mở rộng phần mềm cho các công ty công nghệ tại Đài Loan và Hồng Kông: phát triển theo yêu cầu, đám mây, dữ liệu & AI và đội ngũ kỹ sư chuyên trách.",
+  "footerBlurb": "Kỹ thuật phần mềm cho các công ty công nghệ tại Đài Loan và Hồng Kông. Đội ngũ song ngữ, làm việc theo giờ GMT+8, ký NDA trước tiên.",
+  "hours": "Thứ Hai – Thứ Sáu, 09:00–18:00 (GMT+8)",
+  "offices": [
+    {
+      "city": "Đài Bắc",
+      "label": "Văn phòng Đài Bắc",
+      "address": "Khu Công nghệ Nội Hồ, quận Nội Hồ, Đài Bắc 114, Đài Loan"
+    },
+    {
+      "city": "Hồng Kông",
+      "label": "Văn phòng Hồng Kông",
+      "address": "Quan Đường (Kwun Tong), Cửu Long, Hồng Kông"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Kỹ thuật phần mềm · Đài Loan & Hồng Kông",
+    "heading": "Đối tác kỹ thuật của các doanh nghiệp công nghệ cao châu Á",
+    "text": "Chúng tôi giúp các công ty công nghệ tại Đài Loan và Hồng Kông xây dựng, hiện đại hóa và mở rộng phần mềm, làm việc bằng tiếng Anh, tiếng Quan Thoại và tiếng Quảng Đông, theo đúng múi giờ của bạn.",
+    "primaryCta": { "label": "Đặt lịch tư vấn miễn phí" },
+    "secondaryCta": { "label": "Xem các dự án" },
+    "trustPoints": [ "Ký NDA trước cuộc gọi đầu tiên", "Đội ngũ song ngữ Anh / Trung", "Làm việc theo giờ GMT+8" ]
+  },
+  "about": {
+    "eyebrow": "Về FF Tech",
+    "heading": "Đội ngũ nhỏ, giàu kinh nghiệm, dành cho khách hàng kỹ thuật",
+    "intro": "FF Tech được thành lập năm 2019 bởi những kỹ sư từng làm việc nhiều năm tại các công ty bán dẫn, phần cứng và fintech. Chúng tôi làm việc như chính đội ngũ của bạn: bằng ngôn ngữ của bạn, theo giờ của bạn, với tiêu chuẩn mã nguồn của bạn.",
+    "highlights": [
+      { "title": "Kỹ sư là trung tâm", "text": "Mỗi dự án đều do một kỹ sư cấp cao dẫn dắt, không phải người quản lý tài khoản." },
+      { "title": "Quen với công việc kỹ thuật được quản lý chặt chẽ", "text": "Chúng tôi quen với môi trường nhà máy, kiểm toán, NDA và chu kỳ phát triển phần cứng dài." }
+    ],
+    "story": [
+      "Chúng tôi thành lập FF Tech sau khi nhìn thấy cùng một vấn đề từ bên trong: các doanh nghiệp công nghệ cao tại Đài Loan và Hồng Kông có chuyên môn phần cứng và tài chính đẳng cấp thế giới, nhưng khó tìm được đối tác phần mềm hiểu cả lĩnh vực lẫn văn hóa làm việc của họ.",
+      "Ngày nay, chúng tôi là đội ngũ kỹ sư tại Đài Bắc và Hồng Kông. Chúng tôi chỉ nhận một số ít dự án cùng lúc để mỗi khách hàng đều được các kỹ sư giàu kinh nghiệm quan tâm, và đồng hành cùng khách hàng lâu dài sau khi ra mắt."
+    ],
+    "pillars": [
+      { "title": "Sứ mệnh", "text": "Mang đến cho các doanh nghiệp công nghệ châu Á một đối tác phần mềm hiểu lĩnh vực của họ cũng như mã nguồn của họ." },
+      { "title": "Phương pháp", "text": "Đội ngũ nhỏ giàu kinh nghiệm, vòng phản hồi ngắn và tiến độ trung thực. Chúng tôi thà từ chối còn hơn hứa quá mức." },
+      { "title": "Cam kết", "text": "Mã nguồn, sở hữu trí tuệ và dữ liệu đều là của bạn. Mọi thứ chúng tôi xây dựng đều có tài liệu đầy đủ và được bàn giao toàn bộ." }
+    ]
+  },
+  "whyUs": [
+    { "title": "Đội ngũ song ngữ", "text": "Tiếng Anh, tiếng Quan Thoại và tiếng Quảng Đông, để không có gì bị thất lạc giữa đội kinh doanh và đội kỹ thuật của bạn." },
+    { "title": "Cùng múi giờ với bạn", "text": "Chúng tôi làm việc theo giờ GMT+8. Các cuộc họp diễn ra trong giờ làm việc của bạn, không phải lúc nửa đêm." },
+    { "title": "Kinh nghiệm công nghệ cao", "text": "Các dự án bán dẫn, phần cứng, IoT và fintech là công việc hằng ngày của chúng tôi." },
+    { "title": "Ký NDA trước tiên", "text": "Chúng tôi ký NDA của bạn trước buổi trao đổi kỹ thuật đầu tiên. Sở hữu trí tuệ luôn thuộc về bạn." }
+  ],
+  "process": [
+    { "title": "Khám phá", "text": "Chúng tôi tìm hiểu hệ thống, mục tiêu và các ràng buộc của bạn, thường qua một hoặc hai buổi workshop." },
+    { "title": "Đề xuất", "text": "Phạm vi rõ ràng với giá cố định, hoặc kế hoạch đội ngũ chuyên trách, kèm tiến độ trung thực." },
+    { "title": "Xây dựng", "text": "Các sprint hai tuần, mỗi sprint kết thúc bằng một bản demo chạy được." },
+    { "title": "Ra mắt & hỗ trợ", "text": "Chúng tôi triển khai, giám sát, liên tục cải tiến và bàn giao tài liệu đầy đủ." }
+  ],
+  "engagementModels": [
+    { "title": "Dự án phạm vi cố định", "text": "Sản phẩm bàn giao xác định, giá cố định và tiến độ cố định. Phù hợp nhất với các dự án rõ ràng, dễ hình dung." },
+    { "title": "Đội ngũ chuyên trách", "text": "Kỹ sư gia nhập đội ngũ của bạn lâu dài, làm việc với công cụ và quy trình của bạn." },
+    { "title": "Tư vấn kỹ thuật", "text": "Đánh giá kiến trúc, kiểm tra chi phí đám mây và thẩm định kỹ thuật, tính phí theo ngày." }
+  ],
+  "cta": {
+    "heading": "Bạn có ý tưởng dự án? Hãy cùng trao đổi.",
+    "text": "Hãy cho chúng tôi biết bạn đang xây dựng gì. Chúng tôi phản hồi trong vòng một ngày làm việc và sẵn sàng ký NDA của bạn trước.",
+    "primaryCta": { "label": "Bắt đầu dự án" }
+  }
+}

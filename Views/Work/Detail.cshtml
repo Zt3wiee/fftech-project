@@ -7,7 +7,7 @@
     var more = Content.Work.Where(w => w.Slug != Model.Slug).Take(3).ToList();
 }
 
-<partial name="Sections/_PageBanner" model="@(new PageBanner(Model.Title, Model.Summary, new Link("Work", "/work")))" />
+<partial name="Sections/_PageBanner" model="@(new PageBanner(Model.Title, Model.Summary, new Link(L["Work"], "/work")))" />
 
 <section class="vl-service-deatil pt-100">
     <div class="container">
@@ -16,26 +16,26 @@
                 <div class="vl-service-details">
                     <div class="vl-service-details-cat pt-24 pb-24 mb-30">
                         <div class="vl-service-details-cat-single">
-                            <h3 class="vl-fs-20 vl-lineheight-20 vl-text-cmn-blck pb-16 m-0">Client</h3>
+                            <h3 class="vl-fs-20 vl-lineheight-20 vl-text-cmn-blck pb-16 m-0">@L["Client"]</h3>
                             <p class="vl-text-para vl-fs-18 vl-lineheight-18 m-0">@Model.Client</p>
                         </div>
                         <div class="vl-service-details-cat-single">
-                            <h3 class="vl-fs-20 vl-lineheight-20 vl-text-cmn-blck pb-16 m-0">Industry</h3>
+                            <h3 class="vl-fs-20 vl-lineheight-20 vl-text-cmn-blck pb-16 m-0">@L["Industry"]</h3>
                             <p class="vl-text-para vl-fs-18 vl-lineheight-18 m-0">@(industry?.Title ?? Model.Industry)</p>
                         </div>
                         <div class="vl-service-details-cat-single">
-                            <h3 class="vl-fs-20 vl-lineheight-20 vl-text-cmn-blck pb-16 m-0">Region</h3>
+                            <h3 class="vl-fs-20 vl-lineheight-20 vl-text-cmn-blck pb-16 m-0">@L["Region"]</h3>
                             <p class="vl-text-para vl-fs-18 vl-lineheight-18 m-0">@Model.Region</p>
                         </div>
                         <div class="vl-service-details-cat-single">
-                            <h3 class="vl-fs-20 vl-lineheight-20 vl-text-cmn-blck pb-16 m-0">Year</h3>
+                            <h3 class="vl-fs-20 vl-lineheight-20 vl-text-cmn-blck pb-16 m-0">@L["Year"]</h3>
                             <p class="vl-text-para vl-fs-18 vl-lineheight-18 m-0">@Model.Year</p>
                         </div>
                     </div>
 
                     <div class="vl-service-details-larg-img fix br-8 mb-30 p-relative">
                         <img class="w-100" src="@Model.Image" alt="">
-                        <span class="nb-proof-badge nb-proof-@Model.ProofType">@Model.ProofLabel</span>
+                        <span class="nb-proof-badge nb-proof-@Model.ProofType">@L[Model.ProofLabel]</span>
                     </div>
 
                     @if (Model.Results.Count > 0)
@@ -52,14 +52,14 @@
                     }
 
                     <div class="vl-block-content mb-30">
-                        <h3 class="vl-fs-32 vl-lineheight-32 vl-text-cmn-blck pb-16 m-0">The challenge</h3>
+                        <h3 class="vl-fs-32 vl-lineheight-32 vl-text-cmn-blck pb-16 m-0">@L["The challenge"]</h3>
                         @foreach (var paragraph in Model.Challenge)
                         {
                             <p class="vl-text-para vl-fs-18 vl-lineheight-28 pb-16 m-0">@paragraph</p>
                         }
                     </div>
                     <div class="vl-block-content mb-30">
-                        <h3 class="vl-fs-32 vl-lineheight-32 vl-text-cmn-blck pb-16 m-0">What we did</h3>
+                        <h3 class="vl-fs-32 vl-lineheight-32 vl-text-cmn-blck pb-16 m-0">@L["What we did"]</h3>
                         @foreach (var paragraph in Model.Solution)
                         {
                             <p class="vl-text-para vl-fs-18 vl-lineheight-28 pb-16 m-0">@paragraph</p>
@@ -70,11 +70,11 @@
                         @if (services.Count > 0)
                         {
                             <div class="col-md-6 mb-30">
-                                <h3 class="nb-sidebar-title">Services</h3>
+                                <h3 class="nb-sidebar-title">@L["Services"]</h3>
                                 <ul class="nb-tags">
                                     @foreach (var service in services)
                                     {
-                                        <li><a href="/services/@service.Slug">@service.Title</a></li>
+                                        <li><a href="@L.Url($"/services/{service.Slug}")">@service.Title</a></li>
                                     }
                                 </ul>
                             </div>
@@ -82,7 +82,7 @@
                         @if (Model.Technologies.Count > 0)
                         {
                             <div class="col-md-6 mb-30">
-                                <h3 class="nb-sidebar-title">Technologies</h3>
+                                <h3 class="nb-sidebar-title">@L["Technologies"]</h3>
                                 <ul class="nb-tags">
                                     @foreach (var tech in Model.Technologies)
                                     {
@@ -102,7 +102,7 @@
 {
     <section class="vl-gallery pt-70 pb-70">
         <div class="container">
-            <h2 class="vl-text-cmn-blck text-center vl-fs-44 vl-lineheight-44 mb-60">More Work</h2>
+            <h2 class="vl-text-cmn-blck text-center vl-fs-44 vl-lineheight-44 mb-60">@L["More Work"]</h2>
             <div class="row justify-content-center">
                 @foreach (var item in more)
                 {

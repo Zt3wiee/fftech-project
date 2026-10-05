@@ -1,0 +1,44 @@
+[
+  // Traditional Chinese (Taiwan) text for faq.json. Items are matched to the English by position,
+  // so keep them in the same order as the English file.
+  {
+    "category": "與我們合作",
+    "question": "你們與哪些類型的公司合作？",
+    "answer": "主要是台灣與香港的科技公司：半導體與電子製造商、硬體與物聯網公司、SaaS 企業及金融科技公司。客戶規模從已獲投資的新創到大型上市製造商都有。"
+  },
+  {
+    "category": "與我們合作",
+    "question": "可以在洽談前先簽保密協議嗎？",
+    "answer": "可以。我們很樂意在第一次技術討論前簽署您的保密協議，大多數客戶也都會這樣要求。"
+  },
+  {
+    "category": "與我們合作",
+    "question": "你們與台灣和香港以外的團隊合作嗎？",
+    "answer": "是的。我們與新加坡、日本、歐洲及美國的公司合作，特別是在亞洲有營運或客戶的企業。我們的工作時間為 GMT+8，可與歐洲的上午及美國的晚間重疊。"
+  },
+  {
+    "category": "價格與合約",
+    "question": "你們如何為專案報價？",
+    "answer": "範圍明確的專案採固定價格。持續性工作與專屬團隊按每位工程師每月計費。顧問服務按日計費。在任何工作開始前，我們都會提供書面估價。"
+  },
+  {
+    "category": "價格與合約",
+    "question": "程式碼與智慧財產權歸誰所有？",
+    "answer": "歸您所有。我們為您開發的所有程式碼、文件與智慧財產，都會依合約完整移轉給您。"
+  },
+  {
+    "category": "交付",
+    "question": "團隊多快可以開始？",
+    "answer": "需求探索工作坊通常可在一週內安排。專屬團隊一般在兩到四週內開始，視您需要的技能而定。"
+  },
+  {
+    "category": "交付",
+    "question": "上線後提供支援嗎？",
+    "answer": "提供。每個專案上線後都包含一段支援期，大多數客戶之後會繼續採用每月的支援與改善方案。"
+  },
+  {
+    "category": "交付",
+    "question": "你們使用哪些技術？",
+    "answer": "我們的核心技術為 .NET、Node.js、Python、React 與 Vue，搭配 AWS、Azure 或 GCP。若是專屬團隊，我們會使用您現有的技術棧。"
+  }
+]

@@ -1,0 +1,8 @@
+[
+  // Traditional Chinese (Taiwan) labels for stats.json. Matched to the English by position;
+  // the numbers come from the English file.
+  { "label": "已交付專案" },
+  { "label": "營運年數" },
+  { "label": "辦公室：台北與香港" },
+  { "label": "位工程師" }
+]

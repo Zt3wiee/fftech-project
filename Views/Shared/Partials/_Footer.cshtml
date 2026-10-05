@@ -9,7 +9,7 @@
                 <div class="col-lg-4 col-md-6 mb-30">
                     <div class="vl-footer-widget-1">
                         <div class="vl-footer-logo nb-logo nb-logo-dark">
-                            <a href="/"><img src="~/img/logo/logo-full.png" alt="@site.Name"></a>
+                            <a href="@L.Url("/")"><img src="~/img/logo/logo-full.png" alt="@site.Name"></a>
                         </div>
                         <div class="vl-footer-content vl-footer-content-4">
                             <p class="pt-16 pb-32">@site.FooterBlurb</p>
@@ -26,32 +26,32 @@
                 </div>
                 <div class="col-lg-2 col-md-6 mb-30">
                     <div class="vl-footer-widget-2">
-                        <h3 class="vl-footer-widget-title vl-fs-20 mb-20">Company</h3>
+                        <h3 class="vl-footer-widget-title vl-fs-20 mb-20">@L["Company"]</h3>
                         <div class="vl-footer-menu vl-footer-menu-4">
                             <ul>
-                                <li><a href="/about">About us</a></li>
+                                <li><a href="@L.Url("/about")">@L["About us"]</a></li>
                                 @if (Content.Work.Count > 0)
                                 {
-                                    <li><a href="/work">Our work</a></li>
+                                    <li><a href="@L.Url("/work")">@L["Our work"]</a></li>
                                 }
                                 @if (Content.Insights.Count > 0)
                                 {
-                                    <li><a href="/insights">Insights</a></li>
+                                    <li><a href="@L.Url("/insights")">@L["Insights"]</a></li>
                                 }
-                                <li><a href="/faq">FAQ</a></li>
-                                <li><a href="/contact">Contact</a></li>
+                                <li><a href="@L.Url("/faq")">@L["FAQ"]</a></li>
+                                <li><a href="@L.Url("/contact")">@L["Contact"]</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-30">
                     <div class="vl-footer-widget-3">
-                        <h3 class="vl-footer-widget-title vl-fs-20 mb-20">Services</h3>
+                        <h3 class="vl-footer-widget-title vl-fs-20 mb-20">@L["Services"]</h3>
                         <div class="vl-footer-menu vl-footer-menu-4">
                             <ul>
                                 @foreach (var service in Content.Services)
                                 {
-                                    <li><a href="/services/@service.Slug">@service.Title</a></li>
+                                    <li><a href="@L.Url($"/services/{service.Slug}")">@service.Title</a></li>
                                 }
                             </ul>
                         </div>
@@ -59,7 +59,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 mb-30">
                     <div class="vl-footer-widget-4">
-                        <h3 class="vl-footer-widget-title vl-fs-20 mb-20">Get in touch</h3>
+                        <h3 class="vl-footer-widget-title vl-fs-20 mb-20">@L["Get in touch"]</h3>
                         <ul class="nb-footer-contact">
                             <li><i class="fa-regular fa-envelope"></i><a href="mailto:@site.Email">@site.Email</a></li>
                             @foreach (var office in site.Offices)
@@ -77,7 +77,7 @@
                 <div class="row align-items-center">
                     <div class="col-md-6">
                         <div class="vl-footer-copyright-text vl-footer-copyright-text-4">
-                            <p>Copyright &copy;@DateTime.Now.Year @site.Name. All rights reserved.</p>
+                            <p>&copy;@DateTime.Now.Year @site.Name. @L["All rights reserved."]</p>
                         </div>
                     </div>
                     <div class="col-md-6">

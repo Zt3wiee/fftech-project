@@ -6,11 +6,11 @@
             <div class="col-xl-8 col-lg-9">
                 <div class="vl-breadcrumb">
                     <div class="vl-breadcrumb-list mb-20">
-                        <span><a href="/">Home</a></span>
+                        <span><a href="@L.Url("/")">@L["Home"]</a></span>
                         @foreach (var crumb in Model.Crumbs)
                         {
                             <span class="dvir"><i class="fa-solid fa-angle-right"></i></span>
-                            <span><a href="@crumb.Url">@crumb.Label</a></span>
+                            <span><a href="@L.Url(crumb.Url)">@crumb.Label</a></span>
                         }
                         <span class="dvir"><i class="fa-solid fa-angle-right"></i></span>
                         <span class="active">@Model.Title</span>

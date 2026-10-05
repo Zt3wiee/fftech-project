@@ -8,9 +8,9 @@
                     <span><i class="fa-regular @service.Icon"></i></span>
                 </div>
                 <div class="vl-service-icon-box-4-content4">
-                    <h3 class="vl-service-icon-box-4-title pt-32 pb-16"><a href="/services/@service.Slug">@service.Title</a></h3>
+                    <h3 class="vl-service-icon-box-4-title pt-32 pb-16"><a href="@L.Url($"/services/{service.Slug}")">@service.Title</a></h3>
                     <p class="vl-fs-18 vl-lineheight-28 pb-24">@service.Summary</p>
-                    <a href="/services/@service.Slug" class="readmore">Learn more <span><i class="fa-regular fa-arrow-right"></i></span></a>
+                    <a href="@L.Url($"/services/{service.Slug}")" class="readmore">@L["Learn more"] <span><i class="fa-regular fa-arrow-right"></i></span></a>
                 </div>
             </div>
         </div>

@@ -1,0 +1,43 @@
+[
+  // Vietnamese text for industries.json, matched to the English by "slug".
+  {
+    "slug": "semiconductor-electronics",
+    "title": "Bán dẫn & điện tử",
+    "summary": "Phần mềm cho nhà máy bán dẫn, nhà sản xuất thiết bị và điện tử tại Tân Trúc và Đài Trung.",
+    "intro": [ "Các doanh nghiệp bán dẫn và điện tử vận hành một trong những môi trường sản xuất khắt khe nhất thế giới. Phần mềm của họ cũng phải đáng tin cậy như vậy." ],
+    "challenges": [ "Hệ thống MES và báo cáo cũ khó thay đổi", "Dữ liệu thiết bị bị khóa trong định dạng độc quyền", "Quy định nghiêm ngặt về bảo vệ sở hữu trí tuệ và an ninh tại chỗ", "Mỗi lần phát hành không được làm gián đoạn sản xuất" ],
+    "howWeHelp": [ "Hiện đại hóa MES và báo cáo trên đám mây", "Thu thập dữ liệu thiết bị và bảng điều khiển", "Phân tích hiệu suất và chất lượng", "Kiến trúc đám mây lai bảo mật" ]
+  },
+  {
+    "slug": "hardware-iot",
+    "title": "Phần cứng & IoT",
+    "summary": "Nền tảng thiết bị, ứng dụng đi kèm và bảng điều khiển đội thiết bị cho sản phẩm kết nối.",
+    "intro": [ "Phần cứng tốt cần phần mềm tốt đi kèm: quản lý thiết bị, ứng dụng đi kèm, quy trình cập nhật firmware và các bảng điều khiển mà khách hàng của bạn sử dụng." ],
+    "challenges": [ "Quản lý hàng nghìn thiết bị ngoài thực địa", "Cập nhật từ xa (OTA) mà không làm hỏng thiết bị", "Ứng dụng phải hoạt động trên mạng không ổn định", "Khối lượng dữ liệu tăng theo mỗi lô hàng" ],
+    "howWeHelp": [ "Nền tảng quản lý thiết bị và OTA", "Bảng điều khiển giám sát đội thiết bị", "Ứng dụng di động và web đi kèm", "Thu nhận dữ liệu có khả năng mở rộng" ]
+  },
+  {
+    "slug": "saas-software",
+    "title": "SaaS & công ty phần mềm",
+    "summary": "Bổ sung năng lực kỹ thuật và kỹ năng chuyên sâu cho các công ty sản phẩm đang phát triển.",
+    "intro": [ "Các công ty sản phẩm cần ra mắt nhanh mà không đánh đổi chất lượng. Chúng tôi bổ sung năng lực cấp cao và kỹ năng chuyên sâu đúng nơi lộ trình của bạn cần." ],
+    "challenges": [ "Lộ trình vượt quá khả năng của đội ngũ nội bộ", "Kỹ năng chuyên sâu khó tuyển dụng", "Mở rộng hạ tầng khi khách hàng tăng trưởng", "Thâm nhập thị trường mới tại châu Á" ],
+    "howWeHelp": [ "Kỹ sư chuyên trách trong đội ngũ của bạn", "Đánh giá kiến trúc và hiệu năng", "Tối ưu chi phí và mở rộng đám mây", "Bản địa hóa cho thị trường tiếng Trung phồn thể" ]
+  },
+  {
+    "slug": "fintech-banking",
+    "title": "Fintech & ngân hàng",
+    "summary": "Nền tảng bảo mật, tuân thủ cho ngành fintech và dịch vụ tài chính Hồng Kông.",
+    "intro": [ "Dịch vụ tài chính thay đổi nhanh, nhưng cơ quan quản lý yêu cầu mọi hệ thống phải bảo mật, có thể kiểm toán và vận hành bền vững. Chúng tôi đáp ứng cả hai." ],
+    "challenges": [ "Yêu cầu của cơ quan quản lý về rủi ro công nghệ", "Quy trình mở tài khoản và KYC chậm, thủ công", "Tích hợp với ngân hàng và mạng thanh toán", "Nhật ký và kiểm soát truy cập sẵn sàng cho kiểm toán" ],
+    "howWeHelp": [ "Nền tảng mở tài khoản số và KYC", "Tích hợp thanh toán và quyết toán", "Tự động hóa báo cáo quản lý", "Rà soát và tăng cường bảo mật" ]
+  },
+  {
+    "slug": "smart-manufacturing",
+    "title": "Sản xuất thông minh",
+    "summary": "Nhà máy kết nối: dữ liệu sản xuất, truy xuất nguồn gốc và tự động hóa.",
+    "intro": [ "Từ máy móc chính xác đến lắp ráp điện tử tiêu dùng, chúng tôi giúp nhà sản xuất kết nối dữ liệu sản xuất và hành động dựa trên dữ liệu đó." ],
+    "challenges": [ "Dữ liệu sản xuất phân tán giữa máy móc và bảng tính", "Yêu cầu truy xuất nguồn gốc từ khách hàng toàn cầu", "Đội ngũ phần mềm nội bộ hạn chế", "Tích hợp thiết bị cũ với hệ thống mới" ],
+    "howWeHelp": [ "Thu thập dữ liệu tại xưởng", "Bảng điều khiển OEE và chất lượng", "Hệ thống truy xuất nguồn gốc", "Tích hợp ERP và MES" ]
+  }
+]

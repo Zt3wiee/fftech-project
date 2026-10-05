@@ -1,0 +1,8 @@
+[
+  // Traditional Chinese (Taiwan) text for team.json. Matched to the English by position.
+  // Names stay as they are in the English file.
+  { "role": "創辦人暨執行長", "location": "台北", "bio": "曾任新竹半導體設備商軟體主管。" },
+  { "role": "交付主管", "location": "香港", "bio": "在香港交付銀行與金融科技平台十年。" },
+  { "role": "首席雲端架構師", "location": "台北", "bio": "為製造業客戶設計混合雲架構。" },
+  { "role": "資深全端工程師", "location": "台北", "bio": "以 .NET 與 Vue 打造雙語網頁平台。" }
+]

@@ -1,0 +1,9 @@
+[
+  // Khmer text for team.json. Matched to the English by position.
+  // Names stay as they are in the English file.
+  // First draft: please have a native Khmer speaker review before launch.
+  { "role": "ស្ថាបនិក និងនាយកប្រតិបត្តិ", "location": "តៃប៉ិ", "bio": "អតីតប្រធានផ្នែកសូហ្វវែរ នៅក្រុមហ៊ុនផលិតឧបករណ៍សេមីកុងដុកទ័រមួយនៅស៊ីនជូ។" },
+  { "role": "ប្រធានផ្នែកអនុវត្តគម្រោង", "location": "ហុងកុង", "bio": "មានបទពិសោធន៍ដប់ឆ្នាំ ក្នុងការអនុវត្តវេទិកាធនាគារ និង Fintech នៅហុងកុង។" },
+  { "role": "ស្ថាបត្យករ Cloud ជាន់ខ្ពស់", "location": "តៃប៉ិ", "bio": "រចនាប្រព័ន្ធ Cloud ចម្រុះ សម្រាប់អតិថិជនផលិតកម្ម។" },
+  { "role": "វិស្វករ Full-Stack ជាន់ខ្ពស់", "location": "តៃប៉ិ", "bio": "បង្កើតវេទិកាគេហទំព័រពីរភាសា ដោយប្រើ .NET និង Vue។" }
+]

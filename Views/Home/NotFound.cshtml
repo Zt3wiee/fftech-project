@@ -1,8 +1,8 @@
 @{
-    ViewBag.Title = "Page not found";
+    ViewBag.Title = L["Page not found"];
 }
 
-<partial name="Sections/_PageBanner" model="@(new PageBanner("Page Not Found"))" />
+<partial name="Sections/_PageBanner" model="@(new PageBanner(L["Page Not Found"]))" />
 
 <section class="vl-error-sec pt-100 pb-70">
     <div class="container">
@@ -11,15 +11,15 @@
                 <div class="vl-error-con">
                     <p class="nb-error-code">404</p>
                     <div class="vl-error-text">
-                        <h3 class="vl-fs-40 vl-lineheight-40 vl-text-cmn-blck pb-20 m-0">Sorry, we couldn't find that page.</h3>
-                        <p class="vl-text-para vl-fs-18 vl-lineheight-28 pb-30 m-0">It may have moved, or the link may be wrong. These might help:</p>
+                        <h3 class="vl-fs-40 vl-lineheight-40 vl-text-cmn-blck pb-20 m-0">@L["Sorry, we couldn't find that page."]</h3>
+                        <p class="vl-text-para vl-fs-18 vl-lineheight-28 pb-30 m-0">@L["It may have moved, or the link may be wrong. These might help:"]</p>
                     </div>
                     <div class="nb-btn-row justify-content-center">
                         <div class="vl-herobtn vl-aboutbtn vl-upper">
-                            <a href="/" class="theme-btn theme-btn2">Back to home <span><i class="fa-regular fa-arrow-right"></i></span></a>
+                            <a href="@L.Url("/")" class="theme-btn theme-btn2">@L["Back to home"] <span><i class="fa-regular fa-arrow-right"></i></span></a>
                         </div>
-                        <a href="/services" class="nb-text-link">Our services</a>
-                        <a href="/contact" class="nb-text-link">Contact us</a>
+                        <a href="@L.Url("/services")" class="nb-text-link">@L["Our services"]</a>
+                        <a href="@L.Url("/contact")" class="nb-text-link">@L["Contact us"]</a>
                     </div>
                 </div>
             </div>

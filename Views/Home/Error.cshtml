@@ -1,8 +1,8 @@
 @{
-    ViewBag.Title = "Something went wrong";
+    ViewBag.Title = L["Something went wrong"];
 }
 
-<partial name="Sections/_PageBanner" model="@(new PageBanner("Something Went Wrong"))" />
+<partial name="Sections/_PageBanner" model="@(new PageBanner(L["Something Went Wrong"]))" />
 
 <section class="vl-error-sec pt-100 pb-70">
     <div class="container">
@@ -10,16 +10,16 @@
             <div class="col-lg-8 mx-auto text-center">
                 @if (ViewBag.StatusCode == 429)
                 {
-                    <h3 class="vl-fs-40 vl-lineheight-40 vl-text-cmn-blck pb-20 m-0">Too many messages in a short time.</h3>
-                    <p class="vl-text-para vl-fs-18 vl-lineheight-28 pb-30 m-0">Please wait a few minutes and try again, or email us directly at <a href="mailto:@Content.Site.Email">@Content.Site.Email</a>.</p>
+                    <h3 class="vl-fs-40 vl-lineheight-40 vl-text-cmn-blck pb-20 m-0">@L["Too many messages in a short time."]</h3>
+                    <p class="vl-text-para vl-fs-18 vl-lineheight-28 pb-30 m-0">@L["Please wait a few minutes and try again, or email us directly at"] <a href="mailto:@Content.Site.Email">@Content.Site.Email</a>.</p>
                 }
                 else
                 {
-                    <h3 class="vl-fs-40 vl-lineheight-40 vl-text-cmn-blck pb-20 m-0">Sorry, an unexpected error happened.</h3>
-                    <p class="vl-text-para vl-fs-18 vl-lineheight-28 pb-30 m-0">Please try again in a moment. If it keeps happening, email us at <a href="mailto:@Content.Site.Email">@Content.Site.Email</a>.</p>
+                    <h3 class="vl-fs-40 vl-lineheight-40 vl-text-cmn-blck pb-20 m-0">@L["Sorry, an unexpected error happened."]</h3>
+                    <p class="vl-text-para vl-fs-18 vl-lineheight-28 pb-30 m-0">@L["Please try again in a moment. If it keeps happening, email us at"] <a href="mailto:@Content.Site.Email">@Content.Site.Email</a>.</p>
                 }
                 <div class="vl-herobtn vl-aboutbtn vl-upper">
-                    <a href="/" class="theme-btn theme-btn2">Back to home <span><i class="fa-regular fa-arrow-right"></i></span></a>
+                    <a href="@L.Url("/")" class="theme-btn theme-btn2">@L["Back to home"] <span><i class="fa-regular fa-arrow-right"></i></span></a>
                 </div>
             </div>
         </div>

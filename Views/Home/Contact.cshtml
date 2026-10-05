@@ -1,13 +1,13 @@
 @model ContactForm
 @{
     var site = Content.Site;
-    ViewBag.Title = "Contact us";
-    ViewBag.Description = $"Tell {site.Name} about your project. We reply within one working day and are happy to sign your NDA first.";
+    ViewBag.Title = L["Contact us"];
+    ViewBag.Description = L["Tell {0} about your project. We reply within one working day and are happy to sign your NDA first.", site.Name];
     ViewBag.HideCta = true;
     bool sent = ViewBag.Sent ?? false;
 }
 
-<partial name="Sections/_PageBanner" model="@(new PageBanner("Let's Talk About Your Project", "We reply within one working day, and we're happy to sign your NDA before the first call."))" />
+<partial name="Sections/_PageBanner" model="@(new PageBanner(L["Let's Talk About Your Project"], L["We reply within one working day, and we're happy to sign your NDA before the first call."]))" />
 
 <!--================= Contact section start =================-->
 <section class="vl-contact-iner pt-100 pb-70">
@@ -19,49 +19,51 @@
                     {
                         <div class="nb-form-success" role="status">
                             <span class="nb-feature-icon"><i class="fa-regular fa-circle-check"></i></span>
-                            <h3 class="vl-fs-24 vl-lineheight-24 vl-text-cmn-blck pb-16 m-0">Thank you, your message has been sent.</h3>
-                            <p class="vl-text-para vl-fs-18 vl-lineheight-28 m-0">We'll reply to you within one working day. If it's urgent, email us at <a href="mailto:@site.Email">@site.Email</a>.</p>
+                            <h3 class="vl-fs-24 vl-lineheight-24 vl-text-cmn-blck pb-16 m-0">@L["Thank you, your message has been sent."]</h3>
+                            <p class="vl-text-para vl-fs-18 vl-lineheight-28 m-0">@L["We'll reply to you within one working day. If it's urgent, email us at"] <a href="mailto:@site.Email">@site.Email</a>.</p>
                         </div>
                     }
                     else
                     {
-                        <h3 class="vl-fs-24 vl-lineheight-24 vl-text-cmn-blck pb-20 m-0">Send us a message</h3>
-                        <p class="vl-text-para vl-fs-18 vl-lineheight-28 pb-30 m-0">Tell us a little about what you're building. A few sentences is enough to start.</p>
-                        <form method="post" action="/contact#contact-form" asp-antiforgery="true" class="vl-contact-iner-form nb-form" novalidate>
+                        <h3 class="vl-fs-24 vl-lineheight-24 vl-text-cmn-blck pb-20 m-0">@L["Send us a message"]</h3>
+                        <p class="vl-text-para vl-fs-18 vl-lineheight-28 pb-30 m-0">@L["Tell us a little about what you're building. A few sentences is enough to start."]</p>
+                        <form method="post" action="@L.Url("/contact")#contact-form" asp-antiforgery="true" class="vl-contact-iner-form nb-form" novalidate>
                             <div asp-validation-summary="ModelOnly" class="nb-form-error"></div>
                             <div class="row">
                                 <div class="col-md-6 mb-20">
-                                    <label asp-for="Name">Your name *</label>
+                                    <label asp-for="Name">@L["Your name *"]</label>
                                     <input asp-for="Name" autocomplete="name">
                                     <span asp-validation-for="Name" class="nb-field-error"></span>
                                 </div>
                                 <div class="col-md-6 mb-20">
-                                    <label asp-for="Company">Company</label>
+                                    <label asp-for="Company">@L["Company"]</label>
                                     <input asp-for="Company" autocomplete="organization">
                                 </div>
                                 <div class="col-md-6 mb-20">
-                                    <label asp-for="Email">Work email *</label>
+                                    <label asp-for="Email">@L["Work email *"]</label>
                                     <input asp-for="Email" type="email" autocomplete="email">
                                     <span asp-validation-for="Email" class="nb-field-error"></span>
                                 </div>
                                 <div class="col-md-6 mb-20">
-                                    <label asp-for="Phone">Phone</label>
+                                    <label asp-for="Phone">@L["Phone"]</label>
                                     <input asp-for="Phone" type="tel" autocomplete="tel">
                                 </div>
                                 <div class="col-12 mb-20">
-                                    <label asp-for="Topic">What can we help with?</label>
+                                    <label asp-for="Topic">@L["What can we help with?"]</label>
                                     <select asp-for="Topic">
-                                        <option value="">Choose a topic (optional)</option>
+                                        <option value="">@L["Choose a topic (optional)"]</option>
+                                        @* Topics are stored in English so every message reads the same, whatever the page language. *@
                                         @foreach (var service in Content.Services)
                                         {
-                                            <option value="@service.Title">@service.Title</option>
+                                            var english = Content.EnglishServices.FirstOrDefault(s => s.Slug == service.Slug)?.Title ?? service.Title;
+                                            <option value="@english">@service.Title</option>
                                         }
-                                        <option value="Something else">Something else</option>
+                                        <option value="Something else">@L["Something else"]</option>
                                     </select>
                                 </div>
                                 <div class="col-12 mb-20">
-                                    <label asp-for="Message">Your project *</label>
-                                    <textarea asp-for="Message" rows="6" placeholder="What are you building, and where do you need help?"></textarea>
+                                    <label asp-for="Message">@L["Your project *"]</label>
+                                    <textarea asp-for="Message" rows="6" placeholder="@L["What are you building, and where do you need help?"]"></textarea>
                                     <span asp-validation-for="Message" class="nb-field-error"></span>
                                 </div>
                                 <div class="nb-hp" aria-hidden="true">
@@ -69,9 +71,9 @@
                                     <input asp-for="Website" tabindex="-1" autocomplete="off">
                                 </div>
                                 <div class="col-12 d-flex flex-wrap align-items-center justify-content-between gap-3">
-                                    <p class="nb-form-note m-0">We only use your details to reply to you.</p>
+                                    <p class="nb-form-note m-0">@L["We only use your details to reply to you."]</p>
                                     <div class="vl-about-inner-btn">
-                                        <button type="submit" class="vl-iner-btn">Send message <span><i class="fa-light fa-arrow-right"></i></span></button>
+                                        <button type="submit" class="vl-iner-btn">@L["Send message"] <span><i class="fa-light fa-arrow-right"></i></span></button>
                                     </div>
                                 </div>
                             </div>
@@ -86,7 +88,7 @@
                             <span><img src="~/img/icons/vl-contact-iner-mail.svg" alt=""></span>
                         </div>
                         <div class="vl-contact-iner-widget-1-content">
-                            <h5 class="vl-contact-iner-widget-1-content-title pb-14 m-0">Email us</h5>
+                            <h5 class="vl-contact-iner-widget-1-content-title pb-14 m-0">@L["Email us"]</h5>
                             <a href="mailto:@site.Email">@site.Email</a>
                         </div>
                     </div>
@@ -108,7 +110,7 @@
                             <span><img src="~/img/icons/vl-contact-iner-phone.svg" alt=""></span>
                         </div>
                         <div class="vl-contact-iner-widget-1-content">
-                            <h5 class="vl-contact-iner-widget-1-content-title pb-14 m-0">Office hours</h5>
+                            <h5 class="vl-contact-iner-widget-1-content-title pb-14 m-0">@L["Office hours"]</h5>
                             <p class="m-0">@site.Hours</p>
                         </div>
                     </div>
@@ -126,7 +128,7 @@
             {
                 <div class="col-md-6">
                     <h4 class="nb-map-title">@office.City</h4>
-                    <iframe src="@office.MapEmbedUrl" title="Map of our @office.City office" class="vl-contact-iner-google-map nb-map mb-30 br-8" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen=""></iframe>
+                    <iframe src="@office.MapEmbedUrl" title="@L["Map of our {0} office", office.City]" class="vl-contact-iner-google-map nb-map mb-30 br-8" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen=""></iframe>
                 </div>
             }
         </div>

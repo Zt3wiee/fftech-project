@@ -41,13 +41,13 @@ namespace Otech.Services
             _logger = logger;
         }
 
-        public async Task SubmitAsync(ContactForm form, string? ipAddress)
+        public async Task SubmitAsync(ContactForm form, string? ipAddress, string language)
         {
             var receivedAt = DateTimeOffset.UtcNow;
 
             Directory.CreateDirectory(_folder);
             var file = Path.Combine(_folder, $"{receivedAt:yyyyMMdd-HHmmss}-{Guid.NewGuid():N}.json");
-            var record = new { receivedAt, ipAddress, form.Name, form.Company, form.Email, form.Phone, form.Topic, form.Message };
+            var record = new { receivedAt, ipAddress, language, form.Name, form.Company, form.Email, form.Phone, form.Topic, form.Message };
             await File.WriteAllTextAsync(file, JsonSerializer.Serialize(record, new JsonSerializerOptions { WriteIndented = true }));
             _logger.LogInformation("Contact message from {Email} saved to {File}", form.Email, file);
 
@@ -56,7 +56,7 @@ namespace Otech.Services
 
             try
             {
-                await SendEmailAsync(form, receivedAt);
+                await SendEmailAsync(form, receivedAt, language);
             }
             catch (Exception ex)
             {
@@ -65,7 +65,7 @@ namespace Otech.Services
             }
         }
 
-        private async Task SendEmailAsync(ContactForm form, DateTimeOffset receivedAt)
+        private async Task SendEmailAsync(ContactForm form, DateTimeOffset receivedAt, string language)
         {
             var body = new StringBuilder()
                 .AppendLine($"Name:     {form.Name}")
@@ -73,6 +73,7 @@ namespace Otech.Services
                 .AppendLine($"Email:    {form.Email}")
                 .AppendLine($"Phone:    {form.Phone}")
                 .AppendLine($"Topic:    {form.Topic}")
+                .AppendLine($"Language: {language}")
                 .AppendLine($"Received: {receivedAt:yyyy-MM-dd HH:mm} UTC")
                 .AppendLine()
                 .AppendLine(form.Message)

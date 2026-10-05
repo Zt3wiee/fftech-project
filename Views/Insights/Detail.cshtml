@@ -5,7 +5,7 @@
     var more = Content.Insights.Where(i => i.Slug != Model.Slug).Take(2).ToList();
 }
 
-<partial name="Sections/_PageBanner" model="@(new PageBanner(Model.Title, null, new Link("Insights", "/insights")))" />
+<partial name="Sections/_PageBanner" model="@(new PageBanner(Model.Title, null, new Link(L["Insights"], "/insights")))" />
 
 <section class="vl-service-deatil pt-100">
     <div class="container">
@@ -19,7 +19,7 @@
                         </div>
                         <div class="vl-service-details-cat-single vl-service-details-cat-single-2 d-flex align-items-center">
                             <span class="icon"><i class="fa-regular fa-calendar"></i></span>
-                            <p class="vl-text-para vl-fs-16 vl-lineheight-16 m-0">@Model.Date.ToString("d MMMM yyyy")</p>
+                            <p class="vl-text-para vl-fs-16 vl-lineheight-16 m-0">@Model.Date.ToString(L.Language.DateFormat)</p>
                         </div>
                         <div class="vl-service-details-cat-single vl-service-details-cat-single-2 d-flex align-items-center">
                             <span class="icon"><i class="fa-regular fa-tag"></i></span>
@@ -50,7 +50,7 @@
 {
     <section class="vl-blog pt-70 pb-70">
         <div class="container">
-            <h2 class="vl-text-cmn-blck text-center vl-fs-44 vl-lineheight-44 mb-60">More Insights</h2>
+            <h2 class="vl-text-cmn-blck text-center vl-fs-44 vl-lineheight-44 mb-60">@L["More Insights"]</h2>
             <div class="row">
                 @foreach (var insight in more)
                 {

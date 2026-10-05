@@ -5,15 +5,15 @@
 <div class="vl-gallery-testimonial-2 nb-work-card br-8 fix p-relative mb-30 z-index-1">
     <div class="vl-gallery-testimonial-2-image">
         <img class="w-100" src="@Model.Image" alt="">
-        <span class="nb-proof-badge nb-proof-@Model.ProofType">@Model.ProofLabel</span>
+        <span class="nb-proof-badge nb-proof-@Model.ProofType">@L[Model.ProofLabel]</span>
     </div>
     <div class="nb-work-card-body">
         <p class="nb-work-card-meta">@(industry?.Title ?? Model.Industry)@(Model.Region != "—" ? $" · {Model.Region}" : "")</p>
-        <h3 class="nb-work-card-title"><a href="/work/@Model.Slug">@Model.Title</a></h3>
+        <h3 class="nb-work-card-title"><a href="@L.Url($"/work/{Model.Slug}")">@Model.Title</a></h3>
         @if (Model.Results.Count > 0)
         {
             <p class="nb-work-card-result"><strong>@Model.Results[0].Value</strong> @Model.Results[0].Label</p>
         }
-        <a href="/work/@Model.Slug" class="readmore">Read the story <span><i class="fa-regular fa-arrow-right"></i></span></a>
+        <a href="@L.Url($"/work/{Model.Slug}")" class="readmore">@L["Read the story"] <span><i class="fa-regular fa-arrow-right"></i></span></a>
     </div>
 </div>

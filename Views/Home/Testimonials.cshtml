@@ -1,8 +1,8 @@
 @{
-    ViewBag.Title = "Testimonials";
+    ViewBag.Title = L["Testimonials"];
 }
 
-<partial name="Sections/_PageBanner" model="@(new PageBanner("What Our Clients Say", "Feedback from engineering and product leaders we work with.", new Link("About", "/about")))" />
+<partial name="Sections/_PageBanner" model="@(new PageBanner(L["What Our Clients Say"], L["Feedback from engineering and product leaders we work with."], new Link(L["About"], "/about")))" />
 
 <section class="nb-dark-section vl-testimonial-bg-2 pt-100 pb-70">
     <div class="container">

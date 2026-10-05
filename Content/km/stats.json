@@ -1,0 +1,8 @@
+[
+  // Khmer labels for stats.json. Matched to the English by position;
+  // the numbers come from the English file.
+  { "label": "គម្រោងដែលបានប្រគល់" },
+  { "label": "ឆ្នាំនៃប្រតិបត្តិការ" },
+  { "label": "ការិយាល័យ៖ តៃប៉ិ និងហុងកុង" },
+  { "label": "វិស្វករ" }
+]

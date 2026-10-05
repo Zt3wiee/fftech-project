@@ -9,11 +9,13 @@ namespace Otech.Controllers
     {
         private readonly ContentService _content;
         private readonly ContactInbox _inbox;
+        private readonly Localizer _localizer;
 
-        public HomeController(ContentService content, ContactInbox inbox)
+        public HomeController(ContentService content, ContactInbox inbox, Localizer localizer)
         {
             _content = content;
             _inbox = inbox;
+            _localizer = localizer;
         }
 
         [HttpGet("")]
@@ -47,15 +49,15 @@ namespace Otech.Controllers
             if (!string.IsNullOrEmpty(form.Website))
             {
                 TempData["ContactSent"] = true;
-                return RedirectToAction(nameof(Contact));
+                return Redirect(_localizer.Url("/contact"));
             }
 
             if (!ModelState.IsValid)
                 return View(form);
 
-            await _inbox.SubmitAsync(form, HttpContext.Connection.RemoteIpAddress?.ToString());
+            await _inbox.SubmitAsync(form, HttpContext.Connection.RemoteIpAddress?.ToString(), System.Globalization.CultureInfo.CurrentUICulture.EnglishName);
             TempData["ContactSent"] = true;
-            return RedirectToAction(nameof(Contact));
+            return Redirect(_localizer.Url("/contact"));
         }
 
         // Shown for error status codes (404, 400, 429...). The original status code is kept.

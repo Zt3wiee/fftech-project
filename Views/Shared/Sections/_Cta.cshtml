@@ -12,11 +12,11 @@
                         <p class="nb-cta-text pb-32">@cta.Text</p>
                         <div class="nb-btn-row">
                             <div class="vl-herobtn vl-upper">
-                                <a href="@cta.PrimaryCta.Url" class="theme-btn">@cta.PrimaryCta.Label <span><i class="fa-regular fa-arrow-right"></i></span></a>
+                                <a href="@L.Url(cta.PrimaryCta.Url)" class="theme-btn">@cta.PrimaryCta.Label <span><i class="fa-regular fa-arrow-right"></i></span></a>
                             </div>
                             @if (cta.SecondaryCta is not null)
                             {
-                                <a href="@cta.SecondaryCta.Url" class="nb-text-link"><i class="fa-regular fa-envelope"></i> @cta.SecondaryCta.Label</a>
+                                <a href="@L.Url(cta.SecondaryCta.Url)" class="nb-text-link"><i class="fa-regular fa-envelope"></i> @cta.SecondaryCta.Label</a>
                             }
                         </div>
                     </div>

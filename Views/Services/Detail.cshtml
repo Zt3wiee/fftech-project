@@ -3,10 +3,12 @@
     ViewBag.Title = Model.Title;
     ViewBag.Description = Model.Summary;
     var relatedWork = Content.Work.Where(w => w.Services.Contains(Model.Slug)).Take(3).ToList();
+    // The contact form stores topics in English (see Contact.cshtml).
+    var englishTitle = Content.EnglishServices.FirstOrDefault(s => s.Slug == Model.Slug)?.Title ?? Model.Title;
     var otherServices = Content.Services.Where(s => s.Slug != Model.Slug).Take(3).ToList();
 }
 
-<partial name="Sections/_PageBanner" model="@(new PageBanner(Model.Title, Model.Summary, new Link("Services", "/services")))" />
+<partial name="Sections/_PageBanner" model="@(new PageBanner(Model.Title, Model.Summary, new Link(L["Services"], "/services")))" />
 
 <section class="vl-service-deatil pt-100 pb-40">
     <div class="container">
@@ -28,7 +30,7 @@
             <div class="col-lg-4">
                 <aside class="nb-sidebar">
                     <div class="nb-sidebar-box br-8 mb-30">
-                        <h3 class="nb-sidebar-title">What you get</h3>
+                        <h3 class="nb-sidebar-title">@L["What you get"]</h3>
                         <div class="vl-service-details-content-check">
                             <ul>
                                 @foreach (var benefit in Model.Benefits)
@@ -41,7 +43,7 @@
                     @if (Model.Technologies.Count > 0)
                     {
                         <div class="nb-sidebar-box br-8 mb-30">
-                            <h3 class="nb-sidebar-title">Technologies</h3>
+                            <h3 class="nb-sidebar-title">@L["Technologies"]</h3>
                             <ul class="nb-tags">
                                 @foreach (var tech in Model.Technologies)
                                 {
@@ -51,10 +53,10 @@
                         </div>
                     }
                     <div class="nb-sidebar-box nb-sidebar-cta br-8 mb-30">
-                        <h3 class="nb-sidebar-title">Discuss your project</h3>
-                        <p>Talk to an engineer, not a salesperson. We're happy to sign your NDA first.</p>
+                        <h3 class="nb-sidebar-title">@L["Discuss your project"]</h3>
+                        <p>@L["Talk to an engineer, not a salesperson. We're happy to sign your NDA first."]</p>
                         <div class="vl-herobtn vl-upper">
-                            <a href="/contact?topic=@Uri.EscapeDataString(Model.Title)#contact-form" class="theme-btn">Get in touch <span><i class="fa-regular fa-arrow-right"></i></span></a>
+                            <a href="@L.Url("/contact")?topic=@Uri.EscapeDataString(englishTitle)#contact-form" class="theme-btn">@L["Get in touch"] <span><i class="fa-regular fa-arrow-right"></i></span></a>
                         </div>
                     </div>
                 </aside>
@@ -67,7 +69,7 @@
 {
     <section class="vl-gallery vl-gray-bg-4 pt-100 pb-70">
         <div class="container">
-            <h2 class="vl-text-cmn-blck text-center vl-fs-44 vl-lineheight-44 mb-60">Related Work</h2>
+            <h2 class="vl-text-cmn-blck text-center vl-fs-44 vl-lineheight-44 mb-60">@L["Related Work"]</h2>
             <div class="row justify-content-center">
                 @foreach (var work in relatedWork)
                 {
@@ -82,7 +84,7 @@
 
 <section class="vl-service-area pt-100 pb-70">
     <div class="container">
-        <h2 class="vl-text-cmn-blck text-center vl-fs-44 vl-lineheight-44 mb-60">Other Services</h2>
+        <h2 class="vl-text-cmn-blck text-center vl-fs-44 vl-lineheight-44 mb-60">@L["Other Services"]</h2>
         <partial name="Sections/_ServiceCards" model="otherServices" />
     </div>
 </section>

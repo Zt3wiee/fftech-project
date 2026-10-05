@@ -1,12 +1,22 @@
+using System.Text.Encodings.Web;
+using System.Text.Unicode;
 using System.Threading.RateLimiting;
+using Microsoft.Extensions.Localization;
+using Microsoft.Extensions.WebEncoders;
 using Otech.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllersWithViews();
+// Form error messages are translated through the same Localizer as the rest of the site.
+builder.Services.AddSingleton<IStringLocalizerFactory, SiteStringLocalizerFactory>();
+builder.Services.AddControllersWithViews().AddDataAnnotationsLocalization();
+// Write Khmer, Vietnamese and Chinese letters as they are, instead of as &#x...; codes (which make pages several times bigger).
+builder.Services.Configure<WebEncoderOptions>(options => options.TextEncoderSettings = new TextEncoderSettings(UnicodeRanges.All));
 
 builder.Services.Configure<ContentOptions>(builder.Configuration.GetSection("Content"));
 builder.Services.AddSingleton<ContentService>();
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddSingleton<Localizer>();
 
 builder.Services.Configure<ContactOptions>(builder.Configuration.GetSection("Contact"));
 builder.Services.AddSingleton<ContactInbox>();
@@ -32,6 +42,8 @@ if (!app.Environment.IsDevelopment())
 app.UseStatusCodePagesWithReExecute("/status/{0}");
 
 app.UseHttpsRedirection();
+// Reads the language from the URL (/km/..., /vi/..., /zh-tw/...) before routing sees the path.
+app.UseMiddleware<LanguageMiddleware>();
 app.UseRouting();
 app.UseRateLimiter();
 

@@ -1,0 +1,61 @@
+[
+  // Vietnamese text for insights.json, matched to the English by "slug".
+  {
+    "slug": "moving-factory-mes-to-cloud",
+    "title": "Chuyển MES của nhà máy lên đám mây mà không dừng sản xuất",
+    "category": "Sản xuất",
+    "summary": "Dây chuyền sản xuất chạy 24/7, nên chuyển đổi một lần là điều không thể. Đây là cách tiếp cận theo từng giai đoạn mà chúng tôi áp dụng.",
+    "body": [
+      {
+        "paragraphs": [
+          "Hệ thống điều hành sản xuất (MES) là một trong những hệ thống khó hiện đại hóa nhất. Chúng cũ, được tùy biến nhiều, và dây chuyền sản xuất phụ thuộc vào chúng từng phút trong ngày.",
+          "Tin tốt là bạn hiếm khi cần thay thế chính MES. Phần lớn giá trị đến từ việc chuyển lớp báo cáo và phân tích bao quanh nó."
+        ]
+      },
+      {
+        "heading": "Bắt đầu từ báo cáo, không phải lõi hệ thống",
+        "paragraphs": [ "Chúng tôi bắt đầu bằng việc xây dựng lớp báo cáo trên đám mây, đọc dữ liệu từ MES hiện có mà không thay đổi nó. Dây chuyền sản xuất hoàn toàn không bị ảnh hưởng." ],
+        "bullets": [ "Lập bản đồ mọi báo cáo và nguồn dữ liệu", "Sao chép dữ liệu lên đám mây gần như theo thời gian thực", "Xây dựng lại báo cáo và đối chiếu song song" ]
+      },
+      {
+        "heading": "Chạy song song hệ thống cũ và mới",
+        "paragraphs": [ "Không hệ thống nào bị tắt cho đến khi chính kỹ sư của khách hàng kiểm chứng báo cáo mới so với báo cáo cũ. Việc này mất vài tuần chứ không phải vài ngày, và hoàn toàn xứng đáng." ],
+        "quote": "Cuộc chuyển đổi an toàn nhất là cuộc chuyển đổi mà bạn luôn có thể quay lại."
+      }
+    ],
+    "tags": [ "MES", "Đám mây", "Sản xuất" ]
+  },
+  {
+    "slug": "hkma-cloud-guidelines-fintech",
+    "title": "Những điều các công ty fintech Hồng Kông cần biết về đám mây và rủi ro công nghệ",
+    "category": "Fintech",
+    "summary": "Tổng quan thực tế về những gì cơ quan quản lý kỳ vọng khi bạn vận hành dịch vụ tài chính trên đám mây.",
+    "body": [
+      {
+        "paragraphs": [ "Vận hành dịch vụ tài chính trên đám mây giờ đã là điều bình thường tại Hồng Kông, nhưng đi kèm những yêu cầu rõ ràng về quản lý rủi ro, thuê ngoài và khả năng phục hồi." ]
+      },
+      {
+        "heading": "Những câu hỏi cần trả lời sớm",
+        "bullets": [ "Dữ liệu khách hàng được lưu trữ và xử lý ở đâu?", "Ai có thể truy cập hệ thống production, và việc đó được ghi nhật ký như thế nào?", "Bạn có thể phục hồi nhanh đến mức nào khi một vùng đám mây gặp sự cố?", "Bạn quản lý các nhà cung cấp công nghệ như thế nào?" ],
+        "paragraphs": [ "Trả lời những câu hỏi này ngay ở giai đoạn thiết kế tốn ít chi phí hơn nhiều so với việc sửa đổi trước một cuộc kiểm toán." ]
+      }
+    ],
+    "tags": [ "Fintech", "Tuân thủ", "Hồng Kông" ]
+  },
+  {
+    "slug": "building-bilingual-b2b-products",
+    "title": "Xây dựng sản phẩm B2B song ngữ (Anh / Trung phồn thể): bài học rút ra",
+    "category": "Sản phẩm",
+    "summary": "Dịch thuật là phần dễ nhất. Bố cục, tìm kiếm và nhập liệu mới là những chỗ khiến sản phẩm song ngữ thực sự khó.",
+    "body": [
+      {
+        "paragraphs": [ "Nhiều sản phẩm B2B tại Đài Loan và Hồng Kông cần hoạt động tốt như nhau bằng tiếng Anh và tiếng Trung phồn thể. Đây là những gì chúng tôi học được khi xây dựng chúng." ]
+      },
+      {
+        "heading": "Lên kế hoạch ngay từ ngày đầu",
+        "bullets": [ "Tách toàn bộ văn bản ra khỏi mã nguồn ngay từ sprint đầu tiên", "Kiểm tra bố cục với cả hai ngôn ngữ, vì độ dài văn bản chênh lệch rất nhiều", "Cho phép tìm kiếm trên cả hai hệ chữ", "Quyết định những trường nào khách hàng có thể nhập bằng một trong hai ngôn ngữ" ]
+      }
+    ],
+    "tags": [ "Bản địa hóa", "Sản phẩm", "Trải nghiệm người dùng" ]
+  }
+]

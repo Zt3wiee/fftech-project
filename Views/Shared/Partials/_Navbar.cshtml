@@ -1,43 +1,63 @@
 @{
     var site = Content.Site;
+    var current = L.Language;
 }
 <!--================= Header section start =================-->
 <header>
     <div id="vl-header-sticky" class="vl-header-area vl-transparent-header vl-transparent-header-4">
         <div class="container vl-header-bg-4">
             <div class="row align-items-center">
-                <div class="col-lg-3 col-md-6 col-6">
+                <div class="col-lg-auto col-md-6 col-6">
                     <div class="vl-logo nb-logo">
-                        <a href="/"><img src="~/img/logo/logo-navbar.png" alt="@site.Name"></a>
+                        <a href="@L.Url("/")"><img src="~/img/logo/logo-navbar.png" alt="@site.Name"></a>
                     </div>
                 </div>
-                <div class="col-lg-6 d-none d-lg-block">
+                <div class="col-lg d-none d-lg-block">
                     <div class="vl-main-menu text-center">
                         <nav class="vl-mobile-menu-active">
                             <ul>
-                                <li><a href="/services">Services</a></li>
-                                <li><a href="/industries">Industries</a></li>
+                                <li><a href="@L.Url("/services")">@L["Services"]</a></li>
+                                <li><a href="@L.Url("/industries")">@L["Industries"]</a></li>
                                 @if (Content.Work.Count > 0)
                                 {
-                                    <li><a href="/work">Work</a></li>
+                                    <li><a href="@L.Url("/work")">@L["Work"]</a></li>
                                 }
-                                <li><a href="/about">About</a></li>
+                                <li><a href="@L.Url("/about")">@L["About"]</a></li>
                                 @if (Content.Insights.Count > 0)
                                 {
-                                    <li><a href="/insights">Insights</a></li>
+                                    <li><a href="@L.Url("/insights")">@L["Insights"]</a></li>
                                 }
-                                <li><a href="/contact">Contact</a></li>
+                                <li><a href="@L.Url("/contact")">@L["Contact"]</a></li>
                             </ul>
                         </nav>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-6">
-                    <div class="vl-herobtn d-none d-lg-block fl-right">
-                        <a href="/contact" class="theme-btn">Get started <span><i class="fa-regular fa-arrow-right"></i></span></a>
+                <div class="col-lg-auto col-md-6 col-6">
+                    <div class="nb-header-actions d-none d-lg-flex">
+                        <div class="nb-lang" data-nb-lang>
+                            <button type="button" class="nb-lang-toggle" aria-expanded="false" aria-controls="nb-lang-menu" aria-label="@L["Language"]: @current.NativeName">
+                                <i class="fa-regular fa-globe"></i>
+                                <span class="nb-lang-name" lang="@current.HtmlLang">@current.NativeName</span>
+                                <span class="nb-lang-short" lang="@current.HtmlLang">@current.ShortName</span>
+                                <i class="fa-regular fa-angle-down nb-lang-caret"></i>
+                            </button>
+                            <ul class="nb-lang-menu" id="nb-lang-menu">
+                                @foreach (var language in Languages.All)
+                                {
+                                    <li>
+                                        <a href="@L.UrlFor(language)" hreflang="@language.HtmlLang" lang="@language.HtmlLang" data-lang="@language.Code"
+                                           class="@(language == current ? "active" : null)" aria-current="@(language == current ? "true" : null)">@language.NativeName</a>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                        <div class="vl-herobtn">
+                            <a href="@L.Url("/contact")" class="theme-btn">@L["Get started"] <span><i class="fa-regular fa-arrow-right"></i></span></a>
+                        </div>
                     </div>
 
                     <div class="vl-header-action-item d-block d-lg-none">
-                        <button type="button" class="vl-offcanvas-toggle" aria-label="Open menu">
+                        <button type="button" class="vl-offcanvas-toggle" aria-label="@L["Open menu"]">
                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="16" viewBox="0 0 30 16">
                                 <rect x="10" width="20" height="2" fill="currentColor"></rect>
                                 <rect x="5" y="7" width="25" height="2" fill="currentColor"></rect>
@@ -56,10 +76,10 @@
     <div class="vl-offcanvas-wrapper">
         <div class="vl-offcanvas-header d-flex justify-content-between align-items-center mb-50">
             <div class="vl-offcanvas-logo nb-logo">
-                <a href="/"><img src="~/img/logo/logo-full.png" alt="@site.Name"></a>
+                <a href="@L.Url("/")"><img src="~/img/logo/logo-full.png" alt="@site.Name"></a>
             </div>
             <div class="vl-offcanvas-close">
-                <button class="vl-offcanvas-close-toggle" aria-label="Close menu"><i class="fal fa-times"></i></button>
+                <button class="vl-offcanvas-close-toggle" aria-label="@L["Close menu"]"><i class="fal fa-times"></i></button>
             </div>
         </div>
 
@@ -67,14 +87,25 @@
             <nav></nav>
         </div>
 
+        <div class="vl-offcanvas-lang mb-30">
+            <h3 class="vl-offcanvas-sm-title pb-15">@L["Language"]</h3>
+            <div class="nb-lang-list">
+                @foreach (var language in Languages.All)
+                {
+                    <a href="@L.UrlFor(language)" hreflang="@language.HtmlLang" lang="@language.HtmlLang" data-lang="@language.Code"
+                       class="nb-lang-chip @(language == current ? "active" : null)" aria-current="@(language == current ? "true" : null)">@language.NativeName</a>
+                }
+            </div>
+        </div>
+
         <div class="vl-offcanvas-btnm text-center mb-30">
             <div class="vl-herobtn vl-aboutbtn w-100 vl-upper">
-                <a href="/contact" class="theme-btn theme-btn2">Get started<span><i class="fa-regular fa-arrow-right"></i></span></a>
+                <a href="@L.Url("/contact")" class="theme-btn theme-btn2">@L["Get started"]<span><i class="fa-regular fa-arrow-right"></i></span></a>
             </div>
         </div>
 
         <div class="vl-offcanvas-info mb-30">
-            <h3 class="vl-offcanvas-sm-title pb-15">Contact us</h3>
+            <h3 class="vl-offcanvas-sm-title pb-15">@L["Contact us"]</h3>
 
             @foreach (var office in site.Offices)
             {
@@ -99,7 +130,7 @@
         </div>
 
         <div class="vl-offcanvas-social mb-40">
-            <h3 class="vl-offcanvas-sm-title mb-15">Follow us</h3>
+            <h3 class="vl-offcanvas-sm-title mb-15">@L["Follow us"]</h3>
             @foreach (var social in site.Social)
             {
                 <a href="@social.Url" aria-label="@social.Network"><i class="fab @social.Icon"></i></a>

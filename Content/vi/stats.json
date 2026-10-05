@@ -1,0 +1,8 @@
+[
+  // Vietnamese labels for stats.json. Matched to the English by position;
+  // the numbers come from the English file.
+  { "label": "Dự án đã bàn giao" },
+  { "label": "Năm hoạt động" },
+  { "label": "Văn phòng: Đài Bắc & Hồng Kông" },
+  { "label": "Kỹ sư" }
+]

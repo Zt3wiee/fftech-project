@@ -1,9 +1,9 @@
 @{
-    ViewBag.Title = "Industries";
-    ViewBag.Description = "Software engineering for semiconductor, hardware & IoT, SaaS, fintech and smart manufacturing companies in Taiwan and Hong Kong.";
+    ViewBag.Title = L["Industries"];
+    ViewBag.Description = L["Software engineering for semiconductor, hardware & IoT, SaaS, fintech and smart manufacturing companies in Taiwan and Hong Kong."];
 }
 
-<partial name="Sections/_PageBanner" model="@(new PageBanner("Industries We Serve", "We focus on a few industries so we can understand your domain as well as your code."))" />
+<partial name="Sections/_PageBanner" model="@(new PageBanner(L["Industries We Serve"], L["We focus on a few industries so we can understand your domain as well as your code."]))" />
 
 <section class="nb-industries pt-100 pb-70">
     <div class="container">
