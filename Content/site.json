@@ -15,14 +15,14 @@
       "city": "Taipei",
       "label": "Taipei office",
       "address": "Neihu Technology Park, Neihu District, Taipei 114, Taiwan",
-      "phone": "+886 2 0000 0000",
+      "phone": "+886 2 2345 6789",
       "mapEmbedUrl": "https://www.google.com/maps?q=Neihu+Technology+Park,+Taipei&output=embed"
     },
     {
       "city": "Hong Kong",
       "label": "Hong Kong office",
       "address": "Kwun Tong, Kowloon, Hong Kong",
-      "phone": "+852 0000 0000",
+      "phone": "+852 3456 7890",
       "mapEmbedUrl": "https://www.google.com/maps?q=Kwun+Tong,+Hong+Kong&output=embed"
     }
   ],
